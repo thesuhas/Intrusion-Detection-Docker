@@ -47,7 +47,7 @@ def process(attack):
             s = s.strip()
             syscalls[s] = n
 
-    filename = 'finalized_model_svm.sav'
+    filename = f'./{attack}/finalized_model_svm.sav'
     loaded_model = pickle.load(open(filename, 'rb'))
 
     # Load syscalls data into a dictionary
@@ -67,8 +67,11 @@ def process(attack):
     n='Normal'
     vec_type = int(input('enter 0 for normal, 1 for attack'))
     fn = a if vec_type==1 else n
-    suffix = input('enter suffix digit')
-    f = open("./Training/complete_vector/"+fn+suffix+".txt","r")
+    if fn == n:
+        suffix = ''
+    else:
+        suffix = input('enter suffix digit')
+    f = open(f"./{attack}/Training/complete_vector/"+fn+suffix+".txt","r")
     l = f.readlines()
     f.close()
 
@@ -115,9 +118,9 @@ def process(attack):
             count += 1
 
 if __name__ == "__main__":
-    options = ['Command', 'SQL']
+    options = {"Command": "Command Injection", "SQL":"SQL Injection"}
     args = parser.parse_args()
     attack = args.attack
-    if attack not in options:
+    if attack not in options.keys():
         raise argparse.ArgumentTypeError(f'{attack} is not a valid option. Choose from {options}')
-    process(attack)
+    process(options[attack])
