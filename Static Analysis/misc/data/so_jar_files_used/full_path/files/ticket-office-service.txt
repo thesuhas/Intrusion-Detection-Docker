@@ -1,0 +1,8 @@
+/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.22
+/lib/x86_64-linux-gnu/libc-2.24.so
+/usr/local/bin/node
+/lib/x86_64-linux-gnu/ld-2.24.so
+/lib/x86_64-linux-gnu/libm-2.24.so
+/lib/x86_64-linux-gnu/libpthread-2.24.so
+/lib/x86_64-linux-gnu/libgcc_s.so.1
+/lib/x86_64-linux-gnu/libdl-2.24.so

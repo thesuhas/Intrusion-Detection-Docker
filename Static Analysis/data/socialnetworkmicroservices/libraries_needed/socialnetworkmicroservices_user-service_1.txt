@@ -1,0 +1,107 @@
+dpkg-query: no path found matching pattern /usr/local/bin/UserService
+dpkg-query: no path found matching pattern /usr/local/bin/UserService
+dpkg-query: no path found matching pattern /usr/local/bin/UserService
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libdb5.3:amd64: /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+libdb5.3:amd64: /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+libdb5.3:amd64: /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+libdb5.3:amd64: /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+libsasl2-modules-db:amd64: /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+libsasl2-modules-db:amd64: /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+libsasl2-modules-db:amd64: /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+libsasl2-modules-db:amd64: /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libsasl2-2:amd64: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+libsasl2-2:amd64: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+libsasl2-2:amd64: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+libsasl2-2:amd64: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+libmemcachedutil2:amd64: /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+libmemcachedutil2:amd64: /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+libmemcachedutil2:amd64: /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+libmemcachedutil2:amd64: /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+libmemcached11:amd64: /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+libmemcached11:amd64: /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+libmemcached11:amd64: /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+libmemcached11:amd64: /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libbson-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libbson-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libbson-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libbson-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libmongoc-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libmongoc-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libmongoc-1.0.so.0.0.0
+dpkg-query: no path found matching pattern /usr/local/lib/libmongoc-1.0.so.0.0.0
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+dpkg-query: no path found matching pattern /dev/shm/mongoc-1
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+
+----------------
+dpkg-query
+zlib1g
+libssl1.0.0
+libsasl2-2
+libdb5.3
+libstdc++6
+libmemcachedutil2
+libc6
+libmemcached11
+libsasl2-modules-db
+libgcc1

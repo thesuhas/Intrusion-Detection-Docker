@@ -1,0 +1,4 @@
+[1mdpkg-query:[0m no path found matching pattern /opt/rabbitmq/sbin/rabbitmq-server
+
+----------------
+[1mdpkg-query

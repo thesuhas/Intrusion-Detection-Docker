@@ -1,0 +1,118 @@
+1:   PostStorageService
+0000000000400000   1028K r-x-- /usr/local/bin/PostStorageService
+0000000000700000      4K r---- /usr/local/bin/PostStorageService
+0000000000701000      4K rw--- /usr/local/bin/PostStorageService
+0000000000702000      8K rw---   [ anon ]
+0000000000a84000   1028K rw---   [ anon ]
+00007fa9ec000000    132K rw---   [ anon ]
+00007fa9ec021000  65404K -----   [ anon ]
+00007fa9f07f8000      4K -----   [ anon ]
+00007fa9f07f9000   8192K rw---   [ anon ]
+00007fa9f0ff9000      4K -----   [ anon ]
+00007fa9f0ffa000   8192K rw---   [ anon ]
+00007fa9f17fa000     20K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007fa9f17ff000   2048K ----- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007fa9f19ff000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007fa9f1a00000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007fa9f1a01000     44K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007fa9f1a0c000   2044K ----- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007fa9f1c0b000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007fa9f1c0c000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007fa9f1c0d000     24K rw---   [ anon ]
+00007fa9f1c13000   1688K r-x-- /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+00007fa9f1db9000   2044K ----- /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+00007fa9f1fb8000     28K r---- /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+00007fa9f1fbf000      4K rw--- /usr/lib/x86_64-linux-gnu/libdb-5.3.so
+00007fa9f1fc0000     20K r-x-- /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+00007fa9f1fc5000   2048K ----- /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+00007fa9f21c5000      4K r---- /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+00007fa9f21c6000      4K rw--- /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
+00007fa9f21c7000     12K r-x-- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007fa9f21ca000   2044K ----- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007fa9f23c9000      4K r---- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007fa9f23ca000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007fa9f23cb000    100K r-x-- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fa9f23e4000   2044K ----- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fa9f25e3000      4K r---- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fa9f25e4000      4K rw--- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fa9f25e5000     92K r-x-- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007fa9f25fc000   2048K ----- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007fa9f27fc000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007fa9f27fd000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007fa9f27fe000      8K rw---   [ anon ]
+00007fa9f2800000     28K r-x-- /lib/x86_64-linux-gnu/librt-2.23.so
+00007fa9f2807000   2044K ----- /lib/x86_64-linux-gnu/librt-2.23.so
+00007fa9f2a06000      4K r---- /lib/x86_64-linux-gnu/librt-2.23.so
+00007fa9f2a07000      4K rw--- /lib/x86_64-linux-gnu/librt-2.23.so
+00007fa9f2a08000   2156K r-x-- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007fa9f2c23000   2044K ----- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007fa9f2e22000    112K r---- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007fa9f2e3e000     48K rw--- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007fa9f2e4a000     12K rw---   [ anon ]
+00007fa9f2e4d000    376K r-x-- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007fa9f2eab000   2048K ----- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007fa9f30ab000     16K r---- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007fa9f30af000     28K rw--- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007fa9f30b6000    100K r-x-- /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+00007fa9f30cf000   2048K ----- /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+00007fa9f32cf000      4K r---- /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+00007fa9f32d0000      4K rw--- /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+00007fa9f32d1000   1792K r-x-- /lib/x86_64-linux-gnu/libc-2.23.so
+00007fa9f3491000   2048K ----- /lib/x86_64-linux-gnu/libc-2.23.so
+00007fa9f3691000     16K r---- /lib/x86_64-linux-gnu/libc-2.23.so
+00007fa9f3695000      8K rw--- /lib/x86_64-linux-gnu/libc-2.23.so
+00007fa9f3697000     16K rw---   [ anon ]
+00007fa9f369b000     88K r-x-- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fa9f36b1000   2044K ----- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fa9f38b0000      4K rw--- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fa9f38b1000   1056K r-x-- /lib/x86_64-linux-gnu/libm-2.23.so
+00007fa9f39b9000   2044K ----- /lib/x86_64-linux-gnu/libm-2.23.so
+00007fa9f3bb8000      4K r---- /lib/x86_64-linux-gnu/libm-2.23.so
+00007fa9f3bb9000      4K rw--- /lib/x86_64-linux-gnu/libm-2.23.so
+00007fa9f3bba000   1480K r-x-- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007fa9f3d2c000   2048K ----- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007fa9f3f2c000     40K r---- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007fa9f3f36000      8K rw--- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007fa9f3f38000     16K rw---   [ anon ]
+00007fa9f3f3c000   1656K r-x-- /usr/local/lib/libjaegertracing.so.0.4.2
+00007fa9f40da000   2048K ----- /usr/local/lib/libjaegertracing.so.0.4.2
+00007fa9f42da000     24K r---- /usr/local/lib/libjaegertracing.so.0.4.2
+00007fa9f42e0000     12K rw--- /usr/local/lib/libjaegertracing.so.0.4.2
+00007fa9f42e3000      8K rw---   [ anon ]
+00007fa9f42e5000     96K r-x-- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007fa9f42fd000   2044K ----- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007fa9f44fc000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007fa9f44fd000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007fa9f44fe000     16K rw---   [ anon ]
+00007fa9f4502000    800K r-x-- /usr/local/lib/libthrift.so.0.12.0
+00007fa9f45ca000   2044K ----- /usr/local/lib/libthrift.so.0.12.0
+00007fa9f47c9000     24K r---- /usr/local/lib/libthrift.so.0.12.0
+00007fa9f47cf000      8K rw--- /usr/local/lib/libthrift.so.0.12.0
+00007fa9f47d1000     12K r-x-- /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+00007fa9f47d4000   2044K ----- /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+00007fa9f49d3000      4K r---- /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+00007fa9f49d4000      4K rw--- /usr/lib/x86_64-linux-gnu/libmemcachedutil.so.2.0.0
+00007fa9f49d5000    192K r-x-- /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+00007fa9f4a05000   2044K ----- /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+00007fa9f4c04000      4K r---- /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+00007fa9f4c05000      4K rw--- /usr/lib/x86_64-linux-gnu/libmemcached.so.11.0.0
+00007fa9f4c06000    220K r-x-- /usr/local/lib/libbson-1.0.so.0.0.0
+00007fa9f4c3d000   2044K ----- /usr/local/lib/libbson-1.0.so.0.0.0
+00007fa9f4e3c000     12K r---- /usr/local/lib/libbson-1.0.so.0.0.0
+00007fa9f4e3f000      4K rw--- /usr/local/lib/libbson-1.0.so.0.0.0
+00007fa9f4e40000     24K rw---   [ anon ]
+00007fa9f4e46000    592K r-x-- /usr/local/lib/libmongoc-1.0.so.0.0.0
+00007fa9f4eda000   2044K ----- /usr/local/lib/libmongoc-1.0.so.0.0.0
+00007fa9f50d9000      4K r---- /usr/local/lib/libmongoc-1.0.so.0.0.0
+00007fa9f50da000     12K rw--- /usr/local/lib/libmongoc-1.0.so.0.0.0
+00007fa9f50dd000    152K r-x-- /lib/x86_64-linux-gnu/ld-2.23.so
+00007fa9f52ec000     56K rw---   [ anon ]
+00007fa9f52fb000     28K rw-s- /dev/shm/mongoc-1
+00007fa9f5302000      4K r---- /lib/x86_64-linux-gnu/ld-2.23.so
+00007fa9f5303000      4K rw--- /lib/x86_64-linux-gnu/ld-2.23.so
+00007fa9f5304000      4K rw---   [ anon ]
+00007ffd494f7000    132K rw---   [ stack ]
+00007ffd49518000     12K r----   [ anon ]
+00007ffd4951b000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total           142656K

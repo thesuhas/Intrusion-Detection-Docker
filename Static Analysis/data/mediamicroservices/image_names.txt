@@ -1,0 +1,7 @@
+defreitas/dns-proxy-server
+yg397/media-microservices
+mongo
+memcached
+redis
+yg397/openresty-thrift:xenial
+jaegertracing/all-in-one:latest

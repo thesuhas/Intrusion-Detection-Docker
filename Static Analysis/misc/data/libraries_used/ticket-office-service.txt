@@ -1,0 +1,12 @@
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.24.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.22
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.24.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.24.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.24.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.24.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+
+----------------
+libc6
+libgcc1
+libstdc++6

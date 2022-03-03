@@ -1,0 +1,25 @@
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+
+----------------
+zlib1g
+libgcc1
+libstdc++6
+openjdk-8-jre-headless
+libc6

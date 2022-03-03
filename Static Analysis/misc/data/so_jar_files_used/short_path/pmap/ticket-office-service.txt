@@ -1,0 +1,157 @@
+1:   npm                          
+0000000000400000  63648K r-x-- node
+0000000004427000     12K r---- node
+000000000442a000     72K rw--- node
+000000000443c000    128K rw---   [ anon ]
+000000000623c000   2632K rw---   [ anon ]
+0000007d2e840000    256K -----   [ anon ]
+00000186a29c0000    256K -----   [ anon ]
+0000045761b80000    256K rw---   [ anon ]
+000004e4160c0000    256K rw---   [ anon ]
+000004ff4b440000    256K rw---   [ anon ]
+0000053c47880000    140K rw---   [ anon ]
+000006795b000000    120K r----   [ anon ]
+0000067c9f8c0000    256K -----   [ anon ]
+000007a355f80000    256K -----   [ anon ]
+0000088efd840000    256K -----   [ anon ]
+000009c4581c0000    256K -----   [ anon ]
+00000ad8c6180000    256K -----   [ anon ]
+00000c06800c0000    260K rw---   [ anon ]
+00000c5c39bc0000    256K -----   [ anon ]
+00000c9c1dac0000    256K rw---   [ anon ]
+00000ef418c80000    256K rw---   [ anon ]
+00000fd7d44c0000    256K -----   [ anon ]
+00000fe5d40c0000    256K -----   [ anon ]
+000010c376d80000    256K -----   [ anon ]
+0000113d3f380000    256K -----   [ anon ]
+00001168c11c0000    256K rw---   [ anon ]
+000011c0e9480000    256K rw---   [ anon ]
+000013f449500000    256K -----   [ anon ]
+00001415c3d40000    256K -----   [ anon ]
+000015c6fda40000    256K -----   [ anon ]
+00001643c6d00000    256K -----   [ anon ]
+0000186dc1900000    256K rw---   [ anon ]
+00001c22dfc40000    256K -----   [ anon ]
+00001d5b63200000    256K -----   [ anon ]
+00001e133df00000    256K rw---   [ anon ]
+00001e23da100000    256K -----   [ anon ]
+00001e61715c0000    260K rw---   [ anon ]
+00001ed930580000    256K rw---   [ anon ]
+00002037cfcc0000    256K -----   [ anon ]
+00002103c1c80000    256K -----   [ anon ]
+00002111a5800000    256K rw---   [ anon ]
+000022e08e540000    256K rw---   [ anon ]
+0000254f26540000    256K -----   [ anon ]
+0000263d79cc0000    256K rw---   [ anon ]
+000029373f200000    256K rw---   [ anon ]
+00002a08a41c0000    256K rw---   [ anon ]
+00002ad87d140000    256K rw---   [ anon ]
+00002c403dd80000    256K rw---   [ anon ]
+00002ef1c7d80000      4K rw---   [ anon ]
+00002ef1c7d81000      4K -----   [ anon ]
+00002ef1c7d82000     64K r-x--   [ anon ]
+00002ef1c7d92000    180K -----   [ anon ]
+00002ef1c7dbf000      4K -----   [ anon ]
+00002ef1c7dc0000      4K rw---   [ anon ]
+00002ef1c7dc1000      4K -----   [ anon ]
+00002ef1c7dc2000    244K r-x--   [ anon ]
+00002ef1c7dff000      4K -----   [ anon ]
+00002ef1c7e00000      4K rw---   [ anon ]
+00002ef1c7e01000      4K -----   [ anon ]
+00002ef1c7e02000      4K r-x--   [ anon ]
+00002ef1c7e03000    244K -----   [ anon ]
+00002ef1c7e40000      4K rw---   [ anon ]
+00002ef1c7e41000      4K -----   [ anon ]
+00002ef1c7e42000      4K r-x--   [ anon ]
+00002ef1c7e43000    244K -----   [ anon ]
+00002ef1c7e80000      4K rw---   [ anon ]
+00002ef1c7e81000      4K -----   [ anon ]
+00002ef1c7e82000      4K r-x--   [ anon ]
+00002ef1c7e83000 130036K -----   [ anon ]
+0000300092640000    256K rw---   [ anon ]
+000031b2ffc80000    256K -----   [ anon ]
+000031d9cffc0000    256K rw---   [ anon ]
+000032ebf1e80000    256K rw---   [ anon ]
+0000335b3c500000    256K -----   [ anon ]
+00003413624c0000    256K -----   [ anon ]
+00003491606c0000    256K rw---   [ anon ]
+000036162a500000    256K -----   [ anon ]
+0000396aa7700000    256K -----   [ anon ]
+0000397cf2280000    256K rw---   [ anon ]
+00003999e03c0000    256K rw---   [ anon ]
+00003bc79be00000    256K -----   [ anon ]
+00003c7d14280000    256K rw---   [ anon ]
+00003d433ac80000      4K rw---   [ anon ]
+00003dd5c2c00000    256K rw---   [ anon ]
+00003f8634640000    256K rw---   [ anon ]
+00007f5aac000000    164K rw---   [ anon ]
+00007f5aac029000  65372K -----   [ anon ]
+00007f5ab4000000    164K rw---   [ anon ]
+00007f5ab4029000  65372K -----   [ anon ]
+00007f5aba7fd000      4K -----   [ anon ]
+00007f5aba7fe000   8192K rw---   [ anon ]
+00007f5abaffe000      4K -----   [ anon ]
+00007f5abafff000   8192K rw---   [ anon ]
+00007f5abb7ff000      4K -----   [ anon ]
+00007f5abb800000   8192K rw---   [ anon ]
+00007f5abc000000    416K rw---   [ anon ]
+00007f5abc068000  65120K -----   [ anon ]
+00007f5ac0000000    136K rw---   [ anon ]
+00007f5ac0022000  65400K -----   [ anon ]
+00007f5ac4000000    628K rw---   [ anon ]
+00007f5ac409d000  64908K -----   [ anon ]
+00007f5ac8000000   1028K rw---   [ anon ]
+00007f5ac8101000  64508K -----   [ anon ]
+00007f5acc000000    132K rw---   [ anon ]
+00007f5acc021000  65404K -----   [ anon ]
+00007f5ad06d6000      4K -----   [ anon ]
+00007f5ad06d7000   8192K rw---   [ anon ]
+00007f5ad0ed7000      4K -----   [ anon ]
+00007f5ad0ed8000   8192K rw---   [ anon ]
+00007f5ad16d8000      4K -----   [ anon ]
+00007f5ad16d9000   8192K rw---   [ anon ]
+00007f5ad1ed9000      4K -----   [ anon ]
+00007f5ad1eda000   8192K rw---   [ anon ]
+00007f5ad26da000      4K -----   [ anon ]
+00007f5ad26db000   8192K rw---   [ anon ]
+00007f5ad2edb000      4K -----   [ anon ]
+00007f5ad2edc000   8192K rw---   [ anon ]
+00007f5ad36dc000   1620K r-x-- libc-2.24.so
+00007f5ad3871000   2048K ----- libc-2.24.so
+00007f5ad3a71000     16K r---- libc-2.24.so
+00007f5ad3a75000      8K rw--- libc-2.24.so
+00007f5ad3a77000     16K rw---   [ anon ]
+00007f5ad3a7b000     96K r-x-- libpthread-2.24.so
+00007f5ad3a93000   2044K ----- libpthread-2.24.so
+00007f5ad3c92000      4K r---- libpthread-2.24.so
+00007f5ad3c93000      4K rw--- libpthread-2.24.so
+00007f5ad3c94000     16K rw---   [ anon ]
+00007f5ad3c98000     88K r-x-- libgcc_s.so.1
+00007f5ad3cae000   2044K ----- libgcc_s.so.1
+00007f5ad3ead000      4K r---- libgcc_s.so.1
+00007f5ad3eae000      4K rw--- libgcc_s.so.1
+00007f5ad3eaf000   1036K r-x-- libm-2.24.so
+00007f5ad3fb2000   2044K ----- libm-2.24.so
+00007f5ad41b1000      4K r---- libm-2.24.so
+00007f5ad41b2000      4K rw--- libm-2.24.so
+00007f5ad41b3000   1480K r-x-- libstdc++.so.6.0.22
+00007f5ad4325000   2048K ----- libstdc++.so.6.0.22
+00007f5ad4525000     40K r---- libstdc++.so.6.0.22
+00007f5ad452f000      8K rw--- libstdc++.so.6.0.22
+00007f5ad4531000     16K rw---   [ anon ]
+00007f5ad4535000     12K r-x-- libdl-2.24.so
+00007f5ad4538000   2044K ----- libdl-2.24.so
+00007f5ad4737000      4K r---- libdl-2.24.so
+00007f5ad4738000      4K rw--- libdl-2.24.so
+00007f5ad4739000    140K r-x-- ld-2.24.so
+00007f5ad494c000     28K rw---   [ anon ]
+00007f5ad4953000      4K -----   [ anon ]
+00007f5ad4954000     32K rw---   [ anon ]
+00007f5ad495c000      4K r---- ld-2.24.so
+00007f5ad495d000      4K rw--- ld-2.24.so
+00007f5ad495e000      4K rw---   [ anon ]
+00007ffd08f74000    132K rw---   [ stack ]
+00007ffd08ff2000     12K r----   [ anon ]
+00007ffd08ff5000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total           761816K

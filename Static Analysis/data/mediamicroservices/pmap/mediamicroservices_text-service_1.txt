@@ -1,0 +1,76 @@
+1:   TextService
+0000000000400000   1488K r-x-- /usr/local/bin/TextService
+0000000000773000      4K r---- /usr/local/bin/TextService
+0000000000774000      4K rw--- /usr/local/bin/TextService
+0000000000775000      8K rw---   [ anon ]
+0000000001ffb000    200K rw---   [ anon ]
+00007f14cebc1000      4K -----   [ anon ]
+00007f14cebc2000   8192K rw---   [ anon ]
+00007f14cf3c2000     92K r-x-- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f14cf3d9000   2048K ----- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f14cf5d9000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f14cf5da000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f14cf5db000      8K rw---   [ anon ]
+00007f14cf5dd000     20K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f14cf5e2000   2048K ----- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f14cf7e2000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f14cf7e3000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f14cf7e4000     44K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f14cf7ef000   2044K ----- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f14cf9ee000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f14cf9ef000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f14cf9f0000     24K rw---   [ anon ]
+00007f14cf9f6000     12K r-x-- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f14cf9f9000   2044K ----- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f14cfbf8000      4K r---- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f14cfbf9000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f14cfbfa000   2156K r-x-- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f14cfe15000   2044K ----- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f14d0014000    112K r---- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f14d0030000     48K rw--- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f14d003c000     12K rw---   [ anon ]
+00007f14d003f000    376K r-x-- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f14d009d000   2048K ----- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f14d029d000     16K r---- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f14d02a1000     28K rw--- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f14d02a8000   1792K r-x-- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f14d0468000   2048K ----- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f14d0668000     16K r---- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f14d066c000      8K rw--- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f14d066e000     16K rw---   [ anon ]
+00007f14d0672000     88K r-x-- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f14d0688000   2044K ----- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f14d0887000      4K rw--- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f14d0888000   1056K r-x-- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f14d0990000   2044K ----- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f14d0b8f000      4K r---- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f14d0b90000      4K rw--- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f14d0b91000   1480K r-x-- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f14d0d03000   2048K ----- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f14d0f03000     40K r---- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f14d0f0d000      8K rw--- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f14d0f0f000     16K rw---   [ anon ]
+00007f14d0f13000   1656K r-x-- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f14d10b1000   2048K ----- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f14d12b1000     24K r---- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f14d12b7000     12K rw--- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f14d12ba000      8K rw---   [ anon ]
+00007f14d12bc000     96K r-x-- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f14d12d4000   2044K ----- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f14d14d3000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f14d14d4000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f14d14d5000     16K rw---   [ anon ]
+00007f14d14d9000    800K r-x-- /usr/local/lib/libthrift.so.0.12.0
+00007f14d15a1000   2044K ----- /usr/local/lib/libthrift.so.0.12.0
+00007f14d17a0000     24K r---- /usr/local/lib/libthrift.so.0.12.0
+00007f14d17a6000      8K rw--- /usr/local/lib/libthrift.so.0.12.0
+00007f14d17a8000    152K r-x-- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f14d19ba000     44K rw---   [ anon ]
+00007f14d19cd000      4K r---- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f14d19ce000      4K rw--- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f14d19cf000      4K rw---   [ anon ]
+00007ffe7aa03000    132K rw---   [ stack ]
+00007ffe7ab69000     12K r----   [ anon ]
+00007ffe7ab6c000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total            47024K

@@ -1,0 +1,321 @@
+1:   python server.py
+00005583cc158000      4K r---- /usr/local/bin/python3.8
+00005583cc159000      4K r-x-- /usr/local/bin/python3.8
+00005583cc15a000      4K r---- /usr/local/bin/python3.8
+00005583cc15b000      4K r---- /usr/local/bin/python3.8
+00005583cc15c000      4K rw--- /usr/local/bin/python3.8
+00005583cd709000   4248K rw---   [ anon ]
+00007f74274a6000    768K rw---   [ anon ]
+00007f7427566000   3624K r-x-- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so
+00007f74278f0000   2044K ----- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so
+00007f7427aef000    252K r---- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so
+00007f7427b2e000     52K rw--- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_openssl.abi3.so
+00007f7427b3b000    784K rw---   [ anon ]
+00007f7427bff000     32K r-x-- /usr/local/lib/python3.8/site-packages/.libs_cffi_backend/libffi-806b1a9d.so.6.0.4
+00007f7427c07000   2048K ----- /usr/local/lib/python3.8/site-packages/.libs_cffi_backend/libffi-806b1a9d.so.6.0.4
+00007f7427e07000      4K rw--- /usr/local/lib/python3.8/site-packages/.libs_cffi_backend/libffi-806b1a9d.so.6.0.4
+00007f7427e08000      4K rw--- /usr/local/lib/python3.8/site-packages/.libs_cffi_backend/libffi-806b1a9d.so.6.0.4
+00007f7427e09000    180K r-x-- /usr/local/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so
+00007f7427e36000   2044K ----- /usr/local/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so
+00007f7428035000     20K rw--- /usr/local/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so
+00007f742803a000      8K rw---   [ anon ]
+00007f742803c000     16K rw--- /usr/local/lib/python3.8/site-packages/_cffi_backend.cpython-38-x86_64-linux-gnu.so
+00007f7428040000      8K r-x-- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
+00007f7428042000   2044K ----- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
+00007f7428241000      4K r---- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
+00007f7428242000      4K rw--- /usr/local/lib/python3.8/site-packages/cryptography/hazmat/bindings/_constant_time.abi3.so
+00007f7428243000    768K rw---   [ anon ]
+00007f7428303000     16K r---- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f7428307000     52K r-x-- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f7428314000     16K r---- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f7428318000      4K ----- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f7428319000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f742831a000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.28.so
+00007f742831b000      8K rw---   [ anon ]
+00007f742831d000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.28.so
+00007f742831e000     16K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.28.so
+00007f7428322000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.28.so
+00007f7428323000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.28.so
+00007f7428324000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.28.so
+00007f742832e000     12K r---- /lib/x86_64-linux-gnu/liblzma.so.5.2.4
+00007f7428331000     96K r-x-- /lib/x86_64-linux-gnu/liblzma.so.5.2.4
+00007f7428349000     44K r---- /lib/x86_64-linux-gnu/liblzma.so.5.2.4
+00007f7428354000      4K r---- /lib/x86_64-linux-gnu/liblzma.so.5.2.4
+00007f7428355000      4K rw--- /lib/x86_64-linux-gnu/liblzma.so.5.2.4
+00007f7428356000      8K r---- /usr/local/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so
+00007f7428358000     16K r-x-- /usr/local/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so
+00007f742835c000     12K r---- /usr/local/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so
+00007f742835f000      4K r---- /usr/local/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so
+00007f7428360000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_lzma.cpython-38-x86_64-linux-gnu.so
+00007f7428361000      8K r---- /lib/x86_64-linux-gnu/libbz2.so.1.0.4
+00007f7428363000     52K r-x-- /lib/x86_64-linux-gnu/libbz2.so.1.0.4
+00007f7428370000      8K r---- /lib/x86_64-linux-gnu/libbz2.so.1.0.4
+00007f7428372000      4K r---- /lib/x86_64-linux-gnu/libbz2.so.1.0.4
+00007f7428373000      4K rw--- /lib/x86_64-linux-gnu/libbz2.so.1.0.4
+00007f7428377000      8K r---- /usr/local/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so
+00007f7428379000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so
+00007f742837a000      4K r---- /usr/local/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so
+00007f742837b000      4K r---- /usr/local/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so
+00007f742837c000      4K rw--- /usr/local/lib/python3.8/lib-dynload/grp.cpython-38-x86_64-linux-gnu.so
+00007f742837d000    256K rw---   [ anon ]
+00007f74283bd000     12K r---- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283c0000     28K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283c7000      8K r---- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283c9000      4K ----- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283ca000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283cb000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.28.so
+00007f74283cc000     24K rw---   [ anon ]
+00007f74283d3000      8K r---- /usr/local/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so
+00007f74283d5000      8K r-x-- /usr/local/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so
+00007f74283d7000      8K r---- /usr/local/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so
+00007f74283d9000      4K r---- /usr/local/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so
+00007f74283da000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_bz2.cpython-38-x86_64-linux-gnu.so
+00007f74283db000   1024K rw---   [ anon ]
+00007f74284db000     28K r---- /usr/local/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so
+00007f74284e2000    264K r-x-- /usr/local/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so
+00007f7428524000     72K r---- /usr/local/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so
+00007f7428536000      4K r---- /usr/local/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so
+00007f7428537000     12K rw--- /usr/local/lib/python3.8/lib-dynload/_decimal.cpython-38-x86_64-linux-gnu.so
+00007f742853a000    512K rw---   [ anon ]
+00007f74285ba000      8K r---- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285bc000     12K r-x-- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285bf000      8K r---- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285c1000      4K ----- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285c2000      4K r---- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285c3000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_csv.cpython-38-x86_64-linux-gnu.so
+00007f74285c4000    512K rw---   [ anon ]
+00007f7428644000     12K r---- /usr/local/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so
+00007f7428647000     24K r-x-- /usr/local/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so
+00007f742864d000   1032K r---- /usr/local/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so
+00007f742874f000      4K r---- /usr/local/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so
+00007f7428750000      4K rw--- /usr/local/lib/python3.8/lib-dynload/unicodedata.cpython-38-x86_64-linux-gnu.so
+00007f7428751000   2120K rw---   [ anon ]
+00007f7428963000     56K r---- /lib/x86_64-linux-gnu/libtinfo.so.6.1
+00007f7428971000     56K r-x-- /lib/x86_64-linux-gnu/libtinfo.so.6.1
+00007f742897f000     52K r---- /lib/x86_64-linux-gnu/libtinfo.so.6.1
+00007f742898c000     16K r---- /lib/x86_64-linux-gnu/libtinfo.so.6.1
+00007f7428990000      4K rw--- /lib/x86_64-linux-gnu/libtinfo.so.6.1
+00007f7428991000     36K r---- /lib/x86_64-linux-gnu/libncursesw.so.6.1
+00007f742899a000    152K r-x-- /lib/x86_64-linux-gnu/libncursesw.so.6.1
+00007f74289c0000     36K r---- /lib/x86_64-linux-gnu/libncursesw.so.6.1
+00007f74289c9000      4K r---- /lib/x86_64-linux-gnu/libncursesw.so.6.1
+00007f74289ca000      4K rw--- /lib/x86_64-linux-gnu/libncursesw.so.6.1
+00007f74289cb000     12K r---- /usr/local/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so
+00007f74289ce000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so
+00007f74289cf000      8K r---- /usr/local/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so
+00007f74289d1000      4K r---- /usr/local/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so
+00007f74289d2000      8K rw--- /usr/local/lib/python3.8/lib-dynload/termios.cpython-38-x86_64-linux-gnu.so
+00007f74289d4000     28K r---- /usr/local/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so
+00007f74289db000     40K r-x-- /usr/local/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so
+00007f74289e5000     40K r---- /usr/local/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so
+00007f74289ef000      4K r---- /usr/local/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so
+00007f74289f0000      8K rw--- /usr/local/lib/python3.8/lib-dynload/_curses.cpython-38-x86_64-linux-gnu.so
+00007f74289f2000      4K r---- /usr/local/lib/python3.8/site-packages/tornado/speedups.cpython-38-x86_64-linux-gnu.so
+00007f74289f3000      4K r-x-- /usr/local/lib/python3.8/site-packages/tornado/speedups.cpython-38-x86_64-linux-gnu.so
+00007f74289f4000      4K r---- /usr/local/lib/python3.8/site-packages/tornado/speedups.cpython-38-x86_64-linux-gnu.so
+00007f74289f5000      4K r---- /usr/local/lib/python3.8/site-packages/tornado/speedups.cpython-38-x86_64-linux-gnu.so
+00007f74289f6000      4K rw--- /usr/local/lib/python3.8/site-packages/tornado/speedups.cpython-38-x86_64-linux-gnu.so
+00007f74289f7000      8K r---- /usr/local/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so
+00007f74289f9000     12K r-x-- /usr/local/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so
+00007f74289fc000     12K r---- /usr/local/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so
+00007f74289ff000      4K r---- /usr/local/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so
+00007f7428a00000      4K rw--- /usr/local/lib/python3.8/lib-dynload/zlib.cpython-38-x86_64-linux-gnu.so
+00007f7428a01000     12K r---- /usr/local/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so
+00007f7428a04000     36K r-x-- /usr/local/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so
+00007f7428a0d000     20K r---- /usr/local/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so
+00007f7428a12000      4K r---- /usr/local/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so
+00007f7428a13000      4K rw--- /usr/local/lib/python3.8/lib-dynload/array.cpython-38-x86_64-linux-gnu.so
+00007f7428a14000    256K rw---   [ anon ]
+00007f7428a54000      8K r---- /usr/local/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so
+00007f7428a56000     60K r-x-- /usr/local/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so
+00007f7428a65000      8K r---- /usr/local/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so
+00007f7428a67000      4K r---- /usr/local/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so
+00007f7428a68000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_json.cpython-38-x86_64-linux-gnu.so
+00007f7428a69000    256K rw---   [ anon ]
+00007f7428aa9000      8K r---- /usr/local/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so
+00007f7428aab000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so
+00007f7428aac000      4K r---- /usr/local/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so
+00007f7428aad000      4K r---- /usr/local/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so
+00007f7428aae000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_queue.cpython-38-x86_64-linux-gnu.so
+00007f7428aaf000     20K r---- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428ab4000     84K r-x-- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428ac9000     24K r---- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428acf000      4K ----- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428ad0000      4K r---- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428ad1000      8K rw--- /usr/local/lib/python3.8/lib-dynload/_pickle.cpython-38-x86_64-linux-gnu.so
+00007f7428ad3000    256K rw---   [ anon ]
+00007f7428b13000      8K r---- /usr/local/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so
+00007f7428b15000     12K r-x-- /usr/local/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so
+00007f7428b18000      4K r---- /usr/local/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so
+00007f7428b19000      4K r---- /usr/local/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so
+00007f7428b1a000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_random.cpython-38-x86_64-linux-gnu.so
+00007f7428b1b000      4K r---- /usr/local/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so
+00007f7428b1c000     28K r-x-- /usr/local/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so
+00007f7428b23000      4K r---- /usr/local/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so
+00007f7428b24000      4K r---- /usr/local/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so
+00007f7428b25000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_sha512.cpython-38-x86_64-linux-gnu.so
+00007f7428b26000      4K r---- /usr/local/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so
+00007f7428b27000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so
+00007f7428b28000      4K r---- /usr/local/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so
+00007f7428b29000      4K r---- /usr/local/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so
+00007f7428b2a000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_bisect.cpython-38-x86_64-linux-gnu.so
+00007f7428b2b000     20K r---- /usr/local/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so
+00007f7428b30000     68K r-x-- /usr/local/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so
+00007f7428b41000     24K r---- /usr/local/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so
+00007f7428b47000      4K r---- /usr/local/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so
+00007f7428b48000     12K rw--- /usr/local/lib/python3.8/lib-dynload/_datetime.cpython-38-x86_64-linux-gnu.so
+00007f7428b4b000   1024K rw---   [ anon ]
+00007f7428c4b000     16K r---- /usr/local/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so
+00007f7428c4f000     20K r-x-- /usr/local/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so
+00007f7428c54000     16K r---- /usr/local/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so
+00007f7428c58000      4K r---- /usr/local/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so
+00007f7428c59000      8K rw--- /usr/local/lib/python3.8/lib-dynload/_asyncio.cpython-38-x86_64-linux-gnu.so
+00007f7428c5b000      4K r---- /usr/local/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so
+00007f7428c5c000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so
+00007f7428c5d000      4K r---- /usr/local/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so
+00007f7428c5e000      4K r---- /usr/local/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so
+00007f7428c5f000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_contextvars.cpython-38-x86_64-linux-gnu.so
+00007f7428c60000    512K rw---   [ anon ]
+00007f7428ce0000    112K r-x-- /lib/x86_64-linux-gnu/libz.so.1.2.11
+00007f7428cfc000   2048K ----- /lib/x86_64-linux-gnu/libz.so.1.2.11
+00007f7428efc000      4K r---- /lib/x86_64-linux-gnu/libz.so.1.2.11
+00007f7428efd000      4K rw--- /lib/x86_64-linux-gnu/libz.so.1.2.11
+00007f7428efe000      8K r---- /usr/local/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so
+00007f7428f00000     20K r-x-- /usr/local/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so
+00007f7428f05000      8K r---- /usr/local/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so
+00007f7428f07000      4K r---- /usr/local/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so
+00007f7428f08000      4K rw--- /usr/local/lib/python3.8/lib-dynload/binascii.cpython-38-x86_64-linux-gnu.so
+00007f7428f09000     12K r---- /usr/local/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so
+00007f7428f0c000     24K r-x-- /usr/local/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so
+00007f7428f12000     16K r---- /usr/local/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so
+00007f7428f16000      4K r---- /usr/local/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so
+00007f7428f17000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_struct.cpython-38-x86_64-linux-gnu.so
+00007f7428f18000    256K rw---   [ anon ]
+00007f7428f58000    532K r---- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f7428fdd000   1656K r-x-- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f742917b000    572K r---- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f742920a000      4K ----- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f742920b000    192K r---- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f742923b000      8K rw--- /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+00007f742923d000     16K rw---   [ anon ]
+00007f7429241000    116K r---- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f742925e000    308K r-x-- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f74292ab000    104K r---- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f74292c5000      4K ----- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f74292c6000     36K r---- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f74292cf000     16K rw--- /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+00007f74292d7000      4K r---- /usr/local/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so
+00007f74292d8000      4K r-x-- /usr/local/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so
+00007f74292d9000      4K r---- /usr/local/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so
+00007f74292da000      4K r---- /usr/local/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so
+00007f74292db000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_opcode.cpython-38-x86_64-linux-gnu.so
+00007f74292dc000     60K r---- /usr/local/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so
+00007f74292eb000     36K r-x-- /usr/local/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so
+00007f74292f4000     48K r---- /usr/local/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so
+00007f7429300000      4K r---- /usr/local/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so
+00007f7429301000     28K rw--- /usr/local/lib/python3.8/lib-dynload/_ssl.cpython-38-x86_64-linux-gnu.so
+00007f7429308000    256K rw---   [ anon ]
+00007f742934d000      4K r---- /usr/local/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so
+00007f742934e000      8K r-x-- /usr/local/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so
+00007f7429350000      8K r---- /usr/local/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so
+00007f7429352000      4K r---- /usr/local/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so
+00007f7429353000      4K rw--- /usr/local/lib/python3.8/lib-dynload/fcntl.cpython-38-x86_64-linux-gnu.so
+00007f7429354000      8K r---- /usr/local/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so
+00007f7429356000     80K r-x-- /usr/local/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so
+00007f742936a000      8K r---- /usr/local/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so
+00007f742936c000      4K r---- /usr/local/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so
+00007f742936d000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_sha3.cpython-38-x86_64-linux-gnu.so
+00007f742936e000      8K r---- /usr/local/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so
+00007f7429370000     68K r-x-- /usr/local/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so
+00007f7429381000      8K r---- /usr/local/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so
+00007f7429383000      4K r---- /usr/local/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so
+00007f7429384000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_blake2.cpython-38-x86_64-linux-gnu.so
+00007f7429385000     12K r---- /usr/local/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so
+00007f7429388000     20K r-x-- /usr/local/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so
+00007f742938d000      8K r---- /usr/local/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so
+00007f742938f000      4K r---- /usr/local/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so
+00007f7429390000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_hashlib.cpython-38-x86_64-linux-gnu.so
+00007f7429391000     16K r---- /usr/local/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so
+00007f7429395000     36K r-x-- /usr/local/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so
+00007f742939e000     36K r---- /usr/local/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so
+00007f74293a7000      4K r---- /usr/local/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so
+00007f74293a8000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_socket.cpython-38-x86_64-linux-gnu.so
+00007f74293a9000   1280K rw---   [ anon ]
+00007f74294e9000      4K r---- /usr/local/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so
+00007f74294ea000     12K r-x-- /usr/local/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so
+00007f74294ed000     12K r---- /usr/local/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so
+00007f74294f0000      4K r---- /usr/local/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so
+00007f74294f1000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_heapq.cpython-38-x86_64-linux-gnu.so
+00007f74294f2000    512K rw---   [ anon ]
+00007f7429576000      8K r---- /usr/local/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so
+00007f7429578000      8K r-x-- /usr/local/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so
+00007f742957a000      4K r---- /usr/local/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so
+00007f742957b000      4K r---- /usr/local/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so
+00007f742957c000      4K rw--- /usr/local/lib/python3.8/lib-dynload/_posixsubprocess.cpython-38-x86_64-linux-gnu.so
+00007f742957d000      8K r---- /usr/local/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so
+00007f742957f000     12K r-x-- /usr/local/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so
+00007f7429582000      8K r---- /usr/local/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so
+00007f7429584000      4K r---- /usr/local/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so
+00007f7429585000      4K rw--- /usr/local/lib/python3.8/lib-dynload/select.cpython-38-x86_64-linux-gnu.so
+00007f7429586000     12K r---- /usr/local/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so
+00007f7429589000     32K r-x-- /usr/local/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so
+00007f7429591000     16K r---- /usr/local/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so
+00007f7429595000      4K r---- /usr/local/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so
+00007f7429596000      4K rw--- /usr/local/lib/python3.8/lib-dynload/math.cpython-38-x86_64-linux-gnu.so
+00007f7429597000   1280K rw---   [ anon ]
+00007f74296d7000    200K r---- /usr/lib/locale/C.UTF-8/LC_CTYPE
+00007f7429709000     12K rw---   [ anon ]
+00007f742970c000    136K r---- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f742972e000   1312K r-x-- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f7429876000    304K r---- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f74298c2000      4K ----- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f74298c3000     16K r---- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f74298c7000      8K rw--- /lib/x86_64-linux-gnu/libc-2.28.so
+00007f74298c9000     24K rw---   [ anon ]
+00007f74298cf000     52K r---- /lib/x86_64-linux-gnu/libm-2.28.so
+00007f74298dc000    636K r-x-- /lib/x86_64-linux-gnu/libm-2.28.so
+00007f742997b000    852K r---- /lib/x86_64-linux-gnu/libm-2.28.so
+00007f7429a50000      4K r---- /lib/x86_64-linux-gnu/libm-2.28.so
+00007f7429a51000      4K rw--- /lib/x86_64-linux-gnu/libm-2.28.so
+00007f7429a52000      4K r---- /lib/x86_64-linux-gnu/libutil-2.28.so
+00007f7429a53000      4K r-x-- /lib/x86_64-linux-gnu/libutil-2.28.so
+00007f7429a54000      4K r---- /lib/x86_64-linux-gnu/libutil-2.28.so
+00007f7429a55000      4K r---- /lib/x86_64-linux-gnu/libutil-2.28.so
+00007f7429a56000      4K rw--- /lib/x86_64-linux-gnu/libutil-2.28.so
+00007f7429a57000      4K r---- /lib/x86_64-linux-gnu/libdl-2.28.so
+00007f7429a58000      4K r-x-- /lib/x86_64-linux-gnu/libdl-2.28.so
+00007f7429a59000      4K r---- /lib/x86_64-linux-gnu/libdl-2.28.so
+00007f7429a5a000      4K r---- /lib/x86_64-linux-gnu/libdl-2.28.so
+00007f7429a5b000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.28.so
+00007f7429a5c000     24K r---- /lib/x86_64-linux-gnu/libpthread-2.28.so
+00007f7429a62000     60K r-x-- /lib/x86_64-linux-gnu/libpthread-2.28.so
+00007f7429a71000     24K r---- /lib/x86_64-linux-gnu/libpthread-2.28.so
+00007f7429a77000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.28.so
+00007f7429a78000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.28.so
+00007f7429a79000     16K rw---   [ anon ]
+00007f7429a7d000      4K r---- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a7e000     24K r-x-- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a84000      8K r---- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a86000      4K ----- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a87000      4K r---- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a88000      4K rw--- /lib/x86_64-linux-gnu/libcrypt-2.28.so
+00007f7429a89000    184K rw---   [ anon ]
+00007f7429ab7000    400K r---- /usr/local/lib/libpython3.8.so.1.0
+00007f7429b1b000   1956K r-x-- /usr/local/lib/libpython3.8.so.1.0
+00007f7429d04000    928K r---- /usr/local/lib/libpython3.8.so.1.0
+00007f7429dec000      4K ----- /usr/local/lib/libpython3.8.so.1.0
+00007f7429ded000     20K r---- /usr/local/lib/libpython3.8.so.1.0
+00007f7429df2000    236K rw--- /usr/local/lib/libpython3.8.so.1.0
+00007f7429e2d000    140K rw---   [ anon ]
+00007f7429e52000     28K r--s- /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+00007f7429e59000      4K r---- /lib/x86_64-linux-gnu/ld-2.28.so
+00007f7429e5a000    120K r-x-- /lib/x86_64-linux-gnu/ld-2.28.so
+00007f7429e78000     32K r---- /lib/x86_64-linux-gnu/ld-2.28.so
+00007f7429e80000      4K r---- /lib/x86_64-linux-gnu/ld-2.28.so
+00007f7429e81000      4K rw--- /lib/x86_64-linux-gnu/ld-2.28.so
+00007f7429e82000      4K rw---   [ anon ]
+00007ffd9e2d9000    132K rw---   [ stack ]
+00007ffd9e341000     12K r----   [ anon ]
+00007ffd9e344000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total            47180K

@@ -1,0 +1,32 @@
+                        Container                                       Repository                Tag       Image Id       Size  
+---------------------------------------------------------------------------------------------------------------------------------
+socialnetworkmicroservices_compose-post-redis_1             redis                                latest   ef47f3b6dc11   104.3 MB
+socialnetworkmicroservices_compose-post-service_1           yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_home-timeline-redis_1            redis                                latest   ef47f3b6dc11   104.3 MB
+socialnetworkmicroservices_home-timeline-service_1          yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_jaeger_1                         jaegertracing/all-in-one             latest   420c1106c498   51.76 MB
+socialnetworkmicroservices_media-frontend_1                 yg397/media-frontend                 xenial   07c94a4ce3df   729.2 MB
+socialnetworkmicroservices_media-memcached_1                memcached                            latest   dac5d0dc8aa4   82.36 MB
+socialnetworkmicroservices_media-mongodb_1                  mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_media-service_1                  yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_nginx-thrift_1                   yg397/openresty-thrift               xenial   c9656a548a2b   601 MB  
+socialnetworkmicroservices_post-storage-memcached_1         memcached                            latest   dac5d0dc8aa4   82.36 MB
+socialnetworkmicroservices_post-storage-mongodb_1           mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_post-storage-service_1           yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_social-graph-mongodb_1           mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_social-graph-redis_1             redis                                latest   ef47f3b6dc11   104.3 MB
+socialnetworkmicroservices_social-graph-service_1           yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_text-service_1                   yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_unique-id-service_1              yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_url-shorten-memcached_1          memcached                            latest   dac5d0dc8aa4   82.36 MB
+socialnetworkmicroservices_url-shorten-mongodb_1            mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_url-shorten-service_1            yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_user-memcached_1                 memcached                            latest   dac5d0dc8aa4   82.36 MB
+socialnetworkmicroservices_user-mention-service_1           yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_user-mongodb_1                   mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_user-service_1                   yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_user-timeline-mongodb_1          mongo                                latest   3068f6bb852e   492.8 MB
+socialnetworkmicroservices_user-timeline-redis_1            redis                                latest   ef47f3b6dc11   104.3 MB
+socialnetworkmicroservices_user-timeline-service_1          yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB
+socialnetworkmicroservices_write-home-timeline-rabbitmq_1   rabbitmq                             latest   30aac3e715ba   167.3 MB
+socialnetworkmicroservices_write-home-timeline-service_1    yg397/social-network-microservices   latest   fb1aaf18f4da   846.5 MB

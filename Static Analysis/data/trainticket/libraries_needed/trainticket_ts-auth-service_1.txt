@@ -1,0 +1,135 @@
+dpkg-query: no path found matching pattern /app/ts-auth-service-1.0.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+libc-bin: /usr/lib/locale/C.UTF-8/LC_COLLATE
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar
+dpkg-query: no path found matching pattern /app/ts-auth-service-1.0.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.19.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar
+openjdk-8-jre-headless:amd64: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar
+libc-bin: /usr/lib/locale/C.UTF-8/LC_CTYPE
+libc-bin: /usr/lib/locale/C.UTF-8/LC_NUMERIC
+libc-bin: /usr/lib/locale/C.UTF-8/LC_TIME
+libc-bin: /usr/lib/locale/C.UTF-8/LC_MONETARY
+libc-bin: /usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES
+libc-bin: /usr/lib/locale/C.UTF-8/LC_PAPER
+libc-bin: /usr/lib/locale/C.UTF-8/LC_NAME
+libc-bin: /usr/lib/locale/C.UTF-8/LC_ADDRESS
+libc-bin: /usr/lib/locale/C.UTF-8/LC_TELEPHONE
+libc6:amd64: /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+dpkg-query: no path found matching pattern /tmp/hsperfdata_root/1
+libc-bin: /usr/lib/locale/C.UTF-8/LC_MEASUREMENT
+libc-bin: /usr/lib/locale/C.UTF-8/LC_IDENTIFICATION
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+
+----------------
+dpkg-query
+libstdc++6
+libc-bin
+libc6
+zlib1g
+libgcc1
+openjdk-8-jre-headless

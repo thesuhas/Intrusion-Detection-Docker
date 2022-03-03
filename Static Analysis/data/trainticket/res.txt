@@ -1,0 +1,285 @@
+Vulnerability Counts and Vulnerable Packages : 
+
+                                                            |CRITICAL||HIGH||MEDIUM||LOW||TOTAL|	PACKAGES
+trainticket_ts-cancel-service_1                                 0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-security-service_1                               0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-route-service_1                                  0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-travel-service_1                                 0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-preserve-other-service_1                         0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-payment-service_1                                0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-food-map-service_1                               0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-consign-service_1                                0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-travel2-service_1                                0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-route-plan-service_1                             0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-contacts-service_1                               0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-notification-service_1                           0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-ui-dashboard_1                                   0       0      0     0     0  	set()
+trainticket_ts-execute-service_1                                0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-order-service_1                                  0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-admin-travel-service_1                           0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-voucher-service_1                                0       2      3     15    20 	{'libc-bin', 'libssl1.1', 'libc6'}
+trainticket_ts-rebook-service_1                                 0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-preserve-service_1                               0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-config-service_1                                 0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-verification-code-service_1                      0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-train-service_1                                  0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-basic-service_1                                  0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-consign-price-service_1                          0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-assurance-service_1                              0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-order-other-service_1                            0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-station-service_1                                0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-admin-route-service_1                            0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-admin-order-service_1                            0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-admin-user-service_1                             0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-inside-payment-service_1                         0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-admin-basic-info-service_1                       0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-food-service_1                                   0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-price-service_1                                  0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-auth-service_1                                   0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-seat-service_1                                   0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-ticketinfo-service_1                             0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-ticket-office-service_1                          3       5      4     15    27 	{'libstdc++6', 'libgcc1', 'libc6'}
+trainticket_ts-user-service_1                                   0       1      0     0     1  	{'libc-bin', 'libc6'}
+trainticket_ts-travel-plan-service_1                            0       1      0     0     1  	{'libc-bin', 'libc6'}
+
+
+
+
+
+
+Possible Upgrades to fix Vulnerabilities : 
+trainticket_ts-cancel-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-security-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-route-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-travel-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-preserve-other-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-payment-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-food-map-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-consign-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-travel2-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-route-plan-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-contacts-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-notification-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-ui-dashboard_1
+***************
+....................................................
+
+trainticket_ts-execute-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-order-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-admin-travel-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-voucher-service_1
+***************
+libssl1.1 	 {'1.1.1d-0+deb10u4'}
+....................................................
+
+trainticket_ts-rebook-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-preserve-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-config-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-verification-code-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-train-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-basic-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-consign-price-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-assurance-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-order-other-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-station-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-admin-route-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-admin-order-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-admin-user-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-inside-payment-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-admin-basic-info-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-food-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-price-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-auth-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-seat-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-ticketinfo-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-ticket-office-service_1
+***************
+....................................................
+
+trainticket_ts-user-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+trainticket_ts-travel-plan-service_1
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+

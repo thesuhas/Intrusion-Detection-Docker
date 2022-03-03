@@ -1,0 +1,69 @@
+                   Name                                 Command               State                  Ports               
+-------------------------------------------------------------------------------------------------------------------------
+trainticket_redis_1                          docker-entrypoint.sh redis ...   Up      0.0.0.0:6379->6379/tcp             
+trainticket_ts-account-mongo_1               docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-admin-basic-info-service_1    java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18767->18767/tcp           
+trainticket_ts-admin-order-service_1         java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16112->16112/tcp           
+trainticket_ts-admin-route-service_1         java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16113->16113/tcp           
+trainticket_ts-admin-travel-service_1        java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16114->16114/tcp           
+trainticket_ts-admin-user-service_1          java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16115->16115/tcp           
+trainticket_ts-assurance-mongo_1             docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-assurance-service_1           java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18888->18888/tcp           
+trainticket_ts-auth-mongo_1                  docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-auth-service_1                java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12340->12340/tcp, 12349/tcp
+trainticket_ts-basic-service_1               java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:15680->15680/tcp           
+trainticket_ts-cancel-service_1              java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18885->18885/tcp           
+trainticket_ts-config-mongo_1                docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-config-service_1              java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:15679->15679/tcp           
+trainticket_ts-consign-mongo_1               docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-consign-price-mongo_1         docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-consign-price-service_1       java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16110->16110/tcp           
+trainticket_ts-consign-service_1             java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16111->16111/tcp           
+trainticket_ts-contacts-mongo_1              docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-contacts-service_1            java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12347->12347/tcp           
+trainticket_ts-execute-service_1             java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12386->12386/tcp           
+trainticket_ts-food-map-mongo_1              docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-food-map-service_1            java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18855->18855/tcp           
+trainticket_ts-food-mongo_1                  docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-food-service_1                java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18856->18856/tcp           
+trainticket_ts-inside-payment-mongo_1        docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-inside-payment-service_1      java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18673->18673/tcp           
+trainticket_ts-news-mongo_1                  docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-news-service_1                ./app                            Up      0.0.0.0:12862->12862/tcp           
+trainticket_ts-notification-service_1        java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:17853->17853/tcp           
+trainticket_ts-order-mongo_1                 docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-order-other-mongo_1           docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-order-other-service_1         java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12032->12032/tcp           
+trainticket_ts-order-service_1               java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12031->12031/tcp           
+trainticket_ts-payment-mongo_1               docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-payment-service_1             java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:19001->19001/tcp           
+trainticket_ts-preserve-other-service_1      java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:14569->14569/tcp           
+trainticket_ts-preserve-service_1            java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:14568->14568/tcp           
+trainticket_ts-price-mongo_1                 docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-price-service_1               java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16579->16579/tcp           
+trainticket_ts-rebook-mongo_1                docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-rebook-service_1              java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18886->18886/tcp           
+trainticket_ts-route-mongo_1                 docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-route-plan-service_1          java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:14578->14578/tcp           
+trainticket_ts-route-service_1               java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:11178->11178/tcp           
+trainticket_ts-seat-service_1                java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:18898->18898/tcp           
+trainticket_ts-security-mongo_1              docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-security-service_1            java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:11188->11188/tcp           
+trainticket_ts-station-mongo_1               docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-station-service_1             java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12345->12345/tcp           
+trainticket_ts-ticket-office-mongo_1         docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-ticket-office-service_1       docker-entrypoint.sh npm start   Up      0.0.0.0:16108->16108/tcp           
+trainticket_ts-ticketinfo-service_1          java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:15681->15681/tcp           
+trainticket_ts-train-mongo_1                 docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-train-service_1               java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:14567->14567/tcp           
+trainticket_ts-travel-mongo_1                docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-travel-plan-service_1         java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:14322->14322/tcp           
+trainticket_ts-travel-service_1              java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12346->12346/tcp           
+trainticket_ts-travel2-mongo_1               docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-travel2-service_1             java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:16346->16346/tcp           
+trainticket_ts-ui-dashboard_1                /usr/local/openresty/bin/o ...   Up      0.0.0.0:8080->8080/tcp             
+trainticket_ts-user-mongo_1                  docker-entrypoint.sh mongod      Up      27017/tcp                          
+trainticket_ts-user-service_1                java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:12342->12342/tcp, 12346/tcp
+trainticket_ts-verification-code-service_1   java -Xmx200m -jar /app/ts ...   Up      0.0.0.0:15678->15678/tcp           
+trainticket_ts-voucher-mysql_1               docker-entrypoint.sh mysqld      Up      3306/tcp, 33060/tcp                
+trainticket_ts-voucher-service_1             python server.py                 Up      0.0.0.0:16101->16101/tcp           

@@ -1,0 +1,99 @@
+<html>
+<br><br><br>
+
+<head>
+    <h1>
+        <center> Welcome To The Server </center>
+    </h1>
+</head>
+<br><br><br>
+
+<body>
+    <script>
+        let pingPort = 8081;
+        let sqlInjectPort = 8082;
+
+        function ping() {
+            var xhr = new XMLHttpRequest();
+            var url = 'http://10.10.1.201:' + pingPort + '/api/ping';
+            ip_addr = document.getElementById("ip").value;
+            params = {
+                "IP": ip_addr
+            }
+            console.log(params);
+            if (ip_addr === "") {
+                document.getElementById("ip").placeholder = "Enter IP Address to be pinged";
+                return;
+            }
+            xhr.open('POST', url, false);
+            xhr.setRequestHeader('Content-type', 'application/json');
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(this.responseText);
+                    document.getElementById("ping-result").innerHTML = this.responseText;
+                } else {
+                    console.log("Error. Please Try again with valid IP")
+                    console.log(this.readyState, this.status, this.response)
+                }
+            };
+            xhr.send(JSON.stringify(params));
+        }
+
+        function sqlInject() {
+            var xhr = new XMLHttpRequest();
+            var url = 'http://10.10.1.201:' + sqlInjectPort + '/api/sqlquery';
+            user_id = document.getElementById("user-id").value;
+            params = {
+                "user_id": user_id
+            }
+            console.log(params);
+            if (user_id === "") {
+                document.getElementById("user-id").placeholder = "Enter IP Address to be pinged";
+                return;
+            }
+            xhr.open('POST', url, false);
+            xhr.setRequestHeader('Content-type', 'application/json');
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    console.log(this.responseText);
+                    let res = JSON.parse(this.responseText);
+                    res = res.res;
+                    document.getElementById("sql_injection_result").innerHTML = "<br>";
+                    for (let i = 0; i < res.length; i++) {
+                        document.getElementById("sql_injection_result").innerHTML += "[ " + res[i][0] + " , " + res[
+                            i][1] + " ]" + "<br>";
+                    }
+
+                } else {
+                    console.log("Error. Please Try again with valid IP");
+                    console.log(this.readyState, this.status, this.response);
+                    document.getElementById("sql_injection_result").innerHTML = "Error. Invalid Syntax.";
+                }
+            };
+            xhr.send(JSON.stringify(params));
+        }
+    </script>
+    <hr />
+    <center>
+        <h2>Command Injection</h2>
+        <h3>Ping : Check the connectivity of our server.</h3>
+        <input type="text" style="padding: 10px;width: 50%; text-align: center;"
+            placeholder="Enter IP Address to be pinged" id="ip" required><br><br>
+        <button type="submit" onclick="ping()">Check Connectivity!</button>
+        <div id="ping-result"></div>
+    </center>
+    <br />
+    <hr />
+    <center>
+        <h2>Blind SQL Injection</h2>
+        <h3>Get User Details</h3>
+        <input type="text" style="padding: 10px;width: 50%; text-align: center;"
+            placeholder="Enter user id for their details" id="user-id" required><br><br>
+        <button type="submit" onclick="sqlInject()">Check Connectivity!</button>
+        <div id="sql_injection_result"></div>
+    </center>
+    <br />
+    <hr />
+</body>
+
+</html>

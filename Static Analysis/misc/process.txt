@@ -1,0 +1,5 @@
+1) Run pmap on the main process of each container and obtain all files [.so and .jar] being used.
+2) Run dpkg -S "path/to/file" on every entry obtained by 1 to get all libraries the files belong to.
+3) Get all unique libraries being used by each container.
+4) Run trivy on the container image and obtain all vulnerabilities image has.
+5) check if any vulnerable library/package returned from trivy is present in our list and if so obtain all vulnerabilities image has that might be a threat.

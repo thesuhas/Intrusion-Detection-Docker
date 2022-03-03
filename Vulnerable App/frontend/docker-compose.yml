@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+    react-frontend:
+        container_name: react-frontend
+        image: react-frontend
+        build:
+            context: .
+            target: development
+        volumes:
+            - ./src:/frontend/src
+        ports:
+            - 3000:3000

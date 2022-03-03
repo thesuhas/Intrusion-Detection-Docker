@@ -1,0 +1,281 @@
+Vulnerability Counts and Vulnerable Packages : 
+
+                              |CRITICAL||HIGH||MEDIUM||LOW||TOTAL|	PACKAGES
+notification-service              0       1      0     0     1  	{'libc6', 'libc-bin'}
+rebook-service                    0       1      0     0     1  	{'libc6', 'libc-bin'}
+travel-service                    0       1      0     0     1  	{'libc6', 'libc-bin'}
+admin-basic-info-service          0       1      0     0     1  	{'libc6', 'libc-bin'}
+auth-service                      0       1      0     0     1  	{'libc6', 'libc-bin'}
+order-service                     0       1      0     0     1  	{'libc6', 'libc-bin'}
+basic-service                     0       1      0     0     1  	{'libc6', 'libc-bin'}
+admin-route-service               0       1      0     0     1  	{'libc6', 'libc-bin'}
+verification-code-service         0       1      0     0     1  	{'libc6', 'libc-bin'}
+food-map-service                  0       1      0     0     1  	{'libc6', 'libc-bin'}
+ticket-office-service             3       5      4     15    27 	{'libstdc++6', 'libgcc1', 'libc6'}
+contacts-service                  0       1      0     0     1  	{'libc6', 'libc-bin'}
+route-service                     0       1      0     0     1  	{'libc6', 'libc-bin'}
+food-service                      0       1      0     0     1  	{'libc6', 'libc-bin'}
+preserve-service                  0       1      0     0     1  	{'libc6', 'libc-bin'}
+consign-price-service             0       1      0     0     1  	{'libc6', 'libc-bin'}
+admin-order-service               0       1      0     0     1  	{'libc6', 'libc-bin'}
+station-service                   0       1      0     0     1  	{'libc6', 'libc-bin'}
+execute-service                   0       1      0     0     1  	{'libc6', 'libc-bin'}
+train-service                     0       1      0     0     1  	{'libc6', 'libc-bin'}
+price-service                     0       1      0     0     1  	{'libc6', 'libc-bin'}
+preserve-other-service            0       1      0     0     1  	{'libc6', 'libc-bin'}
+user-service                      0       1      0     0     1  	{'libc6', 'libc-bin'}
+admin-travel-service              0       1      0     0     1  	{'libc6', 'libc-bin'}
+admin-user-service                0       1      0     0     1  	{'libc6', 'libc-bin'}
+route-plan-service                0       1      0     0     1  	{'libc6', 'libc-bin'}
+inside-payment-service            0       1      0     0     1  	{'libc6', 'libc-bin'}
+config-service                    0       1      0     0     1  	{'libc6', 'libc-bin'}
+travel-plan-service               0       1      0     0     1  	{'libc6', 'libc-bin'}
+payment-service                   0       1      0     0     1  	{'libc6', 'libc-bin'}
+travel2-service                   0       1      0     0     1  	{'libc6', 'libc-bin'}
+security-service                  0       1      0     0     1  	{'libc6', 'libc-bin'}
+seat-service                      0       1      0     0     1  	{'libc6', 'libc-bin'}
+assurance-service                 0       1      0     0     1  	{'libc6', 'libc-bin'}
+order-other-service               0       1      0     0     1  	{'libc6', 'libc-bin'}
+cancel-service                    0       1      0     0     1  	{'libc6', 'libc-bin'}
+ui-dashboard                      0       14     76    43   133 	{'perl-modules', 'linux-libc-dev'}
+consign-service                   0       1      0     0     1  	{'libc6', 'libc-bin'}
+ticketinfo-service                0       1      0     0     1  	{'libc6', 'libc-bin'}
+
+
+
+
+
+
+Possible Upgrades to fix Vulnerabilities : 
+notification-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+rebook-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+travel-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+admin-basic-info-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+auth-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+order-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+basic-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+admin-route-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+verification-code-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+food-map-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+ticket-office-service
+***************
+....................................................
+
+contacts-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+route-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+food-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+preserve-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+consign-price-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+admin-order-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+station-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+execute-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+train-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+price-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+preserve-other-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+user-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+admin-travel-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+admin-user-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+route-plan-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+inside-payment-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+config-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+travel-plan-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+payment-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+travel2-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+security-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+seat-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+assurance-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+order-other-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+cancel-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+ui-dashboard
+***************
+linux-libc-dev 	 {'3.13.0-162.212', '3.13.0-157.207', '3.13.0-168.218', '3.13.0-164.214', '3.13.0-155.205', '3.13.0-151.201', '3.13.0-147.196', '3.13.0-161.211', '3.13.0-160.210', '3.13.0-153.203', '3.13.0-165.215', '3.13.0-166.216', '3.13.0-149.199', '3.13.0-170.220'}
+perl-modules 	 {'5.18.2-2ubuntu1.6', '5.18.2-2ubuntu1.7'}
+....................................................
+
+consign-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+
+ticketinfo-service
+***************
+libc-bin 	 {'2.19-18+deb8u10'}
+libc6 	 {'2.19-18+deb8u10'}
+....................................................
+

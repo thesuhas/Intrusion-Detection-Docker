@@ -1,0 +1,6 @@
+
+usage
+	-q	Quiet
+details
+p
+binary.

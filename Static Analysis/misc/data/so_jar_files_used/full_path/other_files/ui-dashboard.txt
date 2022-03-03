@@ -1,0 +1,4 @@
+(deleted)
+off;
+/usr/local/openresty/nginx/sbin/nginx
+39892K

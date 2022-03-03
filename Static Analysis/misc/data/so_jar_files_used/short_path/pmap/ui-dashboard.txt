@@ -1,0 +1,78 @@
+1:   nginx: master process /usr/local/openresty/bin/openresty -g daemon off;
+0000000000400000   4452K r-x-- nginx
+0000000000a59000      4K r---- nginx
+0000000000a5a000    228K rw--- nginx
+0000000000a93000    160K rw---   [ anon ]
+0000000000e7f000   1628K rw---   [ anon ]
+0000000040d9e000    128K rw---   [ anon ]
+00007fdd9cb69000     44K r-x-- libnss_nis-2.19.so
+00007fdd9cb74000   2044K ----- libnss_nis-2.19.so
+00007fdd9cd73000      4K r---- libnss_nis-2.19.so
+00007fdd9cd74000      4K rw--- libnss_nis-2.19.so
+00007fdd9cd75000     92K r-x-- libnsl-2.19.so
+00007fdd9cd8c000   2044K ----- libnsl-2.19.so
+00007fdd9cf8b000      4K r---- libnsl-2.19.so
+00007fdd9cf8c000      4K rw--- libnsl-2.19.so
+00007fdd9cf8d000      8K rw---   [ anon ]
+00007fdd9cf8f000     36K r-x-- libnss_compat-2.19.so
+00007fdd9cf98000   2044K ----- libnss_compat-2.19.so
+00007fdd9d197000      4K r---- libnss_compat-2.19.so
+00007fdd9d198000      4K rw--- libnss_compat-2.19.so
+00007fdd9d199000     92K r-x-- libresolv-2.19.so
+00007fdd9d1b0000   2048K ----- libresolv-2.19.so
+00007fdd9d3b0000      4K r---- libresolv-2.19.so
+00007fdd9d3b1000      4K rw--- libresolv-2.19.so
+00007fdd9d3b2000      8K rw---   [ anon ]
+00007fdd9d3b4000     20K r-x-- libnss_dns-2.19.so
+00007fdd9d3b9000   2044K ----- libnss_dns-2.19.so
+00007fdd9d5b8000      4K r---- libnss_dns-2.19.so
+00007fdd9d5b9000      4K rw--- libnss_dns-2.19.so
+00007fdd9d5ba000     40K r-x-- libnss_files-2.19.so
+00007fdd9d5c4000   2044K ----- libnss_files-2.19.so
+00007fdd9d7c3000      4K r---- libnss_files-2.19.so
+00007fdd9d7c4000      4K rw--- libnss_files-2.19.so
+00007fdd9d7c5000     88K r-x-- libgcc_s.so.1
+00007fdd9d7db000   2044K ----- libgcc_s.so.1
+00007fdd9d9da000      4K rw--- libgcc_s.so.1
+00007fdd9d9db000   1784K r-x-- libc-2.19.so
+00007fdd9db99000   2048K ----- libc-2.19.so
+00007fdd9dd99000     16K r---- libc-2.19.so
+00007fdd9dd9d000      8K rw--- libc-2.19.so
+00007fdd9dd9f000     20K rw---   [ anon ]
+00007fdd9dda4000     96K r-x-- libz.so.1.2.8
+00007fdd9ddbc000   2044K ----- libz.so.1.2.8
+00007fdd9dfbb000      4K r---- libz.so.1.2.8
+00007fdd9dfbc000      4K rw--- libz.so.1.2.8
+00007fdd9dfbd000   1044K r-x-- libm-2.19.so
+00007fdd9e0c2000   2044K ----- libm-2.19.so
+00007fdd9e2c1000      4K r---- libm-2.19.so
+00007fdd9e2c2000      4K rw--- libm-2.19.so
+00007fdd9e2c3000    476K r-x-- libluajit-5.1.so.2.1.0
+00007fdd9e33a000   2048K ----- libluajit-5.1.so.2.1.0
+00007fdd9e53a000      8K r---- libluajit-5.1.so.2.1.0
+00007fdd9e53c000      4K rw--- libluajit-5.1.so.2.1.0
+00007fdd9e53d000     36K r-x-- libcrypt-2.19.so
+00007fdd9e546000   2048K ----- libcrypt-2.19.so
+00007fdd9e746000      4K r---- libcrypt-2.19.so
+00007fdd9e747000      4K rw--- libcrypt-2.19.so
+00007fdd9e748000    184K rw---   [ anon ]
+00007fdd9e776000    100K r-x-- libpthread-2.19.so
+00007fdd9e78f000   2044K ----- libpthread-2.19.so
+00007fdd9e98e000      4K r---- libpthread-2.19.so
+00007fdd9e98f000      4K rw--- libpthread-2.19.so
+00007fdd9e990000     16K rw---   [ anon ]
+00007fdd9e994000     12K r-x-- libdl-2.19.so
+00007fdd9e997000   2044K ----- libdl-2.19.so
+00007fdd9eb96000      4K r---- libdl-2.19.so
+00007fdd9eb97000      4K rw--- libdl-2.19.so
+00007fdd9eb98000    140K r-x-- ld-2.19.so
+00007fdd9edaf000     24K rw---   [ anon ]
+00007fdd9edb9000      4K rw-s- zero (deleted)
+00007fdd9edba000      4K r---- ld-2.19.so
+00007fdd9edbb000      4K rw--- ld-2.19.so
+00007fdd9edbc000      4K rw---   [ anon ]
+00007fff1f04b000    132K rw---   [ stack ]
+00007fff1f1f6000     12K r----   [ anon ]
+00007fff1f1f9000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total            39892K

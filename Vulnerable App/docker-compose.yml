@@ -1,0 +1,83 @@
+version: '2.3'
+services:
+    mysql:
+        image: vulhub/mysql:5.5.23
+        ports:
+            - '2000:3306'
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.2
+
+    frontend-ui:
+        image: frontend-ui
+        ports:
+            - '1234:80'
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.3
+
+    react-frontend:
+        container_name: react-frontend
+        image: react-frontend
+        build:
+            context: ./frontend
+            target: development
+        volumes:
+            - ./frontend/src:/frontend/src
+        ports:
+            - '3000:3000'
+        # command: ['npm', 'run', 'dev']
+
+    ping:
+        image: ping
+        ports:
+            - '8081:8081'
+        cap_add:
+            - SYS_ADMIN
+        security_opt:
+            - apparmor:unconfined
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.4
+        volumes:
+            - /:/host
+
+    sql-inject:
+        image: sql-inject
+        ports:
+            - '8082:8082'
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.5
+
+    file-upload:
+        image: file-upload
+        ports:
+            - '8083:8083'
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.6
+
+    xss_r:
+        image: xss_r
+        ports:
+            - '8084:8084'
+        networks:
+            vuln-microservice-app:
+                ipv4_address: 172.22.0.7
+
+#  ping-gvisor:
+#    build: ping
+#    runtime: "runsc"
+#    ports:
+#     - "8083:8083"
+#    cap_add:
+#     - SYS_ADMIN
+#    security_opt:
+#     - apparmour:unconfined
+
+networks:
+    vuln-microservice-app:
+        ipam:
+            config:
+                - subnet: 172.22.0.0/24

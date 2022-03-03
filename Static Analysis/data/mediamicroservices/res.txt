@@ -1,0 +1,127 @@
+Vulnerability Counts and Vulnerable Packages : 
+
+                                                  |CRITICAL||HIGH||MEDIUM||LOW||TOTAL|	PACKAGES
+mediamicroservices_unique-id-service_1                0       1      7     15    23 	{'libstdc++6', 'libc6', 'libgcc1', 'libssl1.0.0'}
+mediamicroservices_cast-info-service_1                0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_movie-id-service_1                 0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_text-service_1                     0       1      7     15    23 	{'libstdc++6', 'libc6', 'libgcc1', 'libssl1.0.0'}
+mediamicroservices_movie-review-service_1             0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_user-service_1                     0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_rating-service_1                   0       1      7     15    23 	{'libstdc++6', 'libc6', 'libgcc1', 'libssl1.0.0'}
+mediamicroservices_review-storage-service_1           0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_user-review-service_1              0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_compose-review-service_1           0       1      8     15    24 	{'libstdc++6', 'libc6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2'}
+mediamicroservices_movie-info-service_1               0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+mediamicroservices_plot-service_1                     0       1      9     19    29 	{'libsasl2-modules-db', 'libc6', 'libstdc++6', 'libgcc1', 'libssl1.0.0', 'libsasl2-2', 'libdb5.3', 'zlib1g'}
+
+
+
+
+
+
+Possible Upgrades to fix Vulnerabilities : 
+mediamicroservices_unique-id-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+....................................................
+
+mediamicroservices_cast-info-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_movie-id-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_text-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+....................................................
+
+mediamicroservices_movie-review-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_user-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_rating-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+....................................................
+
+mediamicroservices_review-storage-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_user-review-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_compose-review-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+....................................................
+
+mediamicroservices_movie-info-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+
+mediamicroservices_plot-service_1
+***************
+libc6 	 {'2.23-0ubuntu11.2'}
+libdb5.3 	 {'5.3.28-11ubuntu0.2'}
+libsasl2-2 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libsasl2-modules-db 	 {'2.1.26.dfsg1-14ubuntu0.2'}
+libssl1.0.0 	 {'1.0.2g-1ubuntu4.17', '1.0.2g-1ubuntu4.18', '1.0.2g-1ubuntu4.16'}
+zlib1g 	 {'1:1.2.8.dfsg-2ubuntu4.3'}
+....................................................
+

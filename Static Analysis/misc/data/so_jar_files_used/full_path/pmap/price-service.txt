@@ -1,0 +1,608 @@
+1:   java -Xmx200m -jar /app/ts-price-service-1.0.jar
+0000000000400000      4K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+0000000000600000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+0000000000601000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+00000000024ea000    132K rw---   [ anon ]
+00000000f3800000 101888K rw---   [ anon ]
+00000000f9b80000  34816K -----   [ anon ]
+00000000fbd80000  74024K rw---   [ anon ]
+00000001005ca000 1042648K -----   [ anon ]
+00007fe6b8000000    132K rw---   [ anon ]
+00007fe6b8021000  65404K -----   [ anon ]
+00007fe6bc000000    132K rw---   [ anon ]
+00007fe6bc021000  65404K -----   [ anon ]
+00007fe6c0000000    132K rw---   [ anon ]
+00007fe6c0021000  65404K -----   [ anon ]
+00007fe6c4000000    132K rw---   [ anon ]
+00007fe6c4021000  65404K -----   [ anon ]
+00007fe6c8000000    132K rw---   [ anon ]
+00007fe6c8021000  65404K -----   [ anon ]
+00007fe6cc000000    132K rw---   [ anon ]
+00007fe6cc021000  65404K -----   [ anon ]
+00007fe6d0000000    132K rw---   [ anon ]
+00007fe6d0021000  65404K -----   [ anon ]
+00007fe6d4000000    132K rw---   [ anon ]
+00007fe6d4021000  65404K -----   [ anon ]
+00007fe6d8000000    132K rw---   [ anon ]
+00007fe6d8021000  65404K -----   [ anon ]
+00007fe6dc000000    132K rw---   [ anon ]
+00007fe6dc021000  65404K -----   [ anon ]
+00007fe6e0000000    132K rw---   [ anon ]
+00007fe6e0021000  65404K -----   [ anon ]
+00007fe6e4000000    132K rw---   [ anon ]
+00007fe6e4021000  65404K -----   [ anon ]
+00007fe6e8000000    132K rw---   [ anon ]
+00007fe6e8021000  65404K -----   [ anon ]
+00007fe6ec000000    132K rw---   [ anon ]
+00007fe6ec021000  65404K -----   [ anon ]
+00007fe6f0000000    132K rw---   [ anon ]
+00007fe6f0021000  65404K -----   [ anon ]
+00007fe6f4000000    132K rw---   [ anon ]
+00007fe6f4021000  65404K -----   [ anon ]
+00007fe6f8000000    132K rw---   [ anon ]
+00007fe6f8021000  65404K -----   [ anon ]
+00007fe6fc000000    860K rw---   [ anon ]
+00007fe6fc0d7000  64676K -----   [ anon ]
+00007fe700000000   2900K rw---   [ anon ]
+00007fe7002d5000  62636K -----   [ anon ]
+00007fe704000000    132K rw---   [ anon ]
+00007fe704021000  65404K -----   [ anon ]
+00007fe708000000    132K rw---   [ anon ]
+00007fe708021000  65404K -----   [ anon ]
+00007fe70c000000   5680K rw---   [ anon ]
+00007fe70c58c000  59856K -----   [ anon ]
+00007fe710000000   2196K rw---   [ anon ]
+00007fe710225000  63340K -----   [ anon ]
+00007fe714000000    132K rw---   [ anon ]
+00007fe714021000  65404K -----   [ anon ]
+00007fe718000000   2364K rw---   [ anon ]
+00007fe71824f000  63172K -----   [ anon ]
+00007fe71c000000   1964K rw---   [ anon ]
+00007fe71c1eb000  63572K -----   [ anon ]
+00007fe720000000   1928K rw---   [ anon ]
+00007fe7201e2000  63608K -----   [ anon ]
+00007fe724000000   2696K rw---   [ anon ]
+00007fe7242a2000  62840K -----   [ anon ]
+00007fe728000000  20116K rw---   [ anon ]
+00007fe7293a5000  45420K -----   [ anon ]
+00007fe72c000000   1924K rw---   [ anon ]
+00007fe72c1e1000  63612K -----   [ anon ]
+00007fe730000000  15816K rw---   [ anon ]
+00007fe730f72000  49720K -----   [ anon ]
+00007fe734000000  16320K rw---   [ anon ]
+00007fe734ff0000  49216K -----   [ anon ]
+00007fe738000000  15944K rw---   [ anon ]
+00007fe738f92000  49592K -----   [ anon ]
+00007fe73c000000  16564K rw---   [ anon ]
+00007fe73d02d000  48972K -----   [ anon ]
+00007fe740000000  20428K rw---   [ anon ]
+00007fe7413f3000  45108K -----   [ anon ]
+00007fe744000000  13776K rw---   [ anon ]
+00007fe744d74000  51760K -----   [ anon ]
+00007fe748000000  15388K rw---   [ anon ]
+00007fe748f07000  50148K -----   [ anon ]
+00007fe74c000000  21300K rw---   [ anon ]
+00007fe74d4cd000  44236K -----   [ anon ]
+00007fe750000000  14552K rw---   [ anon ]
+00007fe750e36000  50984K -----   [ anon ]
+00007fe754000000  16904K rw---   [ anon ]
+00007fe755082000  48632K -----   [ anon ]
+00007fe758000000    132K rw---   [ anon ]
+00007fe758021000  65404K -----   [ anon ]
+00007fe75c000000  20852K rw---   [ anon ]
+00007fe75d45d000  44684K -----   [ anon ]
+00007fe760000000    132K rw---   [ anon ]
+00007fe760021000  65404K -----   [ anon ]
+00007fe764000000    132K rw---   [ anon ]
+00007fe764021000  65404K -----   [ anon ]
+00007fe768000000    132K rw---   [ anon ]
+00007fe768021000  65404K -----   [ anon ]
+00007fe76c000000    132K rw---   [ anon ]
+00007fe76c021000  65404K -----   [ anon ]
+00007fe770000000    132K rw---   [ anon ]
+00007fe770021000  65404K -----   [ anon ]
+00007fe778000000    132K rw---   [ anon ]
+00007fe778021000  65404K -----   [ anon ]
+00007fe780000000    132K rw---   [ anon ]
+00007fe780021000  65404K -----   [ anon ]
+00007fe788000000    132K rw---   [ anon ]
+00007fe788021000  65404K -----   [ anon ]
+00007fe790000000    132K rw---   [ anon ]
+00007fe790021000  65404K -----   [ anon ]
+00007fe794000000    132K rw---   [ anon ]
+00007fe794021000  65404K -----   [ anon ]
+00007fe798000000    132K rw---   [ anon ]
+00007fe798021000  65404K -----   [ anon ]
+00007fe7a0000000    132K rw---   [ anon ]
+00007fe7a0021000  65404K -----   [ anon ]
+00007fe7a4000000    132K rw---   [ anon ]
+00007fe7a4021000  65404K -----   [ anon ]
+00007fe7a8000000    132K rw---   [ anon ]
+00007fe7a8021000  65404K -----   [ anon ]
+00007fe7b0000000    132K rw---   [ anon ]
+00007fe7b0021000  65404K -----   [ anon ]
+00007fe7b8000000    132K rw---   [ anon ]
+00007fe7b8021000  65404K -----   [ anon ]
+00007fe7bc000000    132K rw---   [ anon ]
+00007fe7bc021000  65404K -----   [ anon ]
+00007fe7c0000000    132K rw---   [ anon ]
+00007fe7c0021000  65404K -----   [ anon ]
+00007fe7c4000000    132K rw---   [ anon ]
+00007fe7c4021000  65404K -----   [ anon ]
+00007fe7c8000000    132K rw---   [ anon ]
+00007fe7c8021000  65404K -----   [ anon ]
+00007fe7d0000000    132K rw---   [ anon ]
+00007fe7d0021000  65404K -----   [ anon ]
+00007fe7d4000000    132K rw---   [ anon ]
+00007fe7d4021000  65404K -----   [ anon ]
+00007fe7d8000000    132K rw---   [ anon ]
+00007fe7d8021000  65404K -----   [ anon ]
+00007fe7e0000000    132K rw---   [ anon ]
+00007fe7e0021000  65404K -----   [ anon ]
+00007fe7e4000000    132K rw---   [ anon ]
+00007fe7e4021000  65404K -----   [ anon ]
+00007fe7e8000000    132K rw---   [ anon ]
+00007fe7e8021000  65404K -----   [ anon ]
+00007fe7ec000000    132K rw---   [ anon ]
+00007fe7ec021000  65404K -----   [ anon ]
+00007fe7f0000000    132K rw---   [ anon ]
+00007fe7f0021000  65404K -----   [ anon ]
+00007fe7f8000000    132K rw---   [ anon ]
+00007fe7f8021000  65404K -----   [ anon ]
+00007fe800000000    132K rw---   [ anon ]
+00007fe800021000  65404K -----   [ anon ]
+00007fe808000000    132K rw---   [ anon ]
+00007fe808021000  65404K -----   [ anon ]
+00007fe810000000    132K rw---   [ anon ]
+00007fe810021000  65404K -----   [ anon ]
+00007fe8165b0000     12K -----   [ anon ]
+00007fe8165b3000   1016K rw---   [ anon ]
+00007fe8166b1000     12K -----   [ anon ]
+00007fe8166b4000   1016K rw---   [ anon ]
+00007fe8167b2000     12K -----   [ anon ]
+00007fe8167b5000   1016K rw---   [ anon ]
+00007fe8168b3000     12K -----   [ anon ]
+00007fe8168b6000   1016K rw---   [ anon ]
+00007fe8169b4000     12K -----   [ anon ]
+00007fe8169b7000   1016K rw---   [ anon ]
+00007fe816ab5000     12K -----   [ anon ]
+00007fe816ab8000   1016K rw---   [ anon ]
+00007fe816bb6000     12K -----   [ anon ]
+00007fe816bb9000   1016K rw---   [ anon ]
+00007fe816cb7000     12K -----   [ anon ]
+00007fe816cba000   1016K rw---   [ anon ]
+00007fe816db8000     12K -----   [ anon ]
+00007fe816dbb000   1016K rw---   [ anon ]
+00007fe816eb9000     12K -----   [ anon ]
+00007fe816ebc000   1016K rw---   [ anon ]
+00007fe816fba000     12K -----   [ anon ]
+00007fe816fbd000   1016K rw---   [ anon ]
+00007fe8170bb000     12K -----   [ anon ]
+00007fe8170be000   1016K rw---   [ anon ]
+00007fe8171bc000     12K -----   [ anon ]
+00007fe8171bf000   2552K rw---   [ anon ]
+00007fe81743d000    512K -----   [ anon ]
+00007fe8174bd000   2048K rw---   [ anon ]
+00007fe8176e2000     12K -----   [ anon ]
+00007fe8176e5000   3064K rw---   [ anon ]
+00007fe8179e3000   2048K rw---   [ anon ]
+00007fe817be3000     80K r-x-- /lib/x86_64-linux-gnu/libresolv-2.19.so
+00007fe817bf7000   2044K ----- /lib/x86_64-linux-gnu/libresolv-2.19.so
+00007fe817df6000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.19.so
+00007fe817df7000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.19.so
+00007fe817df8000      8K rw---   [ anon ]
+00007fe817dfa000     20K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+00007fe817dff000   2044K ----- /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+00007fe817ffe000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+00007fe817fff000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+00007fe818000000    132K rw---   [ anon ]
+00007fe818021000  65404K -----   [ anon ]
+00007fe81c0cc000     12K -----   [ anon ]
+00007fe81c0cf000   1016K rw---   [ anon ]
+00007fe81c1cd000     12K -----   [ anon ]
+00007fe81c1d0000   1016K rw---   [ anon ]
+00007fe81c2ce000     12K -----   [ anon ]
+00007fe81c2d1000   3064K rw---   [ anon ]
+00007fe81c5cf000    160K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+00007fe81c5f7000   2048K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+00007fe81c7f7000     16K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+00007fe81c7fb000      8K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libsunec.so
+00007fe81c7fd000   2048K rw---   [ anon ]
+00007fe81c9fd000     12K -----   [ anon ]
+00007fe81ca00000   1016K rw---   [ anon ]
+00007fe81cafe000     12K -----   [ anon ]
+00007fe81cb01000   3064K rw---   [ anon ]
+00007fe81cdff000   2048K rw---   [ anon ]
+00007fe81cfff000  49156K rw---   [ anon ]
+00007fe820000000    132K rw---   [ anon ]
+00007fe820021000  65404K -----   [ anon ]
+00007fe8240f2000   2048K rw---   [ anon ]
+00007fe8242f2000   2048K rw---   [ anon ]
+00007fe8244f2000   2048K rw---   [ anon ]
+00007fe8246f2000   2048K rw---   [ anon ]
+00007fe8248f2000   2048K rw---   [ anon ]
+00007fe824af2000     68K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+00007fe824b03000   2048K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+00007fe824d03000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+00007fe824d04000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnio.so
+00007fe824d48000     12K -----   [ anon ]
+00007fe824d4b000   3064K rw---   [ anon ]
+00007fe825049000   2048K rw---   [ anon ]
+00007fe825249000     12K -----   [ anon ]
+00007fe82524c000   3064K rw---   [ anon ]
+00007fe82554a000     92K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+00007fe825561000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+00007fe825760000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+00007fe825761000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so
+00007fe825762000     36K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+00007fe82576b000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+00007fe82596a000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+00007fe82596b000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libmanagement.so
+00007fe82596c000      4K -----   [ anon ]
+00007fe82596d000   1024K rw---   [ anon ]
+00007fe825a6d000     12K -----   [ anon ]
+00007fe825a70000   1016K rw---   [ anon ]
+00007fe825b6e000     12K -----   [ anon ]
+00007fe825b71000   1016K rw---   [ anon ]
+00007fe825c6f000     12K -----   [ anon ]
+00007fe825c72000   1016K rw---   [ anon ]
+00007fe825d70000     12K -----   [ anon ]
+00007fe825d73000   1016K rw---   [ anon ]
+00007fe825e71000     12K -----   [ anon ]
+00007fe825e74000   1016K rw---   [ anon ]
+00007fe825f72000     12K -----   [ anon ]
+00007fe825f75000   1016K rw---   [ anon ]
+00007fe826073000     12K -----   [ anon ]
+00007fe826076000   1016K rw---   [ anon ]
+00007fe826174000     12K -----   [ anon ]
+00007fe826177000   1016K rw---   [ anon ]
+00007fe826275000     12K -----   [ anon ]
+00007fe826278000   1016K rw---   [ anon ]
+00007fe826376000     12K -----   [ anon ]
+00007fe826379000   1016K rw---   [ anon ]
+00007fe826477000     12K -----   [ anon ]
+00007fe82647a000   1016K rw---   [ anon ]
+00007fe826578000     12K -----   [ anon ]
+00007fe82657b000   1016K rw---   [ anon ]
+00007fe826679000     12K -----   [ anon ]
+00007fe82667c000   1016K rw---   [ anon ]
+00007fe82677a000     12K -----   [ anon ]
+00007fe82677d000   1016K rw---   [ anon ]
+00007fe82687b000     12K -----   [ anon ]
+00007fe82687e000   1016K rw---   [ anon ]
+00007fe82697c000     12K -----   [ anon ]
+00007fe82697f000   1016K rw---   [ anon ]
+00007fe826a7d000     12K -----   [ anon ]
+00007fe826a80000   1016K rw---   [ anon ]
+00007fe826b7e000     12K -----   [ anon ]
+00007fe826b81000   1016K rw---   [ anon ]
+00007fe826c7f000     12K -----   [ anon ]
+00007fe826c82000   1016K rw---   [ anon ]
+00007fe826d80000     12K -----   [ anon ]
+00007fe826d83000   1016K rw---   [ anon ]
+00007fe826e81000   1468K r---- /usr/lib/locale/C.UTF-8/LC_COLLATE
+00007fe826ff0000     12K -----   [ anon ]
+00007fe826ff3000   1016K rw---   [ anon ]
+00007fe8270f1000     12K -----   [ anon ]
+00007fe8270f4000   1016K rw---   [ anon ]
+00007fe8271f2000      4K -----   [ anon ]
+00007fe8271f3000  14388K rw---   [ anon ]
+00007fe828000000    132K rw---   [ anon ]
+00007fe828021000  65404K -----   [ anon ]
+00007fe82c000000    132K rw---   [ anon ]
+00007fe82c021000  65404K -----   [ anon ]
+00007fe830000000    132K rw---   [ anon ]
+00007fe830021000  65404K -----   [ anon ]
+00007fe834000000    132K rw---   [ anon ]
+00007fe834021000  65404K -----   [ anon ]
+00007fe838000000    132K rw---   [ anon ]
+00007fe838021000  65404K -----   [ anon ]
+00007fe83c000000    132K rw---   [ anon ]
+00007fe83c021000  65404K -----   [ anon ]
+00007fe840000000    132K rw---   [ anon ]
+00007fe840021000  65404K -----   [ anon ]
+00007fe844000000    132K rw---   [ anon ]
+00007fe844021000  65404K -----   [ anon ]
+00007fe848000000    132K rw---   [ anon ]
+00007fe848021000  65404K -----   [ anon ]
+00007fe84c000000    132K rw---   [ anon ]
+00007fe84c021000  65404K -----   [ anon ]
+00007fe850000000    132K rw---   [ anon ]
+00007fe850021000  65404K -----   [ anon ]
+00007fe854000000    132K rw---   [ anon ]
+00007fe854021000  65404K -----   [ anon ]
+00007fe858000000    132K rw---   [ anon ]
+00007fe858021000  65404K -----   [ anon ]
+00007fe85c000000    132K rw---   [ anon ]
+00007fe85c021000  65404K -----   [ anon ]
+00007fe860000000    132K rw---   [ anon ]
+00007fe860021000  65404K -----   [ anon ]
+00007fe864000000    132K rw---   [ anon ]
+00007fe864021000  65404K -----   [ anon ]
+00007fe868000000    132K rw---   [ anon ]
+00007fe868021000  65404K -----   [ anon ]
+00007fe86c000000    132K rw---   [ anon ]
+00007fe86c021000  65404K -----   [ anon ]
+00007fe870000000    132K rw---   [ anon ]
+00007fe870021000  65404K -----   [ anon ]
+00007fe874000000    132K rw---   [ anon ]
+00007fe874021000  65404K -----   [ anon ]
+00007fe878000000    132K rw---   [ anon ]
+00007fe878021000  65404K -----   [ anon ]
+00007fe87c000000    132K rw---   [ anon ]
+00007fe87c021000  65404K -----   [ anon ]
+00007fe880000000    132K rw---   [ anon ]
+00007fe880021000  65404K -----   [ anon ]
+00007fe884000000    132K rw---   [ anon ]
+00007fe884021000  65404K -----   [ anon ]
+00007fe888000000    132K rw---   [ anon ]
+00007fe888021000  65404K -----   [ anon ]
+00007fe88c000000    132K rw---   [ anon ]
+00007fe88c021000  65404K -----   [ anon ]
+00007fe890000000    132K rw---   [ anon ]
+00007fe890021000  65404K -----   [ anon ]
+00007fe8940c1000  64764K rw---   [ anon ]
+00007fe898000000    132K rw---   [ anon ]
+00007fe898021000  65404K -----   [ anon ]
+00007fe89c0c1000  64764K rw---   [ anon ]
+00007fe8a0000000    132K rw---   [ anon ]
+00007fe8a0021000  65404K -----   [ anon ]
+00007fe8a40fd000  54484K rw---   [ anon ]
+00007fe8a7632000   1848K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+00007fe8a7800000   8192K rw---   [ anon ]
+00007fe8a8000000    132K rw---   [ anon ]
+00007fe8a8021000  65404K -----   [ anon ]
+00007fe8ac000000    132K rw---   [ anon ]
+00007fe8ac021000  65404K -----   [ anon ]
+00007fe8b0000000    132K rw---   [ anon ]
+00007fe8b0021000  65404K -----   [ anon ]
+00007fe8b40b1000     12K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar
+00007fe8b40b4000     16K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar
+00007fe8b40b8000     20K r--s- /app/ts-price-service-1.0.jar
+00007fe8b40bd000     12K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+00007fe8b40c0000    108K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar
+00007fe8b40db000     16K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+00007fe8b40df000   7180K rw---   [ anon ]
+00007fe8b47e2000      4K -----   [ anon ]
+00007fe8b47e3000   1024K rw---   [ anon ]
+00007fe8b48e3000      4K -----   [ anon ]
+00007fe8b48e4000   1024K rw---   [ anon ]
+00007fe8b49e4000      4K -----   [ anon ]
+00007fe8b49e5000   1024K rw---   [ anon ]
+00007fe8b4ae5000      4K -----   [ anon ]
+00007fe8b4ae6000   1024K rw---   [ anon ]
+00007fe8b4be6000      4K -----   [ anon ]
+00007fe8b4be7000   1024K rw---   [ anon ]
+00007fe8b4ce7000      4K -----   [ anon ]
+00007fe8b4ce8000   1024K rw---   [ anon ]
+00007fe8b4de8000      4K -----   [ anon ]
+00007fe8b4de9000   1024K rw---   [ anon ]
+00007fe8b4ee9000      4K -----   [ anon ]
+00007fe8b4eea000   1024K rw---   [ anon ]
+00007fe8b4fea000      4K -----   [ anon ]
+00007fe8b4feb000   1024K rw---   [ anon ]
+00007fe8b50eb000      4K -----   [ anon ]
+00007fe8b50ec000   1024K rw---   [ anon ]
+00007fe8b51ec000      4K -----   [ anon ]
+00007fe8b51ed000   1024K rw---   [ anon ]
+00007fe8b52ed000      4K -----   [ anon ]
+00007fe8b52ee000   1024K rw---   [ anon ]
+00007fe8b53ee000      4K -----   [ anon ]
+00007fe8b53ef000   1024K rw---   [ anon ]
+00007fe8b54ef000      4K -----   [ anon ]
+00007fe8b54f0000   1024K rw---   [ anon ]
+00007fe8b55f0000      4K -----   [ anon ]
+00007fe8b55f1000   1024K rw---   [ anon ]
+00007fe8b56f1000      4K -----   [ anon ]
+00007fe8b56f2000   1024K rw---   [ anon ]
+00007fe8b57f2000      4K -----   [ anon ]
+00007fe8b57f3000   1024K rw---   [ anon ]
+00007fe8b58f3000      4K -----   [ anon ]
+00007fe8b58f4000   1024K rw---   [ anon ]
+00007fe8b59f4000      4K -----   [ anon ]
+00007fe8b59f5000   1024K rw---   [ anon ]
+00007fe8b5af5000      4K -----   [ anon ]
+00007fe8b5af6000   1024K rw---   [ anon ]
+00007fe8b5bf6000      4K -----   [ anon ]
+00007fe8b5bf7000   1024K rw---   [ anon ]
+00007fe8b5cf7000      4K -----   [ anon ]
+00007fe8b5cf8000   1024K rw---   [ anon ]
+00007fe8b5df8000      4K -----   [ anon ]
+00007fe8b5df9000   1024K rw---   [ anon ]
+00007fe8b5ef9000      4K -----   [ anon ]
+00007fe8b5efa000   1024K rw---   [ anon ]
+00007fe8b5ffa000      4K -----   [ anon ]
+00007fe8b5ffb000   1024K rw---   [ anon ]
+00007fe8b60fb000      4K -----   [ anon ]
+00007fe8b60fc000   1024K rw---   [ anon ]
+00007fe8b61fc000      4K -----   [ anon ]
+00007fe8b61fd000   1024K rw---   [ anon ]
+00007fe8b62fd000      4K -----   [ anon ]
+00007fe8b62fe000   1024K rw---   [ anon ]
+00007fe8b63fe000      4K -----   [ anon ]
+00007fe8b63ff000   1024K rw---   [ anon ]
+00007fe8b64ff000      4K -----   [ anon ]
+00007fe8b6500000   1024K rw---   [ anon ]
+00007fe8b6600000      4K -----   [ anon ]
+00007fe8b6601000   1024K rw---   [ anon ]
+00007fe8b6701000      4K -----   [ anon ]
+00007fe8b6702000   1024K rw---   [ anon ]
+00007fe8b6802000      4K -----   [ anon ]
+00007fe8b6803000   1024K rw---   [ anon ]
+00007fe8b6903000      4K -----   [ anon ]
+00007fe8b6904000   1024K rw---   [ anon ]
+00007fe8b6a04000      4K -----   [ anon ]
+00007fe8b6a05000   1024K rw---   [ anon ]
+00007fe8b6b05000      4K -----   [ anon ]
+00007fe8b6b06000   1024K rw---   [ anon ]
+00007fe8b6c06000      4K -----   [ anon ]
+00007fe8b6c07000   1024K rw---   [ anon ]
+00007fe8b6d07000      4K -----   [ anon ]
+00007fe8b6d08000   1024K rw---   [ anon ]
+00007fe8b6e08000      4K -----   [ anon ]
+00007fe8b6e09000   1024K rw---   [ anon ]
+00007fe8b6f09000      4K -----   [ anon ]
+00007fe8b6f0a000   1024K rw---   [ anon ]
+00007fe8b700a000      4K -----   [ anon ]
+00007fe8b700b000   1024K rw---   [ anon ]
+00007fe8b710b000      4K -----   [ anon ]
+00007fe8b710c000   1024K rw---   [ anon ]
+00007fe8b720c000      4K -----   [ anon ]
+00007fe8b720d000   1024K rw---   [ anon ]
+00007fe8b730d000      4K -----   [ anon ]
+00007fe8b730e000   1024K rw---   [ anon ]
+00007fe8b740e000      4K -----   [ anon ]
+00007fe8b740f000   1024K rw---   [ anon ]
+00007fe8b750f000      4K -----   [ anon ]
+00007fe8b7510000   1024K rw---   [ anon ]
+00007fe8b7610000      4K -----   [ anon ]
+00007fe8b7611000   1024K rw---   [ anon ]
+00007fe8b7711000      4K -----   [ anon ]
+00007fe8b7712000   1024K rw---   [ anon ]
+00007fe8b7812000      4K -----   [ anon ]
+00007fe8b7813000   1024K rw---   [ anon ]
+00007fe8b7913000      4K -----   [ anon ]
+00007fe8b7914000   1024K rw---   [ anon ]
+00007fe8b7a14000      4K -----   [ anon ]
+00007fe8b7a15000   1024K rw---   [ anon ]
+00007fe8b7b15000      4K -----   [ anon ]
+00007fe8b7b16000   1024K rw---   [ anon ]
+00007fe8b7c16000      4K -----   [ anon ]
+00007fe8b7c17000   1024K rw---   [ anon ]
+00007fe8b7d17000      4K -----   [ anon ]
+00007fe8b7d18000   1024K rw---   [ anon ]
+00007fe8b7e18000      4K -----   [ anon ]
+00007fe8b7e19000   1024K rw---   [ anon ]
+00007fe8b7f19000      4K -----   [ anon ]
+00007fe8b7f1a000   1024K rw---   [ anon ]
+00007fe8b801a000      4K -----   [ anon ]
+00007fe8b801b000   1024K rw---   [ anon ]
+00007fe8b811b000      4K -----   [ anon ]
+00007fe8b811c000   1024K rw---   [ anon ]
+00007fe8b821c000      4K -----   [ anon ]
+00007fe8b821d000   1024K rw---   [ anon ]
+00007fe8b831d000      4K -----   [ anon ]
+00007fe8b831e000   1024K rw---   [ anon ]
+00007fe8b841e000      4K -----   [ anon ]
+00007fe8b841f000   1024K rw---   [ anon ]
+00007fe8b851f000      4K -----   [ anon ]
+00007fe8b8520000   1436K rw---   [ anon ]
+00007fe8b8687000   3428K -----   [ anon ]
+00007fe8b89e0000  26304K rwx--   [ anon ]
+00007fe8ba390000 219456K -----   [ anon ]
+00007fe8c79e0000     32K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+00007fe8c79e8000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+00007fe8c7be7000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+00007fe8c7be8000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libzip.so
+00007fe8c7be9000     44K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.19.so
+00007fe8c7bf4000   2044K ----- /lib/x86_64-linux-gnu/libnss_files-2.19.so
+00007fe8c7df3000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.19.so
+00007fe8c7df4000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.19.so
+00007fe8c7df5000     40K r-x-- /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+00007fe8c7dff000   2044K ----- /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+00007fe8c7ffe000      4K r---- /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+00007fe8c7fff000      4K rw--- /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+00007fe8c8000000  37288K rw---   [ anon ]
+00007fe8ca46a000  28248K -----   [ anon ]
+00007fe8cc002000    108K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar
+00007fe8cc01d000     40K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar
+00007fe8cc027000    764K rw---   [ anon ]
+00007fe8cc0e6000      4K -----   [ anon ]
+00007fe8cc0e7000   1024K rw---   [ anon ]
+00007fe8cc1e7000     84K r-x-- /lib/x86_64-linux-gnu/libnsl-2.19.so
+00007fe8cc1fc000   2044K ----- /lib/x86_64-linux-gnu/libnsl-2.19.so
+00007fe8cc3fb000      4K r---- /lib/x86_64-linux-gnu/libnsl-2.19.so
+00007fe8cc3fc000      4K rw--- /lib/x86_64-linux-gnu/libnsl-2.19.so
+00007fe8cc3fd000      8K rw---   [ anon ]
+00007fe8cc3ff000     28K r-x-- /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+00007fe8cc406000   2044K ----- /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+00007fe8cc605000      4K r---- /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+00007fe8cc606000      4K rw--- /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+00007fe8cc607000    184K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+00007fe8cc635000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+00007fe8cc834000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+00007fe8cc835000      8K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjava.so
+00007fe8cc837000     60K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+00007fe8cc846000   2048K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+00007fe8cca46000     12K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+00007fe8cca49000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libverify.so
+00007fe8cca4a000     28K r-x-- /lib/x86_64-linux-gnu/librt-2.19.so
+00007fe8cca51000   2044K ----- /lib/x86_64-linux-gnu/librt-2.19.so
+00007fe8ccc50000      4K r---- /lib/x86_64-linux-gnu/librt-2.19.so
+00007fe8ccc51000      4K rw--- /lib/x86_64-linux-gnu/librt-2.19.so
+00007fe8ccc52000     88K r-x-- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fe8ccc68000   2044K ----- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fe8cce67000      4K rw--- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007fe8cce68000   1024K r-x-- /lib/x86_64-linux-gnu/libm-2.19.so
+00007fe8ccf68000   2044K ----- /lib/x86_64-linux-gnu/libm-2.19.so
+00007fe8cd167000      4K r---- /lib/x86_64-linux-gnu/libm-2.19.so
+00007fe8cd168000      4K rw--- /lib/x86_64-linux-gnu/libm-2.19.so
+00007fe8cd169000    944K r-x-- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+00007fe8cd255000   2048K ----- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+00007fe8cd455000     32K r---- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+00007fe8cd45d000      8K rw--- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+00007fe8cd45f000     84K rw---   [ anon ]
+00007fe8cd474000  12892K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+00007fe8ce10b000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+00007fe8ce30a000    652K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+00007fe8ce3ad000    164K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+00007fe8ce3d6000    196K rw---   [ anon ]
+00007fe8ce407000   1668K r-x-- /lib/x86_64-linux-gnu/libc-2.19.so
+00007fe8ce5a8000   2048K ----- /lib/x86_64-linux-gnu/libc-2.19.so
+00007fe8ce7a8000     16K r---- /lib/x86_64-linux-gnu/libc-2.19.so
+00007fe8ce7ac000      8K rw--- /lib/x86_64-linux-gnu/libc-2.19.so
+00007fe8ce7ae000     16K rw---   [ anon ]
+00007fe8ce7b2000     12K r-x-- /lib/x86_64-linux-gnu/libdl-2.19.so
+00007fe8ce7b5000   2044K ----- /lib/x86_64-linux-gnu/libdl-2.19.so
+00007fe8ce9b4000      4K r---- /lib/x86_64-linux-gnu/libdl-2.19.so
+00007fe8ce9b5000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.19.so
+00007fe8ce9b6000     56K r-x-- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+00007fe8ce9c4000   2044K ----- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+00007fe8cebc3000      4K r---- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+00007fe8cebc4000      4K rw--- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+00007fe8cebc5000    104K r-x-- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fe8cebdf000   2044K ----- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fe8cedde000      4K r---- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fe8ceddf000      4K rw--- /lib/x86_64-linux-gnu/libz.so.1.2.8
+00007fe8cede0000     96K r-x-- /lib/x86_64-linux-gnu/libpthread-2.19.so
+00007fe8cedf8000   2044K ----- /lib/x86_64-linux-gnu/libpthread-2.19.so
+00007fe8ceff7000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.19.so
+00007fe8ceff8000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.19.so
+00007fe8ceff9000     16K rw---   [ anon ]
+00007fe8ceffd000    128K r-x-- /lib/x86_64-linux-gnu/ld-2.19.so
+00007fe8cf01d000      8K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar
+00007fe8cf01f000     20K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+00007fe8cf024000      4K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar
+00007fe8cf025000      4K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar
+00007fe8cf026000      8K r--s- /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar
+00007fe8cf028000    152K r---- /usr/lib/locale/C.UTF-8/LC_CTYPE
+00007fe8cf04e000      4K r---- /usr/lib/locale/C.UTF-8/LC_NUMERIC
+00007fe8cf04f000      4K r---- /usr/lib/locale/C.UTF-8/LC_TIME
+00007fe8cf050000      4K r---- /usr/lib/locale/C.UTF-8/LC_MONETARY
+00007fe8cf051000      4K r---- /usr/lib/locale/C.UTF-8/LC_MESSAGES/SYS_LC_MESSAGES
+00007fe8cf052000      4K r---- /usr/lib/locale/C.UTF-8/LC_PAPER
+00007fe8cf053000      4K r---- /usr/lib/locale/C.UTF-8/LC_NAME
+00007fe8cf054000      4K r---- /usr/lib/locale/C.UTF-8/LC_ADDRESS
+00007fe8cf055000      4K r---- /usr/lib/locale/C.UTF-8/LC_TELEPHONE
+00007fe8cf056000     28K r--s- /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+00007fe8cf05d000    216K rw---   [ anon ]
+00007fe8cf093000     68K -----   [ anon ]
+00007fe8cf0a4000    200K rw---   [ anon ]
+00007fe8cf0d6000     64K -----   [ anon ]
+00007fe8cf0e6000    140K rw---   [ anon ]
+00007fe8cf109000     32K rw-s- /tmp/hsperfdata_root/1
+00007fe8cf111000     12K -----   [ anon ]
+00007fe8cf114000   1036K rw---   [ anon ]
+00007fe8cf217000      4K r---- /usr/lib/locale/C.UTF-8/LC_MEASUREMENT
+00007fe8cf218000      4K r---- /usr/lib/locale/C.UTF-8/LC_IDENTIFICATION
+00007fe8cf219000      4K rw---   [ anon ]
+00007fe8cf21a000      4K r----   [ anon ]
+00007fe8cf21b000      8K rw---   [ anon ]
+00007fe8cf21d000      4K r---- /lib/x86_64-linux-gnu/ld-2.19.so
+00007fe8cf21e000      4K rw--- /lib/x86_64-linux-gnu/ld-2.19.so
+00007fe8cf21f000      4K rw---   [ anon ]
+00007ffca3a6c000    132K rw---   [ stack ]
+00007ffca3ac8000     12K r----   [ anon ]
+00007ffca3acb000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total          9125260K

@@ -1,0 +1,67 @@
+dpkg-query: no path found matching pattern /usr/local/openresty/nginx/sbin/nginx
+dpkg-query: no path found matching pattern /usr/local/openresty/nginx/sbin/nginx
+dpkg-query: no path found matching pattern /usr/local/openresty/nginx/sbin/nginx
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnsl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.19.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.19.so
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+zlib1g:amd64: /lib/x86_64-linux-gnu/libz.so.1.2.8
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.19.so
+dpkg-query: no path found matching pattern /usr/local/openresty/luajit/lib/libluajit-5.1.so.2.1.0
+dpkg-query: no path found matching pattern /usr/local/openresty/luajit/lib/libluajit-5.1.so.2.1.0
+dpkg-query: no path found matching pattern /usr/local/openresty/luajit/lib/libluajit-5.1.so.2.1.0
+dpkg-query: no path found matching pattern /usr/local/openresty/luajit/lib/libluajit-5.1.so.2.1.0
+libc6:amd64: /lib/x86_64-linux-gnu/libcrypt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libcrypt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libcrypt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libcrypt-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.19.so
+
+----------------
+libc6
+zlib1g
+libgcc1
+dpkg-query

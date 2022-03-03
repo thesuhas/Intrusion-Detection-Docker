@@ -1,0 +1,1064 @@
+Image Name :  ui-dashboard
+***********************
+CVE-2017-18344
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  kernel: out-of-bounds access in the show_timer function in kernel/time/posix-timers.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 7.1}}
+
+................
+
+CVE-2017-5753
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  hw: cpu: speculative execution bounds-check bypass
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-1087
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  Kernel: KVM: error in exception handling leads to wrong debug stack value
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 8}}
+
+................
+
+CVE-2018-12126
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  hardware: Microarchitectural Store Buffer Data Sampling (MSBDS)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 6.5}}
+
+................
+
+CVE-2018-12127
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  hardware: Micro-architectural Load Port Data Sampling - Information Leak (MLPDS)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 6.5}}
+
+................
+
+CVE-2018-12130
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  hardware: Microarchitectural Fill Buffer Data Sampling (MFBDS)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 6.2}}
+
+................
+
+CVE-2018-14634
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  kernel: Integer overflow in Linux's create_elf_tables function
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2018-15594
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  kernel: Mishandling of indirect calls weakens Spectre mitigation for paravirtual guests
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.6}}
+
+................
+
+CVE-2018-3620
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  CVE-2018-3646 Kernel: hw: cpu: L1 terminal fault (L1TF)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.6}}
+
+................
+
+CVE-2018-3646
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  CVE-2018-3620 CVE-2018-3646 Kernel: hw: cpu: L1 terminal fault (L1TF)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.6}}
+
+................
+
+CVE-2018-3693
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  Kernel: speculative bounds check bypass store
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.9}}
+
+................
+
+CVE-2018-5390
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  kernel: TCP segments with random offsets allow a remote denial of service (SegmentSmack)
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.8, 'V3Score': 7.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 7.5}}
+
+................
+
+CVE-2018-5391
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  kernel: IP fragments with random offsets allow a remote denial of service (FragmentSmack)
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.8, 'V3Score': 7.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 7.5}}
+
+................
+
+CVE-2018-8897
+Package Name :  linux-libc-dev
+Severity :  HIGH
+Title :  Kernel: error in exception handling leads to DoS
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H', 'V3Score': 6.5}}
+
+................
+
+CVE-2015-8539
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: local privesc in key management
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}}
+
+................
+
+CVE-2016-7913
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: media: use-after-free in [tuner-xc2028] media driver
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 9.3, 'V3Score': 7.8}, 'redhat': {'V2Vector': 'AV:N/AC:M/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 9.3, 'V3Score': 7.8}}
+
+................
+
+CVE-2017-0794
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 6.8, 'V3Score': 7.8}}
+
+................
+
+CVE-2017-12134
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  xsa229 xen: linux: Fix Xen block IO merge-ability calculation (XSA-229)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 8.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.5}}
+
+................
+
+CVE-2017-12154
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: kvm: nVMX: L2 guest could access hardware(L0) CR8 register
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N', 'V2Score': 3.6, 'V3Score': 7.1}, 'redhat': {'V2Vector': 'AV:A/AC:H/Au:S/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:A/AC:H/PR:L/UI:N/S:C/C:N/I:N/A:H', 'V2Score': 4.3, 'V3Score': 5.8}}
+
+................
+
+CVE-2017-12193
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference due to incorrect node-splitting in assoc_array implementation
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2017-13168
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: scsi: sg driver can improperly access userspace memory
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2017-13220
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Possible out-of-bound access in Bluetooth subsystem
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 5.3}}
+
+................
+
+CVE-2017-13305
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Buffer over-read in keyring subsystem allows exposing potentially sensitive information to local attacker
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H', 'V2Score': 3.6, 'V3Score': 7.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-15265
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Use-after-free in snd_seq_ioctl_create_port()
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 6.9, 'V3Score': 7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-15299
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Incorrect updates of uninstantiated keys crash the kernel
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-15649
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Use-after-free in the af_packet.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2017-16527
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Use-after-free in snd_usb_mixer_interrupt
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16911
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: vhci_cd driver in usbip/vhci_sysfs.c:port_show_vhci() discloses kernel memory addresses to local attackers
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 1.9, 'V3Score': 4.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 3.3}}
+
+................
+
+CVE-2017-16912
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Out-of-bounds read in usbip/stub_rx.c:get_pipe() allows attackers to cause a denial of service via crafted USB over IP packet
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.9}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 5.3}}
+
+................
+
+CVE-2017-16913
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Improper validation in usbip/stub_rx.c:stub_recv_cmd_submit() allows for denial of service via crafted USB over IP CMD_SUBMIT packet
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.9}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 5.3}}
+
+................
+
+CVE-2017-16914
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: NULL pointer dereference in usb/usbip/stub_tx.c:stub_send_ret_submit() can lead to denial of service via crafted USB over IP packet
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.9}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 5.3}}
+
+................
+
+CVE-2017-17449
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Missing namespace check in net/netlink/af_netlink.c allows for network monitors to observe systemwide activity
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 1.9, 'V3Score': 4.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 3.3}}
+
+................
+
+CVE-2017-18079
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference in drivers/input/serio/i8042.c leading to denial-of-service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-18203
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Race condition in drivers/md/dm.c:dm_get_from_kobject() allows local users to cause a denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 1.9, 'V3Score': 4.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2017-18204
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Deadlock caused in fs/ocfs2/file.c:ocfs2_setattr() can allow local users to cause a denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-18208
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Inifinite loop vulnerability in mm/madvise.c:madvise_willneed() function allows local denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-18216
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference in fs/ocfs2/cluster/nodemanager.c allows local users to cause denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-18270
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: improper keyrings creation
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H', 'V2Score': 3.6, 'V3Score': 7.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L', 'V3Score': 4.4}}
+
+................
+
+CVE-2017-18360
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Division by zero in change_port_settings in drivers/usb/serial/io_ti.c resulting in a denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2017-2583
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: Kvm: vmx/svm potential privilege escalation inside guest
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 8.4}, 'redhat': {'V2Vector': 'AV:A/AC:M/Au:S/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.9, 'V3Score': 6.4}}
+
+................
+
+CVE-2017-2584
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: kvm: use after free in complete_emulated_mmio
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H', 'V2Score': 3.6, 'V3Score': 7.1}, 'redhat': {'V2Vector': 'AV:A/AC:H/Au:S/C:P/I:P/A:C', 'V3Vector': 'CVSS:3.0/AV:A/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:H', 'V2Score': 5.5, 'V3Score': 7.1}}
+
+................
+
+CVE-2017-2647
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference in search_keyring
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2017-7518
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: KVM: debug exception via syscall emulation
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V2Vector': 'AV:A/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L', 'V2Score': 5.4, 'V3Score': 5.5}}
+
+................
+
+CVE-2017-7645
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: nfsd: Incorrect handling of long RPC replies
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.8, 'V3Score': 7.5}, 'redhat': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 7.5}}
+
+................
+
+CVE-2018-1000004
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Race condition in sound system can lead to denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.9}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2018-1000199
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: ptrace() incorrect error handling leads to corruption and DoS
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2018-10087
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Undefined behavior in kernel/exit.c:kernel_wait4() function allows local denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}}
+
+................
+
+CVE-2018-1066
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference in fs/cifs/cifsencrypt.c:setup_ntlmv2_rsp() when empty TargetInfo is returned in NTLMSSP setup negotiation response allowing to crash client's kernel
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 6.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H', 'V3Score': 6.5}}
+
+................
+
+CVE-2018-10675
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: mm: use-after-free in do_get_mempolicy function allows local DoS or other unspecified impact
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-1068
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Out-of-bounds write via userland offsets in ebt_entry struct in netfilter/ebtables.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H', 'V3Score': 8.1}}
+
+................
+
+CVE-2018-10902
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: MIDI driver race condition leads to a double-free
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2018-1092
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: NULL pointer dereference in ext4/mballoc.c:ext4_process_freed_data() when mounting crafted ext4 image
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2018-1093
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Out of bounds read in ext4/balloc.c:ext4_valid_block_bitmap() causes crash with crafted ext4 image
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H', 'V2Score': 7.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2018-10940
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: incorrect memory bounds check in drivers/cdrom/cdrom.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L', 'V3Score': 4.4}}
+
+................
+
+CVE-2018-1130
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: a null pointer dereference in net/dccp/output.c:dccp_write_xmit() leads to a system crash
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-12233
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Memory corruption in JFS setattr
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 6.8, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L', 'V3Score': 4.4}}
+
+................
+
+CVE-2018-13405
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Missing check in fs/inode.c:inode_init_owner() does not clear SGID bit on non-directories for non-members
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N', 'V3Score': 4.4}}
+
+................
+
+CVE-2018-13406
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Integer overflow in drivers/video/fbdev/uvesafb.c:uvesafb_setcmap() allows for potential denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.4}}
+
+................
+
+CVE-2018-14633
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: stack-based buffer overflow in chap_server_compute_md5() in iscsi target
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:P/I:P/A:C', 'V3Vector': 'CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H', 'V2Score': 8.3, 'V3Score': 7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H', 'V3Score': 7}}
+
+................
+
+CVE-2018-14734
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: use-after-free in ucma_leave_multicast in drivers/infiniband/core/ucma.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 6.1, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 5.3}}
+
+................
+
+CVE-2018-16276
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: incorrect bounds checking in yurex_read in drivers/usb/misc/yurex.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 5.3}}
+
+................
+
+CVE-2018-16658
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Information leak in cdrom_ioctl_drive_status
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H', 'V2Score': 3.6, 'V3Score': 6.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 4}}
+
+................
+
+CVE-2018-17972
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Unprivileged users able to inspect kernel stacks of arbitrary tasks
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 3.3}}
+
+................
+
+CVE-2018-18281
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: TLB flush happens too late on mremap
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2018-18386
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Type confusion in drivers/tty/n_tty.c allows for a denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L', 'V2Score': 2.1, 'V3Score': 3.3}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 3.3}}
+
+................
+
+CVE-2018-18690
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: filesystem corruption due to an unchecked error condition during an xfs attribute change
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-18710
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Information leak in cdrom_ioctl_select_disc in drivers/cdrom/cdrom.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N', 'V3Score': 4.7}}
+
+................
+
+CVE-2018-3639
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  hw: cpu: speculative store bypass
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.6}}
+
+................
+
+CVE-2018-3665
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: FPU state information leakage via lazy FPU restore
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.6}}
+
+................
+
+CVE-2018-5803
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Missing length check of payload in net/sctp/sm_make_chunk.c:_sctp_make_chunk() function allows denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-6555
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: irda: use-after-free vulnerability in the hashbin list
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H', 'V3Score': 7.4}}
+
+................
+
+CVE-2018-6927
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Integer overflow in futex.c:futux_requeue can lead to denial of service or unspecified impact
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 3.3}}
+
+................
+
+CVE-2018-7492
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Null pointer dereference in net/rds/rdma.c:__rds_rdma_map() allowing local attackers to cause denial-of-service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-7566
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: race condition in snd_seq_write() may lead to UAF or OOB-access
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 6.1}}
+
+................
+
+CVE-2018-7757
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Memory leak in the sas_smp_get_phy_events function in drivers/scsi/libsas/sas_expander.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2018-8781
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Integer overflow in drivers/gpu/drm/udl/udl_fb.c:udl_fb_mmap() can allow attackers to execute code in kernel space
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7}}
+
+................
+
+CVE-2018-8822
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Memory corruption in ncp_read_kernel function in fs/ncpfs/ncplib_kernel.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H', 'V3Score': 6.4}}
+
+................
+
+CVE-2018-9363
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Buffer overflow in hidp_process_report
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 8.4}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 6.1}}
+
+................
+
+CVE-2018-9518
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: NFC: llcp: Out of bounds write in nfc_llcp_sdp_tlv struct in nfc/llcp_commands.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H', 'V3Score': 6.7}}
+
+................
+
+CVE-2018-9568
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Memory corruption due to incorrect socket cloning
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7}}
+
+................
+
+CVE-2019-11091
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  hardware: Microarchitectural Data Sampling Uncacheable Memory (MDSUM)
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N', 'V2Score': 4.7, 'V3Score': 5.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N', 'V3Score': 3.8}}
+
+................
+
+CVE-2019-3459
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Heap address information leak while using L2CAP_GET_CONF_OPT
+CVSS :  {'nvd': {'V2Vector': 'AV:A/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 3.3, 'V3Score': 6.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 5.3}}
+
+................
+
+CVE-2019-3460
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: Heap address information leak while using L2CAP_PARSE_CONF_RSP
+CVSS :  {'nvd': {'V2Vector': 'AV:A/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 3.3, 'V3Score': 6.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 5.3}}
+
+................
+
+CVE-2019-6133
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  polkit: Temporary auth hijacking via PID reuse and non-atomic fork
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 4.4, 'V3Score': 6.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H', 'V3Score': 7.3}}
+
+................
+
+CVE-2019-6974
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: KVM: potential use-after-free via kvm_ioctl_create_device()
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 6.8, 'V3Score': 8.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2019-7222
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  Kernel: KVM: leak of uninitialized stack contents to guest
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N', 'V3Score': 2.8}}
+
+................
+
+CVE-2019-9213
+Package Name :  linux-libc-dev
+Severity :  MEDIUM
+Title :  kernel: lack of check for mmap minimum address in expand_downwards in mm/mmap.c leads to NULL pointer dereferences exploit on non-SMAP platforms
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 5.5}}
+
+................
+
+CVE-2016-10208
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: EXT4 memory corruption / SLAB out-of-bounds read
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 4.3}, 'redhat': {'V2Vector': 'AV:L/AC:M/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.7, 'V3Score': 6.2}}
+
+................
+
+CVE-2016-9588
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  Kernel: kvm: nVMX: uncaught software exceptions in L1 guest leads to DoS
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V2Vector': 'AV:A/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L', 'V2Score': 3.3, 'V3Score': 3.5}}
+
+................
+
+CVE-2017-0627
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Information disclosure vulnerability in kernel UVC driver
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:H/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N', 'V2Score': 2.6, 'V3Score': 4.7}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 4.4}}
+
+................
+
+CVE-2017-1000410
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Stack information leak in the EFS element
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 5, 'V3Score': 7.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 6.5}}
+
+................
+
+CVE-2017-11472
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: ACPI operand cache leak in acpi_ns_terminate()
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N', 'V2Score': 3.6, 'V3Score': 7.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 2.9}}
+
+................
+
+CVE-2017-11473
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Buffer overflow in mp_override_legacy_irq()
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 6.4}}
+
+................
+
+CVE-2017-14991
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Information leak in the scsi driver
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 5.5}}
+
+................
+
+CVE-2017-16526
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: General protection fault in drivers/uwb/uwbd.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16529
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bounds read in snd_usb_create_streams
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16531
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bounds read in drivers/usb/core/config.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16532
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Null pointer dereference in get_endpoints function in drivers/usb/misc/usbtest.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16533
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bounds read in usbhid_parse function in drivers/hid/usbhid/hid-core.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16535
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bounds read in usb_get_bos_descriptor function in drivers/usb/core/config.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16536
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Null pointer dereference in cx231xx_usb_probe function in drivers/media/usb/cx231xx/cx231xx-cards.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16537
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: NULL pointer dereference in imon_probe function in drivers/media/rc/imon.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16538
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: general protection fault in drivers/media/usb/dvb-usb-v2/lmedm04.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16643
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Out-of-bounds read in drivers/input/tablet/gtco.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16644
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Improper error handling in drivers/media/usb/hdpvr/hdpvr-core.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16645
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Out-of-bounds read in drivers/input/misc/ims-pcu.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16649
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Divide-by-zero in drivers/net/usb/cdc_ether.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-16650
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Divide-by-zero in drivers/net/usb/qmi_wwan.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2017-17558
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Unallocated memory access by malicious USB device via bNumInterfaces overflow
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 6.6}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 6.4}}
+
+................
+
+CVE-2017-18255
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Integer overflow in events/core.c:perf_cpu_time_max_percent_handler() can allow for denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L', 'V3Score': 3.4}}
+
+................
+
+CVE-2017-2671
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: ping socket / AF_LLC connect() sin_family race
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 7.8}}
+
+................
+
+CVE-2017-5549
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Incorrect line-state error handling
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 3.3}}
+
+................
+
+CVE-2017-5897
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: ip6_gre: Invalid reads in ip6gre_err
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.5, 'V3Score': 9.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N', 'V3Score': 3.7}}
+
+................
+
+CVE-2017-6345
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: llc: skb->sk set without skb->destructor
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 6.2}}
+
+................
+
+CVE-2017-6348
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: net: Improper lock dropping in the hashbin_delete function
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 6.2}}
+
+................
+
+CVE-2017-8831
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Double fetch vulnerability in saa7164_bus_get function
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4}}
+
+................
+
+CVE-2017-9984
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Double fetch in the snd_msnd_interrupt function
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2017-9985
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Double fetch in the snd_msndmidi_input_read function in sound/isa/msnd/msnd_midi.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:C/I:C/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.2, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.7}}
+
+................
+
+CVE-2018-1000204
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Infoleak caused by incorrect handling of the SG_IO ioctl
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:S/C:C/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 6.3, 'V3Score': 5.3}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N', 'V3Score': 4.1}}
+
+................
+
+CVE-2018-10021
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: ata qc leak in drivers/scsi/libsas/sas_scsi_host.c allows local users to cause denial-of-service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 2}}
+
+................
+
+CVE-2018-10124
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Undefined behaviour with INT_MIN argument in kernel/signal.c:kill_something_info() allows for denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}}
+
+................
+
+CVE-2018-10323
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Invalid pointer dereference in xfs_bmapi_write() when mounting and operating on crafted xfs image allows denial of service
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.6}}
+
+................
+
+CVE-2018-10877
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bound access in ext4_ext_drop_refs function with a crafted ext4 image
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H', 'V2Score': 6.8, 'V3Score': 6.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H', 'V3Score': 5.2}}
+
+................
+
+CVE-2018-10881
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: out-of-bound access in ext4_get_group_info() when mounting and operating a crafted ext4 image
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 4.2}}
+
+................
+
+CVE-2018-12896
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Integer overflow in kernel/time/posix-timers.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L', 'V3Score': 3.3}}
+
+................
+
+CVE-2018-13094
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: NULL pointer dereference in xfs_da_shrink_inode function
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:M/Au:N/C:N/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H', 'V2Score': 4.3, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H', 'V3Score': 5}}
+
+................
+
+CVE-2018-19824
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Use-after-free in sound/usb/card.c:usb_audio_probe()
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 4.6, 'V3Score': 7.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 6.6}}
+
+................
+
+CVE-2018-5750
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Kernel address information leak in drivers/acpi/sbshc.c:acpi_smbus_hc_add() function potentially allowing KASLR bypass
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N', 'V3Score': 3.3}}
+
+................
+
+CVE-2018-6554
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: irda: Memory leak caused by repeated binds of irda socket
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:N/I:N/A:C', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H', 'V2Score': 4.9, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H', 'V3Score': 7.5}}
+
+................
+
+CVE-2018-7755
+Package Name :  linux-libc-dev
+Severity :  LOW
+Title :  kernel: Information exposure in fd_locked_ioctl function in drivers/block/floppy.c
+CVSS :  {'nvd': {'V2Vector': 'AV:L/AC:L/Au:N/C:P/I:N/A:N', 'V3Vector': 'CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N', 'V2Score': 2.1, 'V3Score': 5.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N', 'V3Score': 5.9}}
+
+................
+
+CVE-2018-12015
+Package Name :  perl-modules
+Severity :  MEDIUM
+Title :  perl: Directory traversal in Archive::Tar
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:N/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N', 'V2Score': 6.4, 'V3Score': 7.5}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L', 'V3Score': 5.4}}
+
+................
+
+CVE-2018-18311
+Package Name :  perl-modules
+Severity :  MEDIUM
+Title :  perl: Integer overflow leading to buffer overflow in Perl_my_setenv()
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:P/I:P/A:P', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V2Score': 7.5, 'V3Score': 9.8}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H', 'V3Score': 8.1}}
+
+................
+
+CVE-2018-18313
+Package Name :  perl-modules
+Severity :  MEDIUM
+Title :  perl: Heap-based buffer read overflow in S_grok_bslash_N()
+CVSS :  {'nvd': {'V2Vector': 'AV:N/AC:L/Au:N/C:P/I:N/A:P', 'V3Vector': 'CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H', 'V2Score': 6.4, 'V3Score': 9.1}, 'redhat': {'V3Vector': 'CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H', 'V3Score': 6.5}}
+
+................

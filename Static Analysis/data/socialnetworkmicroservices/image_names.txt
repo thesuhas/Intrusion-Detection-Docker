@@ -1,0 +1,8 @@
+yg397/social-network-microservices
+mongo
+redis
+rabbitmq
+memcached
+yg397/openresty-thrift:xenial
+yg397/media-frontend:xenial
+jaegertracing/all-in-one:latest

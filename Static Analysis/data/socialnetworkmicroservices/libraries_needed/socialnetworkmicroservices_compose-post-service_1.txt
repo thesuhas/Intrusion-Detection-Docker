@@ -1,0 +1,87 @@
+dpkg-query: no path found matching pattern /usr/local/bin/ComposePostService
+dpkg-query: no path found matching pattern /usr/local/bin/ComposePostService
+dpkg-query: no path found matching pattern /usr/local/bin/ComposePostService
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/librt-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libboost-system1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+libboost-system1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+libboost-system1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+libboost-system1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+libboost-chrono1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+libboost-chrono1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+libboost-chrono1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+libboost-chrono1.58.0:amd64: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+librabbitmq4:amd64: /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+librabbitmq4:amd64: /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+librabbitmq4:amd64: /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+librabbitmq4:amd64: /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+dpkg-query: no path found matching pattern /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+dpkg-query: no path found matching pattern /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+dpkg-query: no path found matching pattern /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+dpkg-query: no path found matching pattern /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+
+----------------
+dpkg-query
+libssl1.0.0
+libstdc++6
+libboost-chrono1.58.0
+librabbitmq4
+libboost-system1.58.0
+libc6
+libgcc1

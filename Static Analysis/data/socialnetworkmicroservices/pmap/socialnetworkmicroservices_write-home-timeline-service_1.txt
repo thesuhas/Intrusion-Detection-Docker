@@ -1,0 +1,132 @@
+1:   WriteHomeTimelineService
+0000000000400000   1648K r-x-- /usr/local/bin/WriteHomeTimelineService
+000000000079c000      8K r---- /usr/local/bin/WriteHomeTimelineService
+000000000079e000      4K rw--- /usr/local/bin/WriteHomeTimelineService
+000000000079f000      8K rw---   [ anon ]
+0000000000f6f000    200K rw---   [ anon ]
+00007f28ac000000    132K rw---   [ anon ]
+00007f28ac021000  65404K -----   [ anon ]
+00007f28b4000000    132K rw---   [ anon ]
+00007f28b4021000  65404K -----   [ anon ]
+00007f28b8000000    132K rw---   [ anon ]
+00007f28b8021000  65404K -----   [ anon ]
+00007f28bc000000    132K rw---   [ anon ]
+00007f28bc021000  65404K -----   [ anon ]
+00007f28c0000000    132K rw---   [ anon ]
+00007f28c0021000  65404K -----   [ anon ]
+00007f28c4000000    132K rw---   [ anon ]
+00007f28c4021000  65404K -----   [ anon ]
+00007f28c8000000    132K rw---   [ anon ]
+00007f28c8021000  65404K -----   [ anon ]
+00007f28cc000000    132K rw---   [ anon ]
+00007f28cc021000  65404K -----   [ anon ]
+00007f28d0000000    132K rw---   [ anon ]
+00007f28d0021000  65404K -----   [ anon ]
+00007f28d4000000    132K rw---   [ anon ]
+00007f28d4021000  65404K -----   [ anon ]
+00007f28d8000000    132K rw---   [ anon ]
+00007f28d8021000  65404K -----   [ anon ]
+00007f28de584000      4K -----   [ anon ]
+00007f28de585000   8192K rw---   [ anon ]
+00007f28ded85000      4K -----   [ anon ]
+00007f28ded86000   8192K rw---   [ anon ]
+00007f28df586000      4K -----   [ anon ]
+00007f28df587000   8192K rw---   [ anon ]
+00007f28e0000000    132K rw---   [ anon ]
+00007f28e0021000  65404K -----   [ anon ]
+00007f28e4580000      4K -----   [ anon ]
+00007f28e4581000   8192K rw---   [ anon ]
+00007f28e4d81000      4K -----   [ anon ]
+00007f28e4d82000   8192K rw---   [ anon ]
+00007f28e5582000      4K -----   [ anon ]
+00007f28e5583000   8192K rw---   [ anon ]
+00007f28e5d83000      4K -----   [ anon ]
+00007f28e5d84000   8192K rw---   [ anon ]
+00007f28e6584000      4K -----   [ anon ]
+00007f28e6585000   8192K rw---   [ anon ]
+00007f28e6d85000      4K -----   [ anon ]
+00007f28e6d86000   8192K rw---   [ anon ]
+00007f28e7586000      4K -----   [ anon ]
+00007f28e7587000   8192K rw---   [ anon ]
+00007f28e7d87000      4K -----   [ anon ]
+00007f28e7d88000   8192K rw---   [ anon ]
+00007f28e8588000      4K -----   [ anon ]
+00007f28e8589000   8192K rw---   [ anon ]
+00007f28e8d89000      4K -----   [ anon ]
+00007f28e8d8a000   8192K rw---   [ anon ]
+00007f28e958a000     92K r-x-- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f28e95a1000   2048K ----- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f28e97a1000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f28e97a2000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f28e97a3000      8K rw---   [ anon ]
+00007f28e97a5000     20K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f28e97aa000   2048K ----- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f28e99aa000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f28e99ab000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f28e99ac000     44K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f28e99b7000   2044K ----- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f28e9bb6000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f28e9bb7000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f28e9bb8000     24K rw---   [ anon ]
+00007f28e9bbe000     12K r-x-- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f28e9bc1000   2044K ----- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f28e9dc0000      4K r---- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f28e9dc1000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f28e9dc2000   2156K r-x-- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f28e9fdd000   2044K ----- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f28ea1dc000    112K r---- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f28ea1f8000     48K rw--- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f28ea204000     12K rw---   [ anon ]
+00007f28ea207000    376K r-x-- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f28ea265000   2048K ----- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f28ea465000     16K r---- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f28ea469000     28K rw--- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f28ea470000   1792K r-x-- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f28ea630000   2048K ----- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f28ea830000     16K r---- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f28ea834000      8K rw--- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f28ea836000     16K rw---   [ anon ]
+00007f28ea83a000     88K r-x-- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f28ea850000   2044K ----- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f28eaa4f000      4K rw--- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f28eaa50000   1056K r-x-- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f28eab58000   2044K ----- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f28ead57000      4K r---- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f28ead58000      4K rw--- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f28ead59000   1480K r-x-- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f28eaecb000   2048K ----- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f28eb0cb000     40K r---- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f28eb0d5000      8K rw--- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f28eb0d7000     16K rw---   [ anon ]
+00007f28eb0db000    272K r-x-- /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+00007f28eb11f000   2048K ----- /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+00007f28eb31f000      4K r---- /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+00007f28eb320000      4K rw--- /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+00007f28eb321000    480K r-x-- /usr/local/lib/libamqpcpp.so.4.1
+00007f28eb399000   2044K ----- /usr/local/lib/libamqpcpp.so.4.1
+00007f28eb598000     24K r---- /usr/local/lib/libamqpcpp.so.4.1
+00007f28eb59e000      4K rw--- /usr/local/lib/libamqpcpp.so.4.1
+00007f28eb59f000   1656K r-x-- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f28eb73d000   2048K ----- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f28eb93d000     24K r---- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f28eb943000     12K rw--- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f28eb946000      8K rw---   [ anon ]
+00007f28eb948000     96K r-x-- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f28eb960000   2044K ----- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f28ebb5f000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f28ebb60000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f28ebb61000     16K rw---   [ anon ]
+00007f28ebb65000    800K r-x-- /usr/local/lib/libthrift.so.0.12.0
+00007f28ebc2d000   2044K ----- /usr/local/lib/libthrift.so.0.12.0
+00007f28ebe2c000     24K r---- /usr/local/lib/libthrift.so.0.12.0
+00007f28ebe32000      8K rw--- /usr/local/lib/libthrift.so.0.12.0
+00007f28ebe34000    152K r-x-- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f28ebfc1000    576K rw---   [ anon ]
+00007f28ec059000      4K r---- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f28ec05a000      4K rw--- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f28ec05b000      4K rw---   [ anon ]
+00007ffef63e5000    132K rw---   [ stack ]
+00007ffef6495000     12K r----   [ anon ]
+00007ffef6498000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total           937384K

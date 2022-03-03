@@ -1,0 +1,9 @@
+pmap: unrecognized option: p
+BusyBox v1.31.1 () multi-call binary.
+
+Usage: pmap [-xq] PID...
+
+Display process memory usage
+
+	-x	Show details
+	-q	Quiet

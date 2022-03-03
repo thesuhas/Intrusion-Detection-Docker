@@ -1,0 +1,64 @@
+dpkg-query: no path found matching pattern /usr/local/bin/TextService
+dpkg-query: no path found matching pattern /usr/local/bin/TextService
+dpkg-query: no path found matching pattern /usr/local/bin/TextService
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+
+----------------
+libc6
+dpkg-query
+libstdc++6
+libssl1.0.0
+libgcc1

@@ -1,0 +1,96 @@
+1:   ComposePostService
+0000000000400000   1792K r-x-- /usr/local/bin/ComposePostService
+00000000007bf000      8K r---- /usr/local/bin/ComposePostService
+00000000007c1000      4K rw--- /usr/local/bin/ComposePostService
+00000000007c2000      8K rw---   [ anon ]
+000000000277b000    200K rw---   [ anon ]
+00007f89fdd4f000      4K -----   [ anon ]
+00007f89fdd50000   8192K rw---   [ anon ]
+00007f89fe550000     92K r-x-- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f89fe567000   2048K ----- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f89fe767000      4K r---- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f89fe768000      4K rw--- /lib/x86_64-linux-gnu/libresolv-2.23.so
+00007f89fe769000      8K rw---   [ anon ]
+00007f89fe76b000     20K r-x-- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f89fe770000   2048K ----- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f89fe970000      4K r---- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f89fe971000      4K rw--- /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+00007f89fe972000     44K r-x-- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f89fe97d000   2044K ----- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f89feb7c000      4K r---- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f89feb7d000      4K rw--- /lib/x86_64-linux-gnu/libnss_files-2.23.so
+00007f89feb7e000     24K rw---   [ anon ]
+00007f89feb84000     28K r-x-- /lib/x86_64-linux-gnu/librt-2.23.so
+00007f89feb8b000   2044K ----- /lib/x86_64-linux-gnu/librt-2.23.so
+00007f89fed8a000      4K r---- /lib/x86_64-linux-gnu/librt-2.23.so
+00007f89fed8b000      4K rw--- /lib/x86_64-linux-gnu/librt-2.23.so
+00007f89fed8c000     12K r-x-- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f89fed8f000   2044K ----- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f89fef8e000      4K r---- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f89fef8f000      4K rw--- /lib/x86_64-linux-gnu/libdl-2.23.so
+00007f89fef90000     12K r-x-- /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+00007f89fef93000   2044K ----- /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+00007f89ff192000      4K r---- /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+00007f89ff193000      4K rw--- /usr/lib/x86_64-linux-gnu/libboost_system.so.1.58.0
+00007f89ff194000     24K r-x-- /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+00007f89ff19a000   2048K ----- /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+00007f89ff39a000      4K r---- /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+00007f89ff39b000      4K rw--- /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.58.0
+00007f89ff39c000     76K r-x-- /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+00007f89ff3af000   2044K ----- /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+00007f89ff5ae000      4K r---- /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+00007f89ff5af000      4K rw--- /usr/lib/x86_64-linux-gnu/librabbitmq.so.4.1.3
+00007f89ff5b0000   2156K r-x-- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f89ff7cb000   2044K ----- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f89ff9ca000    112K r---- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f89ff9e6000     48K rw--- /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+00007f89ff9f2000     12K rw---   [ anon ]
+00007f89ff9f5000    376K r-x-- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f89ffa53000   2048K ----- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f89ffc53000     16K r---- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f89ffc57000     28K rw--- /lib/x86_64-linux-gnu/libssl.so.1.0.0
+00007f89ffc5e000   1792K r-x-- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f89ffe1e000   2048K ----- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f8a0001e000     16K r---- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f8a00022000      8K rw--- /lib/x86_64-linux-gnu/libc-2.23.so
+00007f8a00024000     16K rw---   [ anon ]
+00007f8a00028000     88K r-x-- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f8a0003e000   2044K ----- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f8a0023d000      4K rw--- /lib/x86_64-linux-gnu/libgcc_s.so.1
+00007f8a0023e000   1056K r-x-- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f8a00346000   2044K ----- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f8a00545000      4K r---- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f8a00546000      4K rw--- /lib/x86_64-linux-gnu/libm-2.23.so
+00007f8a00547000   1480K r-x-- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f8a006b9000   2048K ----- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f8a008b9000     40K r---- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f8a008c3000      8K rw--- /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+00007f8a008c5000     16K rw---   [ anon ]
+00007f8a008c9000    276K r-x-- /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+00007f8a0090e000   2044K ----- /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+00007f8a00b0d000      8K r---- /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+00007f8a00b0f000      4K rw--- /usr/local/lib/libSimpleAmqpClient.so.2.4.0
+00007f8a00b10000   1656K r-x-- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f8a00cae000   2048K ----- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f8a00eae000     24K r---- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f8a00eb4000     12K rw--- /usr/local/lib/libjaegertracing.so.0.4.2
+00007f8a00eb7000      8K rw---   [ anon ]
+00007f8a00eb9000     96K r-x-- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f8a00ed1000   2044K ----- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f8a010d0000      4K r---- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f8a010d1000      4K rw--- /lib/x86_64-linux-gnu/libpthread-2.23.so
+00007f8a010d2000     16K rw---   [ anon ]
+00007f8a010d6000    800K r-x-- /usr/local/lib/libthrift.so.0.12.0
+00007f8a0119e000   2044K ----- /usr/local/lib/libthrift.so.0.12.0
+00007f8a0139d000     24K r---- /usr/local/lib/libthrift.so.0.12.0
+00007f8a013a3000      8K rw--- /usr/local/lib/libthrift.so.0.12.0
+00007f8a013a5000    152K r-x-- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f8a015b5000     52K rw---   [ anon ]
+00007f8a015ca000      4K r---- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f8a015cb000      4K rw--- /lib/x86_64-linux-gnu/ld-2.23.so
+00007f8a015cc000      4K rw---   [ anon ]
+00007ffdac699000    132K rw---   [ stack ]
+00007ffdac784000     12K r----   [ anon ]
+00007ffdac787000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total            58024K

@@ -1,0 +1,28 @@
+1: {no such process} ./app
+0000000000400000    3324K r-xp  /app/app
+000000000073f000    3616K r--p  /app/app
+0000000000ac7000     128K rw-p  /app/app
+0000000000ae7000     140K rw-p    [ anon ]
+000000c000000000       4K rw-p    [ anon ]
+000000c81fff0000      64K rw-p    [ anon ]
+000000c820000000    2048K rw-p    [ anon ]
+00007f0493984000     544K r-xp  /lib/ld-musl-x86_64.so.1
+00007f0493acd000     256K rw-p    [ anon ]
+00007f0493b0d000       4K ---p    [ anon ]
+00007f0493b0e000      84K rw-p    [ anon ]
+00007f0493b23000       4K ---p    [ anon ]
+00007f0493b24000      84K rw-p    [ anon ]
+00007f0493b39000       4K ---p    [ anon ]
+00007f0493b3a000      84K rw-p    [ anon ]
+00007f0493b4f000       4K ---p    [ anon ]
+00007f0493b50000     340K rw-p    [ anon ]
+00007f0493ba5000       4K ---p    [ anon ]
+00007f0493ba6000     404K rw-p    [ anon ]
+00007f0493c0b000       4K r--p  /lib/ld-musl-x86_64.so.1
+00007f0493c0c000       4K rw-p  /lib/ld-musl-x86_64.so.1
+00007f0493c0d000      12K rw-p    [ anon ]
+00007ffe70384000     132K rw-p  [stack]
+00007ffe703c7000      12K r--p  [vvar]
+00007ffe703ca000       8K r-xp  [vdso]
+ffffffffff600000       4K r-xp  [vsyscall]
+mapped: 11316K

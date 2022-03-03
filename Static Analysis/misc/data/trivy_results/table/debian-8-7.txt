@@ -1,0 +1,608 @@
+2020-10-19T12:26:16.032+0530	[34mINFO[0m	Detecting Debian vulnerabilities...
+2020-10-19T12:26:16.040+0530	[33mWARN[0m	This OS version is no longer supported by the distribution: debian 8.7
+2020-10-19T12:26:16.041+0530	[33mWARN[0m	The vulnerability detection may be insufficient because security updates are not provided
+
+debian:8.7 (debian 8.7)
+=======================
+Total: 152 (UNKNOWN: 0, LOW: 14, MEDIUM: 106, HIGH: 32, CRITICAL: 0)
+
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+|      LIBRARY      | VULNERABILITY ID | SEVERITY | INSTALLED VERSION |     FIXED VERSION     |             TITLE              |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| apt               | CVE-2019-3462    | HIGH     | 1.0.9.8.4         | 1.0.9.8.5             | Incorrect sanitation of the    |
+|                   |                  |          |                   |                       | 302 redirect field in HTTP     |
+|                   |                  |          |                   |                       | transport method of...         |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2020-3810    | MEDIUM   |                   | 1.0.9.8.6             | Missing input validation in    |
+|                   |                  |          |                   |                       | the ar/tar implementations of  |
+|                   |                  |          |                   |                       | APT before version 2.1.2...    |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| bash              | CVE-2019-9924    | HIGH     | 4.3-11+deb8u1     | 4.3-11+deb8u2         | bash: BASH_CMD is writable in  |
+|                   |                  |          |                   |                       | restricted bash shells         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2016-9401    | LOW      |                   |                       | bash: popd controlled free     |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| e2fslibs          | CVE-2019-5094    | MEDIUM   | 1.42.12-2         | 1.42.12-2+deb8u1      | e2fsprogs: Crafted             |
+|                   |                  |          |                   |                       | ext4 partition leads to        |
+|                   |                  |          |                   |                       | out-of-bounds write            |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-5188    |          |                   | 1.42.12-2+deb8u2      | e2fsprogs: Out-of-bounds write |
+|                   |                  |          |                   |                       | in e2fsck/rehash.c             |
++-------------------+------------------+          +                   +-----------------------+--------------------------------+
+| e2fsprogs         | CVE-2019-5094    |          |                   | 1.42.12-2+deb8u1      | e2fsprogs: Crafted             |
+|                   |                  |          |                   |                       | ext4 partition leads to        |
+|                   |                  |          |                   |                       | out-of-bounds write            |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-5188    |          |                   | 1.42.12-2+deb8u2      | e2fsprogs: Out-of-bounds write |
+|                   |                  |          |                   |                       | in e2fsck/rehash.c             |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libapt-pkg4.12    | CVE-2019-3462    | HIGH     | 1.0.9.8.4         | 1.0.9.8.5             | Incorrect sanitation of the    |
+|                   |                  |          |                   |                       | 302 redirect field in HTTP     |
+|                   |                  |          |                   |                       | transport method of...         |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2020-3810    | MEDIUM   |                   | 1.0.9.8.6             | Missing input validation in    |
+|                   |                  |          |                   |                       | the ar/tar implementations of  |
+|                   |                  |          |                   |                       | APT before version 2.1.2...    |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libbz2-1.0        | CVE-2019-12900   | HIGH     | 1.0.6-7           | 1.0.6-7+deb8u1        | bzip2: out-of-bounds write in  |
+|                   |                  |          |                   |                       | function BZ2_decompress        |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2016-3189    | MEDIUM   |                   |                       | bzip2: heap use after free in  |
+|                   |                  |          |                   |                       | bzip2recover                   |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libc-bin          | CVE-2017-1000366 | HIGH     | 2.19-18+deb8u7    | 2.19-18+deb8u10       | glibc: heap/stack gap          |
+|                   |                  |          |                   |                       | jumping via unbounded stack    |
+|                   |                  |          |                   |                       | allocations                    |
++-------------------+                  +          +                   +                       +                                +
+| libc6             |                  |          |                   |                       |                                |
+|                   |                  |          |                   |                       |                                |
+|                   |                  |          |                   |                       |                                |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libcomerr2        | CVE-2019-5094    | MEDIUM   | 1.42.12-2         | 1.42.12-2+deb8u1      | e2fsprogs: Crafted             |
+|                   |                  |          |                   |                       | ext4 partition leads to        |
+|                   |                  |          |                   |                       | out-of-bounds write            |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-5188    |          |                   | 1.42.12-2+deb8u2      | e2fsprogs: Out-of-bounds write |
+|                   |                  |          |                   |                       | in e2fsck/rehash.c             |
++-------------------+------------------+          +-------------------+-----------------------+--------------------------------+
+| libgcrypt20       | CVE-2017-7526    |          | 1.6.3-2+deb8u2    | 1.6.3-2+deb8u4        | libgcrypt: Use of              |
+|                   |                  |          |                   |                       | left-to-right sliding window   |
+|                   |                  |          |                   |                       | method allows full RSA key     |
+|                   |                  |          |                   |                       | recovery...                    |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-9526    |          |                   | 1.6.3-2+deb8u3        | libgcrypt: Possible timing     |
+|                   |                  |          |                   |                       | attack on EdDSA session key    |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2018-0495    | LOW      |                   | 1.6.3-2+deb8u5        | ROHNP: Key Extraction Side     |
+|                   |                  |          |                   |                       | Channel in Multiple Crypto     |
+|                   |                  |          |                   |                       | Libraries                      |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-13627   |          |                   | 1.6.3-2+deb8u8        | libgcrypt: ECDSA timing attack |
+|                   |                  |          |                   |                       | allowing private key leak      |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libncurses5       | CVE-2017-10684   | HIGH     | 5.9+20140913-1    | 5.9+20140913-1+deb8u1 | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow in fmt_entry function |
+|                   |                  |          |                   |                       | in dump_entry.c                |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-10685   |          |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow caused by format      |
+|                   |                  |          |                   |                       | string vulnerability in        |
+|                   |                  |          |                   |                       | fmt_entry function...          |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2017-11112   | MEDIUM   |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in append_acs function  |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-11113   |          |                   |                       | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference vulnerability in   |
+|                   |                  |          |                   |                       | _nc_parse_entry function       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13728   |          |                   |                       | ncurses: Infinite loop in the  |
+|                   |                  |          |                   |                       | next_char function             |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13729   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the _nc_save_str     |
+|                   |                  |          |                   |                       | function                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13730   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_read_entry_source()        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13731   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | postprocess_termcap()          |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13732   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | dump_uses()                    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13733   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | fmt_entry                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13734   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_safe_strcat                |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-16879   |          |                   | 5.9+20140913-1+deb8u3 | ncurses: Stack-based           |
+|                   |                  |          |                   |                       | buffer overflow in the         |
+|                   |                  |          |                   |                       | _nc_write_entry function       |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-19217   |          |                   | 5.9+20140913-1+deb8u1 | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference at function        |
+|                   |                  |          |                   |                       | _nc_name_match                 |
++-------------------+------------------+----------+                   +                       +--------------------------------+
+| libncursesw5      | CVE-2017-10684   | HIGH     |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow in fmt_entry function |
+|                   |                  |          |                   |                       | in dump_entry.c                |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-10685   |          |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow caused by format      |
+|                   |                  |          |                   |                       | string vulnerability in        |
+|                   |                  |          |                   |                       | fmt_entry function...          |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2017-11112   | MEDIUM   |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in append_acs function  |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-11113   |          |                   |                       | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference vulnerability in   |
+|                   |                  |          |                   |                       | _nc_parse_entry function       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13728   |          |                   |                       | ncurses: Infinite loop in the  |
+|                   |                  |          |                   |                       | next_char function             |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13729   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the _nc_save_str     |
+|                   |                  |          |                   |                       | function                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13730   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_read_entry_source()        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13731   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | postprocess_termcap()          |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13732   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | dump_uses()                    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13733   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | fmt_entry                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13734   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_safe_strcat                |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-16879   |          |                   | 5.9+20140913-1+deb8u3 | ncurses: Stack-based           |
+|                   |                  |          |                   |                       | buffer overflow in the         |
+|                   |                  |          |                   |                       | _nc_write_entry function       |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-19217   |          |                   | 5.9+20140913-1+deb8u1 | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference at function        |
+|                   |                  |          |                   |                       | _nc_name_match                 |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libprocps3        | CVE-2018-1126    | HIGH     | 2:3.3.9-9         | 2:3.3.9-9+deb8u1      | procps-ng, procps: incorrect   |
+|                   |                  |          |                   |                       | integer size in proc/alloc.*   |
+|                   |                  |          |                   |                       | leading to truncation /        |
+|                   |                  |          |                   |                       | integer...                     |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1122    | MEDIUM   |                   |                       | procps-ng, procps: Local       |
+|                   |                  |          |                   |                       | privilege escalation in top    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1123    |          |                   |                       | procps-ng, procps: denial of   |
+|                   |                  |          |                   |                       | service in ps via mmap buffer  |
+|                   |                  |          |                   |                       | overflow                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1124    |          |                   |                       | procps-ng, procps: Integer     |
+|                   |                  |          |                   |                       | overflows leading to heap      |
+|                   |                  |          |                   |                       | overflow in file2strvec        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1125    |          |                   |                       | procps-ng, procps: stack       |
+|                   |                  |          |                   |                       | buffer overflow in pgrep       |
++-------------------+------------------+          +-------------------+-----------------------+--------------------------------+
+| libss2            | CVE-2019-5094    |          | 1.42.12-2         | 1.42.12-2+deb8u1      | e2fsprogs: Crafted             |
+|                   |                  |          |                   |                       | ext4 partition leads to        |
+|                   |                  |          |                   |                       | out-of-bounds write            |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-5188    |          |                   | 1.42.12-2+deb8u2      | e2fsprogs: Out-of-bounds write |
+|                   |                  |          |                   |                       | in e2fsck/rehash.c             |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libsystemd0       | CVE-2018-15686   | HIGH     | 215-17+deb8u6     | 215-17+deb8u8         | systemd: line splitting via    |
+|                   |                  |          |                   |                       | fgets() allows for state       |
+|                   |                  |          |                   |                       | injection during daemon-reexec |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-15688   |          |                   |                       | systemd: Out-of-bounds heap    |
+|                   |                  |          |                   |                       | write in systemd-networkd      |
+|                   |                  |          |                   |                       | dhcpv6 option handling         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1049    | MEDIUM   |                   |                       | systemd: automount: access to  |
+|                   |                  |          |                   |                       | automounted volumes can lock   |
+|                   |                  |          |                   |                       | up                             |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-16864   |          |                   | 215-17+deb8u9         | systemd: stack overflow when   |
+|                   |                  |          |                   |                       | calling syslog from a command  |
+|                   |                  |          |                   |                       | with long cmdline...           |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-16865   |          |                   |                       | systemd: stack overflow        |
+|                   |                  |          |                   |                       | when receiving many journald   |
+|                   |                  |          |                   |                       | entries                        |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3842    |          |                   | 215-17+deb8u12        | systemd: Spoofing of           |
+|                   |                  |          |                   |                       | XDG_SEAT allows for actions    |
+|                   |                  |          |                   |                       | to be checked against          |
+|                   |                  |          |                   |                       | "allow_active"...              |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-6454    |          |                   | 215-17+deb8u10        | systemd: Insufficient          |
+|                   |                  |          |                   |                       | input validation in            |
+|                   |                  |          |                   |                       | bus_process_object() resulting |
+|                   |                  |          |                   |                       | in PID 1 crash                 |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-18078   | LOW      |                   | 215-17+deb8u12        | systemd: Unsafe handling of    |
+|                   |                  |          |                   |                       | hard links allowing privilege  |
+|                   |                  |          |                   |                       | escalation                     |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3815    |          |                   | 215-17+deb8u11        | systemd: memory leak in        |
+|                   |                  |          |                   |                       | journald-server.c introduced   |
+|                   |                  |          |                   |                       | by fix for CVE-2018-16864      |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libtinfo5         | CVE-2017-10684   | HIGH     | 5.9+20140913-1    | 5.9+20140913-1+deb8u1 | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow in fmt_entry function |
+|                   |                  |          |                   |                       | in dump_entry.c                |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-10685   |          |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow caused by format      |
+|                   |                  |          |                   |                       | string vulnerability in        |
+|                   |                  |          |                   |                       | fmt_entry function...          |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2017-11112   | MEDIUM   |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in append_acs function  |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-11113   |          |                   |                       | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference vulnerability in   |
+|                   |                  |          |                   |                       | _nc_parse_entry function       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13728   |          |                   |                       | ncurses: Infinite loop in the  |
+|                   |                  |          |                   |                       | next_char function             |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13729   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the _nc_save_str     |
+|                   |                  |          |                   |                       | function                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13730   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_read_entry_source()        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13731   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | postprocess_termcap()          |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13732   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | dump_uses()                    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13733   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | fmt_entry                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13734   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_safe_strcat                |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-16879   |          |                   | 5.9+20140913-1+deb8u3 | ncurses: Stack-based           |
+|                   |                  |          |                   |                       | buffer overflow in the         |
+|                   |                  |          |                   |                       | _nc_write_entry function       |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-19217   |          |                   | 5.9+20140913-1+deb8u1 | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference at function        |
+|                   |                  |          |                   |                       | _nc_name_match                 |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| libudev1          | CVE-2018-15686   | HIGH     | 215-17+deb8u6     | 215-17+deb8u8         | systemd: line splitting via    |
+|                   |                  |          |                   |                       | fgets() allows for state       |
+|                   |                  |          |                   |                       | injection during daemon-reexec |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-15688   |          |                   |                       | systemd: Out-of-bounds heap    |
+|                   |                  |          |                   |                       | write in systemd-networkd      |
+|                   |                  |          |                   |                       | dhcpv6 option handling         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1049    | MEDIUM   |                   |                       | systemd: automount: access to  |
+|                   |                  |          |                   |                       | automounted volumes can lock   |
+|                   |                  |          |                   |                       | up                             |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-16864   |          |                   | 215-17+deb8u9         | systemd: stack overflow when   |
+|                   |                  |          |                   |                       | calling syslog from a command  |
+|                   |                  |          |                   |                       | with long cmdline...           |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-16865   |          |                   |                       | systemd: stack overflow        |
+|                   |                  |          |                   |                       | when receiving many journald   |
+|                   |                  |          |                   |                       | entries                        |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3842    |          |                   | 215-17+deb8u12        | systemd: Spoofing of           |
+|                   |                  |          |                   |                       | XDG_SEAT allows for actions    |
+|                   |                  |          |                   |                       | to be checked against          |
+|                   |                  |          |                   |                       | "allow_active"...              |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-6454    |          |                   | 215-17+deb8u10        | systemd: Insufficient          |
+|                   |                  |          |                   |                       | input validation in            |
+|                   |                  |          |                   |                       | bus_process_object() resulting |
+|                   |                  |          |                   |                       | in PID 1 crash                 |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-18078   | LOW      |                   | 215-17+deb8u12        | systemd: Unsafe handling of    |
+|                   |                  |          |                   |                       | hard links allowing privilege  |
+|                   |                  |          |                   |                       | escalation                     |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3815    |          |                   | 215-17+deb8u11        | systemd: memory leak in        |
+|                   |                  |          |                   |                       | journald-server.c introduced   |
+|                   |                  |          |                   |                       | by fix for CVE-2018-16864      |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| multiarch-support | CVE-2017-1000366 | HIGH     | 2.19-18+deb8u7    | 2.19-18+deb8u10       | glibc: heap/stack gap          |
+|                   |                  |          |                   |                       | jumping via unbounded stack    |
+|                   |                  |          |                   |                       | allocations                    |
++-------------------+------------------+          +-------------------+-----------------------+--------------------------------+
+| ncurses-base      | CVE-2017-10684   |          | 5.9+20140913-1    | 5.9+20140913-1+deb8u1 | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow in fmt_entry function |
+|                   |                  |          |                   |                       | in dump_entry.c                |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-10685   |          |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow caused by format      |
+|                   |                  |          |                   |                       | string vulnerability in        |
+|                   |                  |          |                   |                       | fmt_entry function...          |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2017-11112   | MEDIUM   |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in append_acs function  |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-11113   |          |                   |                       | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference vulnerability in   |
+|                   |                  |          |                   |                       | _nc_parse_entry function       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13728   |          |                   |                       | ncurses: Infinite loop in the  |
+|                   |                  |          |                   |                       | next_char function             |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13729   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the _nc_save_str     |
+|                   |                  |          |                   |                       | function                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13730   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_read_entry_source()        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13731   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | postprocess_termcap()          |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13732   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | dump_uses()                    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13733   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | fmt_entry                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13734   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_safe_strcat                |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-16879   |          |                   | 5.9+20140913-1+deb8u3 | ncurses: Stack-based           |
+|                   |                  |          |                   |                       | buffer overflow in the         |
+|                   |                  |          |                   |                       | _nc_write_entry function       |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-19217   |          |                   | 5.9+20140913-1+deb8u1 | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference at function        |
+|                   |                  |          |                   |                       | _nc_name_match                 |
++-------------------+------------------+----------+                   +                       +--------------------------------+
+| ncurses-bin       | CVE-2017-10684   | HIGH     |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow in fmt_entry function |
+|                   |                  |          |                   |                       | in dump_entry.c                |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-10685   |          |                   |                       | ncurses: Stack-based buffer    |
+|                   |                  |          |                   |                       | overflow caused by format      |
+|                   |                  |          |                   |                       | string vulnerability in        |
+|                   |                  |          |                   |                       | fmt_entry function...          |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2017-11112   | MEDIUM   |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in append_acs function  |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-11113   |          |                   |                       | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference vulnerability in   |
+|                   |                  |          |                   |                       | _nc_parse_entry function       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13728   |          |                   |                       | ncurses: Infinite loop in the  |
+|                   |                  |          |                   |                       | next_char function             |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13729   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the _nc_save_str     |
+|                   |                  |          |                   |                       | function                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13730   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_read_entry_source()        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13731   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | postprocess_termcap()          |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13732   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | dump_uses()                    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13733   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | fmt_entry                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-13734   |          |                   |                       | ncurses: Illegal address       |
+|                   |                  |          |                   |                       | access in the function         |
+|                   |                  |          |                   |                       | _nc_safe_strcat                |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-16879   |          |                   | 5.9+20140913-1+deb8u3 | ncurses: Stack-based           |
+|                   |                  |          |                   |                       | buffer overflow in the         |
+|                   |                  |          |                   |                       | _nc_write_entry function       |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-19217   |          |                   | 5.9+20140913-1+deb8u1 | ncurses: Null pointer          |
+|                   |                  |          |                   |                       | dereference at function        |
+|                   |                  |          |                   |                       | _nc_name_match                 |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| perl-base         | CVE-2018-18311   | HIGH     | 5.20.2-3+deb8u6   | 5.20.2-3+deb8u12      | perl: Integer overflow         |
+|                   |                  |          |                   |                       | leading to buffer overflow in  |
+|                   |                  |          |                   |                       | Perl_my_setenv()               |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-6797    |          |                   | 5.20.2-3+deb8u10      | perl: heap write overflow in   |
+|                   |                  |          |                   |                       | regcomp.c                      |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-6913    |          |                   |                       | perl: heap buffer overflow in  |
+|                   |                  |          |                   |                       | pp_pack.c                      |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-12837   | MEDIUM   |                   | 5.20.2-3+deb8u9       | perl: Heap buffer overflow in  |
+|                   |                  |          |                   |                       | regular expression compiler    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2017-12883   |          |                   |                       | perl: Buffer over-read in      |
+|                   |                  |          |                   |                       | regular expression parser      |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2017-6512    |          |                   | 5.20.2-3+deb8u7       | perl-File-Path:                |
+|                   |                  |          |                   |                       | rmtree/remove_tree race        |
+|                   |                  |          |                   |                       | condition                      |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-12015   |          |                   | 5.20.2-3+deb8u11      | perl: Directory traversal in   |
+|                   |                  |          |                   |                       | Archive::Tar                   |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| procps            | CVE-2018-1126    | HIGH     | 2:3.3.9-9         | 2:3.3.9-9+deb8u1      | procps-ng, procps: incorrect   |
+|                   |                  |          |                   |                       | integer size in proc/alloc.*   |
+|                   |                  |          |                   |                       | leading to truncation /        |
+|                   |                  |          |                   |                       | integer...                     |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1122    | MEDIUM   |                   |                       | procps-ng, procps: Local       |
+|                   |                  |          |                   |                       | privilege escalation in top    |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1123    |          |                   |                       | procps-ng, procps: denial of   |
+|                   |                  |          |                   |                       | service in ps via mmap buffer  |
+|                   |                  |          |                   |                       | overflow                       |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1124    |          |                   |                       | procps-ng, procps: Integer     |
+|                   |                  |          |                   |                       | overflows leading to heap      |
+|                   |                  |          |                   |                       | overflow in file2strvec        |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-1125    |          |                   |                       | procps-ng, procps: stack       |
+|                   |                  |          |                   |                       | buffer overflow in pgrep       |
++-------------------+------------------+          +-------------------+-----------------------+--------------------------------+
+| sensible-utils    | CVE-2017-17512   |          | 0.0.9             | 0.0.9+deb8u1          | sensible-browser in            |
+|                   |                  |          |                   |                       | sensible-utils before 0.0.11   |
+|                   |                  |          |                   |                       | does not validate strings      |
+|                   |                  |          |                   |                       | before launching the...        |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| systemd           | CVE-2018-15686   | HIGH     | 215-17+deb8u6     | 215-17+deb8u8         | systemd: line splitting via    |
+|                   |                  |          |                   |                       | fgets() allows for state       |
+|                   |                  |          |                   |                       | injection during daemon-reexec |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-15688   |          |                   |                       | systemd: Out-of-bounds heap    |
+|                   |                  |          |                   |                       | write in systemd-networkd      |
+|                   |                  |          |                   |                       | dhcpv6 option handling         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1049    | MEDIUM   |                   |                       | systemd: automount: access to  |
+|                   |                  |          |                   |                       | automounted volumes can lock   |
+|                   |                  |          |                   |                       | up                             |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-16864   |          |                   | 215-17+deb8u9         | systemd: stack overflow when   |
+|                   |                  |          |                   |                       | calling syslog from a command  |
+|                   |                  |          |                   |                       | with long cmdline...           |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-16865   |          |                   |                       | systemd: stack overflow        |
+|                   |                  |          |                   |                       | when receiving many journald   |
+|                   |                  |          |                   |                       | entries                        |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3842    |          |                   | 215-17+deb8u12        | systemd: Spoofing of           |
+|                   |                  |          |                   |                       | XDG_SEAT allows for actions    |
+|                   |                  |          |                   |                       | to be checked against          |
+|                   |                  |          |                   |                       | "allow_active"...              |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-6454    |          |                   | 215-17+deb8u10        | systemd: Insufficient          |
+|                   |                  |          |                   |                       | input validation in            |
+|                   |                  |          |                   |                       | bus_process_object() resulting |
+|                   |                  |          |                   |                       | in PID 1 crash                 |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-18078   | LOW      |                   | 215-17+deb8u12        | systemd: Unsafe handling of    |
+|                   |                  |          |                   |                       | hard links allowing privilege  |
+|                   |                  |          |                   |                       | escalation                     |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3815    |          |                   | 215-17+deb8u11        | systemd: memory leak in        |
+|                   |                  |          |                   |                       | journald-server.c introduced   |
+|                   |                  |          |                   |                       | by fix for CVE-2018-16864      |
++-------------------+------------------+----------+                   +-----------------------+--------------------------------+
+| systemd-sysv      | CVE-2018-15686   | HIGH     |                   | 215-17+deb8u8         | systemd: line splitting via    |
+|                   |                  |          |                   |                       | fgets() allows for state       |
+|                   |                  |          |                   |                       | injection during daemon-reexec |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-15688   |          |                   |                       | systemd: Out-of-bounds heap    |
+|                   |                  |          |                   |                       | write in systemd-networkd      |
+|                   |                  |          |                   |                       | dhcpv6 option handling         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1049    | MEDIUM   |                   |                       | systemd: automount: access to  |
+|                   |                  |          |                   |                       | automounted volumes can lock   |
+|                   |                  |          |                   |                       | up                             |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-16864   |          |                   | 215-17+deb8u9         | systemd: stack overflow when   |
+|                   |                  |          |                   |                       | calling syslog from a command  |
+|                   |                  |          |                   |                       | with long cmdline...           |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-16865   |          |                   |                       | systemd: stack overflow        |
+|                   |                  |          |                   |                       | when receiving many journald   |
+|                   |                  |          |                   |                       | entries                        |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3842    |          |                   | 215-17+deb8u12        | systemd: Spoofing of           |
+|                   |                  |          |                   |                       | XDG_SEAT allows for actions    |
+|                   |                  |          |                   |                       | to be checked against          |
+|                   |                  |          |                   |                       | "allow_active"...              |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-6454    |          |                   | 215-17+deb8u10        | systemd: Insufficient          |
+|                   |                  |          |                   |                       | input validation in            |
+|                   |                  |          |                   |                       | bus_process_object() resulting |
+|                   |                  |          |                   |                       | in PID 1 crash                 |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-18078   | LOW      |                   | 215-17+deb8u12        | systemd: Unsafe handling of    |
+|                   |                  |          |                   |                       | hard links allowing privilege  |
+|                   |                  |          |                   |                       | escalation                     |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3815    |          |                   | 215-17+deb8u11        | systemd: memory leak in        |
+|                   |                  |          |                   |                       | journald-server.c introduced   |
+|                   |                  |          |                   |                       | by fix for CVE-2018-16864      |
++-------------------+------------------+          +-------------------+-----------------------+--------------------------------+
+| tar               | CVE-2018-20482   |          | 1.27.1-2+deb8u1   | 1.27.1-2+deb8u2       | tar: Infinite read loop in     |
+|                   |                  |          |                   |                       | sparse_dump_region function in |
+|                   |                  |          |                   |                       | sparse.c                       |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+
+| udev              | CVE-2018-15686   | HIGH     | 215-17+deb8u6     | 215-17+deb8u8         | systemd: line splitting via    |
+|                   |                  |          |                   |                       | fgets() allows for state       |
+|                   |                  |          |                   |                       | injection during daemon-reexec |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-15688   |          |                   |                       | systemd: Out-of-bounds heap    |
+|                   |                  |          |                   |                       | write in systemd-networkd      |
+|                   |                  |          |                   |                       | dhcpv6 option handling         |
++                   +------------------+----------+                   +                       +--------------------------------+
+|                   | CVE-2018-1049    | MEDIUM   |                   |                       | systemd: automount: access to  |
+|                   |                  |          |                   |                       | automounted volumes can lock   |
+|                   |                  |          |                   |                       | up                             |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2018-16864   |          |                   | 215-17+deb8u9         | systemd: stack overflow when   |
+|                   |                  |          |                   |                       | calling syslog from a command  |
+|                   |                  |          |                   |                       | with long cmdline...           |
++                   +------------------+          +                   +                       +--------------------------------+
+|                   | CVE-2018-16865   |          |                   |                       | systemd: stack overflow        |
+|                   |                  |          |                   |                       | when receiving many journald   |
+|                   |                  |          |                   |                       | entries                        |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3842    |          |                   | 215-17+deb8u12        | systemd: Spoofing of           |
+|                   |                  |          |                   |                       | XDG_SEAT allows for actions    |
+|                   |                  |          |                   |                       | to be checked against          |
+|                   |                  |          |                   |                       | "allow_active"...              |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-6454    |          |                   | 215-17+deb8u10        | systemd: Insufficient          |
+|                   |                  |          |                   |                       | input validation in            |
+|                   |                  |          |                   |                       | bus_process_object() resulting |
+|                   |                  |          |                   |                       | in PID 1 crash                 |
++                   +------------------+----------+                   +-----------------------+--------------------------------+
+|                   | CVE-2017-18078   | LOW      |                   | 215-17+deb8u12        | systemd: Unsafe handling of    |
+|                   |                  |          |                   |                       | hard links allowing privilege  |
+|                   |                  |          |                   |                       | escalation                     |
++                   +------------------+          +                   +-----------------------+--------------------------------+
+|                   | CVE-2019-3815    |          |                   | 215-17+deb8u11        | systemd: memory leak in        |
+|                   |                  |          |                   |                       | journald-server.c introduced   |
+|                   |                  |          |                   |                       | by fix for CVE-2018-16864      |
++-------------------+------------------+----------+-------------------+-----------------------+--------------------------------+

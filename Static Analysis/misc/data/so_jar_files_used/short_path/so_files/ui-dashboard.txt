@@ -1,0 +1,15 @@
+libgcc_s.so.1
+libm-2.19.so
+libnss_dns-2.19.so
+ld-2.19.so
+libluajit-5.1.so.2.1.0
+libpthread-2.19.so
+libdl-2.19.so
+libnss_files-2.19.so
+libz.so.1.2.8
+libresolv-2.19.so
+libnss_nis-2.19.so
+libc-2.19.so
+libnsl-2.19.so
+libcrypt-2.19.so
+libnss_compat-2.19.so

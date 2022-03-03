@@ -1,0 +1,35 @@
+                  Container                             Repository            Tag       Image Id       Size  
+-------------------------------------------------------------------------------------------------------------
+mediamicroservices_cast-info-memcached_1        memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_cast-info-mongodb_1          mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_cast-info-service_1          yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_compose-review-memcached_1   memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_compose-review-service_1     yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_dns-media_1                  defreitas/dns-proxy-server   latest   9301c1ec686a   83.77 MB
+mediamicroservices_jaeger_1                     jaegertracing/all-in-one     latest   420c1106c498   51.76 MB
+mediamicroservices_movie-id-memcached_1         memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_movie-id-mongodb_1           mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_movie-id-service_1           yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_movie-info-memcached_1       memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_movie-info-mongodb_1         mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_movie-info-service_1         yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_movie-review-mongodb_1       mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_movie-review-redis_1         redis                        latest   ef47f3b6dc11   104.3 MB
+mediamicroservices_movie-review-service_1       yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_nginx-web-server_1           yg397/openresty-thrift       xenial   c9656a548a2b   601 MB  
+mediamicroservices_plot-memcached_1             memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_plot-mongodb_1               mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_plot-service_1               yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_rating-redis_1               redis                        latest   ef47f3b6dc11   104.3 MB
+mediamicroservices_rating-service_1             yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_review-storage-memcached_1   memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_review-storage-mongodb_1     mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_review-storage-service_1     yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_text-service_1               yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_unique-id-service_1          yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_user-memcached_1             memcached                    latest   dac5d0dc8aa4   82.36 MB
+mediamicroservices_user-mongodb_1               mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_user-review-mongodb_1        mongo                        latest   3068f6bb852e   492.8 MB
+mediamicroservices_user-review-redis_1          redis                        latest   ef47f3b6dc11   104.3 MB
+mediamicroservices_user-review-service_1        yg397/media-microservices    latest   ea97386bd971   961.8 MB
+mediamicroservices_user-service_1               yg397/media-microservices    latest   ea97386bd971   961.8 MB

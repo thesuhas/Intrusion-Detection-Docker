@@ -1,0 +1,32 @@
+                          Name                                         Command                State                                             Ports                                         
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+socialnetworkmicroservices_compose-post-redis_1             docker-entrypoint.sh redis ...   Up         6379/tcp                                                                              
+socialnetworkmicroservices_compose-post-service_1           ComposePostService               Up                                                                                               
+socialnetworkmicroservices_home-timeline-redis_1            docker-entrypoint.sh redis ...   Up         6379/tcp                                                                              
+socialnetworkmicroservices_home-timeline-service_1          HomeTimelineService              Up                                                                                               
+socialnetworkmicroservices_jaeger_1                         /go/bin/all-in-one-linux - ...   Up         14250/tcp, 14268/tcp, 0.0.0.0:16686->16686/tcp, 5775/udp, 5778/tcp, 6831/udp, 6832/udp
+socialnetworkmicroservices_media-frontend_1                 /usr/local/openresty/bin/o ...   Exit 127                                                                                         
+socialnetworkmicroservices_media-memcached_1                docker-entrypoint.sh memcached   Up         11211/tcp                                                                             
+socialnetworkmicroservices_media-mongodb_1                  docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_media-service_1                  MediaService                     Up                                                                                               
+socialnetworkmicroservices_nginx-thrift_1                   /usr/local/openresty/bin/o ...   Exit 127                                                                                         
+socialnetworkmicroservices_post-storage-memcached_1         docker-entrypoint.sh memcached   Up         11211/tcp                                                                             
+socialnetworkmicroservices_post-storage-mongodb_1           docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_post-storage-service_1           PostStorageService               Up         0.0.0.0:10002->9090/tcp                                                               
+socialnetworkmicroservices_social-graph-mongodb_1           docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_social-graph-redis_1             docker-entrypoint.sh redis ...   Up         6379/tcp                                                                              
+socialnetworkmicroservices_social-graph-service_1           SocialGraphService               Up                                                                                               
+socialnetworkmicroservices_text-service_1                   TextService                      Up                                                                                               
+socialnetworkmicroservices_unique-id-service_1              UniqueIdService                  Up                                                                                               
+socialnetworkmicroservices_url-shorten-memcached_1          docker-entrypoint.sh memcached   Up         11211/tcp                                                                             
+socialnetworkmicroservices_url-shorten-mongodb_1            docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_url-shorten-service_1            UrlShortenService                Up                                                                                               
+socialnetworkmicroservices_user-memcached_1                 docker-entrypoint.sh memcached   Up         11211/tcp                                                                             
+socialnetworkmicroservices_user-mention-service_1           UserMentionService               Up                                                                                               
+socialnetworkmicroservices_user-mongodb_1                   docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_user-service_1                   UserService                      Up                                                                                               
+socialnetworkmicroservices_user-timeline-mongodb_1          docker-entrypoint.sh mongod      Up         27017/tcp                                                                             
+socialnetworkmicroservices_user-timeline-redis_1            docker-entrypoint.sh redis ...   Up         6379/tcp                                                                              
+socialnetworkmicroservices_user-timeline-service_1          UserTimelineService              Up                                                                                               
+socialnetworkmicroservices_write-home-timeline-rabbitmq_1   docker-entrypoint.sh rabbi ...   Up         15691/tcp, 15692/tcp, 25672/tcp, 4369/tcp, 5671/tcp, 5672/tcp                         
+socialnetworkmicroservices_write-home-timeline-service_1    WriteHomeTimelineService         Up                                                                                               

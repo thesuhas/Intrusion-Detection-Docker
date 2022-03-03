@@ -1,0 +1,73 @@
+dpkg-query: no path found matching pattern /usr/local/bin/WriteHomeTimelineService
+dpkg-query: no path found matching pattern /usr/local/bin/WriteHomeTimelineService
+dpkg-query: no path found matching pattern /usr/local/bin/WriteHomeTimelineService
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libresolv-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_dns-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libnss_files-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libdl-2.23.so
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libssl1.0.0:amd64: /lib/x86_64-linux-gnu/libssl.so.1.0.0
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libc-2.23.so
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libgcc1:amd64: /lib/x86_64-linux-gnu/libgcc_s.so.1
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libm-2.23.so
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libstdc++6:amd64: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21
+libevent-2.0-5:amd64: /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+libevent-2.0-5:amd64: /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+libevent-2.0-5:amd64: /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+libevent-2.0-5:amd64: /usr/lib/x86_64-linux-gnu/libevent-2.0.so.5.1.9
+dpkg-query: no path found matching pattern /usr/local/lib/libamqpcpp.so.4.1
+dpkg-query: no path found matching pattern /usr/local/lib/libamqpcpp.so.4.1
+dpkg-query: no path found matching pattern /usr/local/lib/libamqpcpp.so.4.1
+dpkg-query: no path found matching pattern /usr/local/lib/libamqpcpp.so.4.1
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+dpkg-query: no path found matching pattern /usr/local/lib/libjaegertracing.so.0.4.2
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/libpthread-2.23.so
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+dpkg-query: no path found matching pattern /usr/local/lib/libthrift.so.0.12.0
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+libc6:amd64: /lib/x86_64-linux-gnu/ld-2.23.so
+
+----------------
+dpkg-query
+libevent-2.0-5
+libssl1.0.0
+libstdc++6
+libc6
+libgcc1
