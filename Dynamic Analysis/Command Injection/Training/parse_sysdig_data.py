@@ -10,7 +10,7 @@ with open('syscall.csv') as f:
         syscalls[s] = n
 
 # Mapping of input to output directories
-x = {'Data/normal_workload.txt':'./Dataset/Normal/Normal','Data/attack_workload.txt':'./Dataset/Attack/Attack'}
+x = {'sysdig_data/normal_workload.txt':'./parsed_data/Normal/Normal','sysdig_data/attack_workload.txt':'./parsed_data/Attack/Attack'}
 for workload_type in x:
     current_time = None
     current_count = 1

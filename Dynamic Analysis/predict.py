@@ -71,7 +71,7 @@ def process(attack):
         suffix = ''
     else:
         suffix = input('enter suffix digit')
-    f = open(f"./{attack}/Training/complete_vector/"+fn+suffix+".txt","r")
+    f = open(f"./{attack}/Training/test_data/"+fn+suffix+".txt","r")
     l = f.readlines()
     f.close()
 
