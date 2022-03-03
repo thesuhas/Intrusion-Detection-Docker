@@ -1,6 +1,6 @@
 # Intrusion-Detection-Docker
 
-An Intrusion Detection System for Docker which works by analysis Linux system calls.
+An Intrusion Detection System for Docker which works by analysis Linux system calls.<br>
 Being done as the Capstone Project at PES University.
 
 ## Team Members
