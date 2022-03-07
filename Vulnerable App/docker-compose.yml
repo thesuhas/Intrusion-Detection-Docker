@@ -2,6 +2,7 @@ version: '2.3'
 services:
     mysql:
         image: vulhub/mysql:5.5.23
+        container_name: mysql_container
         ports:
             - '2000:3306'
         networks:
@@ -10,6 +11,7 @@ services:
 
     frontend-ui:
         image: frontend-ui
+        container_name: frontend-ui_container
         ports:
             - '1234:80'
         networks:
@@ -17,7 +19,7 @@ services:
                 ipv4_address: 172.22.0.3
 
     react-frontend:
-        container_name: react-frontend
+        container_name: react-frontend_container
         image: react-frontend
         build:
             context: ./frontend
@@ -30,6 +32,7 @@ services:
 
     ping:
         image: ping
+        container_name: ping_container
         ports:
             - '8081:8081'
         cap_add:
@@ -44,6 +47,7 @@ services:
 
     sql-inject:
         image: sql-inject
+        container_name: sql-inject_container
         ports:
             - '8082:8082'
         networks:
@@ -52,6 +56,7 @@ services:
 
     file-upload:
         image: file-upload
+        container_name: file-upload_container
         ports:
             - '8083:8083'
         networks:
@@ -60,6 +65,7 @@ services:
 
     xss_r:
         image: xss_r
+        container_name: xss_r_container
         ports:
             - '8084:8084'
         networks:
