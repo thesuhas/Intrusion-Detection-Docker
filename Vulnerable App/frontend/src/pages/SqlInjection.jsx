@@ -8,7 +8,7 @@ const SqlInjection = () => {
         e.preventDefault();
         console.log(user);
         axios
-            .post('http://172.22.0.1:8082/api/sqlquery', {
+            .post('http://127.0.0.1:8082/api/sqlquery', {
                 user_id: user,
             })
             .then((res) => {

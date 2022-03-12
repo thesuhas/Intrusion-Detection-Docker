@@ -8,7 +8,7 @@ const CommandInjection = () => {
         e.preventDefault();
         console.log(command);
         axios
-            .post('http://172.22.0.1:8081/api/ping', {
+            .post('http://127.0.0.1:8081/api/ping', {
                 IP: command,
             })
             .then((res) => {

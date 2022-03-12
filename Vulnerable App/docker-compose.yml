@@ -7,16 +7,7 @@ services:
             - '2000:3306'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.2
-
-    frontend-ui:
-        image: frontend-ui
-        container_name: frontend-ui_container
-        ports:
-            - '1234:80'
-        networks:
-            vuln-microservice-app:
-                ipv4_address: 172.22.0.3
+                ipv4_address: 172.22.0.1
 
     react-frontend:
         container_name: react-frontend_container
@@ -33,6 +24,9 @@ services:
     ping:
         image: ping
         container_name: ping_container
+        build:
+            context: ./ping
+            dockerfile: Dockerfile
         ports:
             - '8081:8081'
         cap_add:
@@ -41,36 +35,45 @@ services:
             - apparmor:unconfined
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.4
+                ipv4_address: 172.22.0.2
         volumes:
             - /:/host
 
     sql-inject:
         image: sql-inject
         container_name: sql-inject_container
+        build:
+            context: ./sql-injection
+            dockerfile: Dockerfile
         ports:
             - '8082:8082'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.5
+                ipv4_address: 172.22.0.3
 
     file-upload:
         image: file-upload
         container_name: file-upload_container
+        build:
+            context: ./file-upload
+            dockerfile: Dockerfile
         ports:
             - '8083:8083'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.6
+                ipv4_address: 172.22.0.4
 
     xss_r:
         image: xss_r
-        container_name: xss_r_container
+        container_name: xss-r_container
+        build:
+            context: ./xss_r
+            dockerfile: Dockerfile
         ports:
             - '8084:8084'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.7
+                ipv4_address: 172.22.0.5
 
 #  ping-gvisor:
 #    build: ping
