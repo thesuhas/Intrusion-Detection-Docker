@@ -31,6 +31,7 @@ services:
             - '8081:8081'
         cap_add:
             - SYS_ADMIN
+            - SYS_PTRACE
         security_opt:
             - apparmor:unconfined
         networks:

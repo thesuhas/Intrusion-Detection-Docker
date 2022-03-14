@@ -14,7 +14,7 @@ def test():
 def list_add_user():
     if request.method == 'POST':
         IP = request.get_json()["IP"]
-        cmd = IP
+        cmd = "ping -c 4 "+ IP
         stream = os.popen(cmd)
         output = stream.read()
         return output,200
