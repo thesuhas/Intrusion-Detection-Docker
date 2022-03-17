@@ -22,5 +22,5 @@ def list_add_user():
         return 405
 
 if __name__ == '__main__':
-    app.debug = True
+    # app.debug = True
     app.run(port=8081,host='0.0.0.0')

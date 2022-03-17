@@ -7,7 +7,7 @@ services:
             - '2000:3306'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.1
+                ipv4_address: 172.22.0.2
 
     react-frontend:
         container_name: react-frontend_container
@@ -36,7 +36,7 @@ services:
             - apparmor:unconfined
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.2
+                ipv4_address: 172.22.0.3
         volumes:
             - /:/host
 
@@ -50,7 +50,7 @@ services:
             - '8082:8082'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.3
+                ipv4_address: 172.22.0.4
 
     file-upload:
         image: file-upload
@@ -62,7 +62,7 @@ services:
             - '8083:8083'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.4
+                ipv4_address: 172.22.0.5
 
     xss_r:
         image: xss_r
@@ -74,7 +74,7 @@ services:
             - '8084:8084'
         networks:
             vuln-microservice-app:
-                ipv4_address: 172.22.0.5
+                ipv4_address: 172.22.0.6
 
 #  ping-gvisor:
 #    build: ping
