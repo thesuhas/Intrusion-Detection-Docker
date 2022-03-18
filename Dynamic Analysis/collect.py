@@ -2,6 +2,7 @@ import subprocess
 import sys
 import argparse
 import requests
+import os
 
 parser = argparse.ArgumentParser(description='Collect data from a vulnerable app.')
 parser.add_argument('-c', '--container', type=str, default='ping', help='The name of the container. Default is ping.')
@@ -35,12 +36,11 @@ if container == 'ping':
         filename = f'attack_{type_of_attack}_workload.txt'
     sysdig_cmd = f'sudo sysdig -p "%evt.time %evt.type" container.name=ping_container > "{dest_dir}/sysdig_data/{filename}"'
     run = subprocess.Popen(sysdig_cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    print("Process ID of sysdig:", run.pid + 1)
+    print(f"Get ready to run this:\nsudo kill {run.pid + 1}")
     res = requests.post(dest_addr, json={'IP': payload})
     print("Response code:", res.status_code)
-    print("Process ID of sysdig:", run.pid + 1)
-    print("Kill the above process ID in case it isn't dead")
-    print("Copy paste the following command to the terminal:")
-    print(f'sudo kill {run.pid + 1}')
+    print("Kill sysdig now!")
     subprocess.Popen(f'sudo kill {run.pid + 1}', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     run.kill()
 

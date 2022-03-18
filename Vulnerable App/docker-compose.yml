@@ -34,6 +34,7 @@ services:
             - SYS_PTRACE
         security_opt:
             - apparmor:unconfined
+        privileged: true
         networks:
             vuln-microservice-app:
                 ipv4_address: 172.22.0.3
