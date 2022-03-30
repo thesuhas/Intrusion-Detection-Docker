@@ -35,9 +35,13 @@ for file in files:
 
         # Extracting syscall name
         syscall_name = line[1]
+
+        # Extracting time stamp
+        timestamp = line[0][:-3]
+
         if syscall_name in syscall.keys():
             # Writing to output file
-            out_file.write(syscall[syscall_name] + '\n')
+            out_file.write(timestamp + ',' + syscall[syscall_name] + '\n')
 
     # Closing output file
     out_file.close()
