@@ -27,7 +27,7 @@ for file in files:
     f = open(os.path.join(path, file), 'r')
 
     # Opening output file
-    out_path = os.path.join('..', 'parsed_sysdig_data', file[:-3]+'parsed'+file[-3:])
+    out_path = os.path.join('..', 'parsed_sysdig_data', file[:-4]+'_parsed'+file[-4:])
     out_file = open(out_path, 'w')
 
     for line in f:
