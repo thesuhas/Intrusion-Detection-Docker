@@ -1,3 +1,4 @@
+import shutil
 import subprocess
 import sys
 import argparse
@@ -342,18 +343,27 @@ def clean_file(filename: str):
         'pkey_free',
         'statx'
     ]
-    fp = open(filename, 'r')
-    data = ''
-    for line in fp.readlines():
-        if(line.split(' ')[1] in syscalls):
-            data += line.strip() + '\n'
-            print(line)
-        # else:
-            #print(line.split(' ')[1])
-    fp.close()
-    fp = open(filename, 'w')
-    fp.write(data)
-    fp.close()
+    og = filename
+    # if there are any spaces in the filename, we need to escape it
+    filepath = filename.split('/')[:-1]
+    filepath = '/'.join(filepath)
+    dup = f'{filepath}/copy.txt'
+    # copy the file to a new file
+    shutil.copy(og, dup)
+
+    # remove lines that are not in the list above
+    with open(dup, 'r') as f:
+        lines = f.readlines()
+    with open(dup, 'w') as f:
+        for line in lines:
+            if line.split(' ')[1] in syscalls:
+                f.write(line)
+    # prompt the user for whenever sysdig is killed
+    input('Press enter to continue after killing sysdig')
+    # remove original file
+    os.remove(og)
+    # rename copy to original
+    os.rename(dup, og)
 
 parser = argparse.ArgumentParser(description='Collect data from a vulnerable app.')
 parser.add_argument('-c', '--container', type=str, default='ping', help='The name of the container. Default is ping.')
@@ -386,18 +396,20 @@ if container == 'ping':
         payload = input('Please input the attack workload without any next line characters:\n')
         filename = f'attack_{type_of_attack}_workload.txt'
     sysdig_cmd = f'sudo sysdig -p "%evt.time %evt.type %evt.args" container.name=ping_container > "{dest_dir}/sysdig_data/{filename}"'
-    run = subprocess.Popen(sysdig_cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    run = subprocess.Popen(sysdig_cmd, shell=True)
     print("Process ID of sysdig:", run.pid + 1)
     print(f"Get ready to run this:\nsudo kill {run.pid + 1}")
     res = requests.post(dest_addr, json={'IP': payload})
-    # ls = subprocess.Popen('ls /proc/self/fd', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-    # print(ls.stdout.read())
+    ls = os.popen('ls -l /proc/self/fd').read()
+    print(ls)
     print("Response code:", res.status_code)
+    print("Kill sysdig now!")
+    os.popen(f'sudo kill {run.pid + 1}')
     now = datetime.datetime.now().strftime('%H:%M:%S.%f')
     print(now)
     print("Kill sysdig now!")
-    os.system(f'sudo kill {run.pid + 1}')
     run.kill()
+    os.system(f'sudo kill {run.pid + 1}')
     clean_path = os.path.join(os.getcwd(), 'commandInjection', 'Training', 'sysdig_data', filename)
     clean_file(clean_path)
 
