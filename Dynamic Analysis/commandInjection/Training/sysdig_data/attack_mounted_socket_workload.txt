@@ -1,0 +1,36 @@
+13:06:14.088998758 poll < res=0 fds= 
+13:06:14.089056529 poll > fds=3:41 timeout=500 
+13:06:14.089073463 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:14.589729629 poll < res=0 fds= 
+13:06:14.589776401 poll > fds=3:41 timeout=500 
+13:06:14.589787996 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:15.090439236 poll < res=0 fds= 
+13:06:15.090489170 poll > fds=3:41 timeout=500 
+13:06:15.090503589 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:15.591122623 poll < res=0 fds= 
+13:06:15.591173499 poll > fds=3:41 timeout=500 
+13:06:15.591187840 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:16.091861378 poll < res=0 fds= 
+13:06:16.091987830 poll > fds=3:41 timeout=500 
+13:06:16.092029093 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:16.592654691 poll < res=0 fds= 
+13:06:16.592727487 poll > fds=3:41 timeout=500 
+13:06:16.592747783 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:17.093563821 poll < res=0 fds= 
+13:06:17.093616557 poll > fds=3:41 timeout=500 
+13:06:17.093629573 switch > next=2598(Xorg) pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:17.594274143 poll < res=0 fds= 
+13:06:17.594339365 poll > fds=3:41 timeout=500 
+13:06:17.594353188 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:18.094479900 poll < res=0 fds= 
+13:06:18.094532968 poll > fds=3:41 timeout=500 
+13:06:18.094551995 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:18.595178974 poll < res=0 fds= 
+13:06:18.595257092 poll > fds=3:41 timeout=500 
+13:06:18.595278079 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:19.095900927 poll < res=0 fds= 
+13:06:19.095955102 poll > fds=3:41 timeout=500 
+13:06:19.095970881 switch > next=0 pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
+13:06:19.596407366 poll < res=0 fds= 
+13:06:19.596464854 poll > fds=3:41 timeout=500 
+13:06:19.596486221 switch > next=6925(sysdig) pgft_maj=129 pgft_min=6124 vm_size=105212 vm_rss=26624 vm_swap=0 
