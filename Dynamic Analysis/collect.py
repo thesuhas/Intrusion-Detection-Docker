@@ -2,13 +2,39 @@ import shutil
 import subprocess
 import sys
 import argparse
+import threading
 import requests
 import os
 import datetime
 
+def thread_func(dest_addr, payload):
+    requests.post(dest_addr, json={'IP': payload})
+
 def clean_file(filename: str):
     
-    syscalls = [
+    
+    og = filename
+    # if there are any spaces in the filename, we need to escape it
+    filepath = filename.split('/')[:-1]
+    filepath = '/'.join(filepath)
+    dup = f'{filepath}/copy.txt'
+    # copy the file to a new file
+    shutil.copy(og, dup)
+
+    # remove lines that are not in the list above
+    with open(dup, 'r') as f:
+        lines = f.readlines()
+    with open(dup, 'w') as f:
+        for line in lines:
+            if line.split(' ')[1] in syscalls:
+                f.write(line)
+    # prompt the user for whenever sysdig is killed
+    input('Press enter to continue after killing sysdig')
+    # remove original file
+    os.remove(og)
+    # rename copy to original
+    os.rename(dup, og)
+syscalls = [
         'read',
         'write',
         'open',
@@ -343,28 +369,6 @@ def clean_file(filename: str):
         'pkey_free',
         'statx'
     ]
-    og = filename
-    # if there are any spaces in the filename, we need to escape it
-    filepath = filename.split('/')[:-1]
-    filepath = '/'.join(filepath)
-    dup = f'{filepath}/copy.txt'
-    # copy the file to a new file
-    shutil.copy(og, dup)
-
-    # remove lines that are not in the list above
-    with open(dup, 'r') as f:
-        lines = f.readlines()
-    with open(dup, 'w') as f:
-        for line in lines:
-            if line.split(' ')[1] in syscalls:
-                f.write(line)
-    # prompt the user for whenever sysdig is killed
-    input('Press enter to continue after killing sysdig')
-    # remove original file
-    os.remove(og)
-    # rename copy to original
-    os.rename(dup, og)
-
 parser = argparse.ArgumentParser(description='Collect data from a vulnerable app.')
 parser.add_argument('-c', '--container', type=str, default='ping', help='The name of the container. Default is ping.')
 parser.add_argument('-w', '--workload', type=str, default='normal', help='The type of workload. Default is normal.')
@@ -395,23 +399,36 @@ if container == 'ping':
         type_of_attack = input('Please input the type of attack:\n').replace(' ', '_')
         payload = input('Please input the attack workload without any next line characters:\n')
         filename = f'attack_{type_of_attack}_workload.txt'
-    sysdig_cmd = f'sudo sysdig -p "%evt.time %evt.type %evt.args" container.name=ping_container > "{dest_dir}/sysdig_data/{filename}"'
-    run = subprocess.Popen(sysdig_cmd, shell=True)
+    # sysdig_cmd = f'sudo sysdig -p "%evt.time %evt.type %evt.args" container.name=ping_container > "{dest_dir}/sysdig_data/{filename}"'
+    sysdig_cmd = ['sudo', 'sysdig', '-p', '"%evt.time %evt.type %evt.args"', 'container.name=ping_container']
+    run = subprocess.Popen(sysdig_cmd, stdout=subprocess.PIPE)
+    fp = open(f"{dest_dir}/sysdig_data/{filename}", 'w')
     print("Process ID of sysdig:", run.pid + 1)
     print(f"Get ready to run this:\nsudo kill {run.pid + 1}")
-    res = requests.post(dest_addr, json={'IP': payload})
+    t1 = threading.Thread(target=thread_func, args=(dest_addr, payload)).start()
+    # res = requests.post(dest_addr, json={'IP': payload})
+    for line in iter(run.stdout.readline, b''):
+        line = line.decode('utf-8').strip().replace('"', '')
+        syscall = line.split(' ')[1].strip()
+        
+        if(syscall in syscalls):
+            # print(syscall)
+            fp.write(line.strip() + '\n')
+            if(syscall == 'exit'):
+                print('exit')
+                break
     ls = os.popen('ls -l /proc/self/fd').read()
     print(ls)
-    print("Response code:", res.status_code)
     print("Kill sysdig now!")
+    fp.close()
     os.popen(f'sudo kill {run.pid + 1}')
     now = datetime.datetime.now().strftime('%H:%M:%S.%f')
     print(now)
     print("Kill sysdig now!")
     run.kill()
     os.system(f'sudo kill {run.pid + 1}')
-    clean_path = os.path.join(os.getcwd(), 'commandInjection', 'Training', 'sysdig_data', filename)
-    clean_file(clean_path)
+    # clean_path = os.path.join(os.getcwd(), 'commandInjection', 'Training', 'sysdig_data', filename)
+    # clean_file(clean_path)
 
 else:
     dest_dir = './sqli/Training/'
