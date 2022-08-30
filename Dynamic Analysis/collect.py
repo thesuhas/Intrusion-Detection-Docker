@@ -400,7 +400,7 @@ if container == 'ping':
         payload = input('Please input the attack workload without any next line characters:\n')
         filename = f'attack_{type_of_attack}_workload.txt'
     # sysdig_cmd = f'sudo sysdig -p "%evt.time %evt.type %evt.args" container.name=ping_container > "{dest_dir}/sysdig_data/{filename}"'
-    sysdig_cmd = ['sudo', 'sysdig', '-p', '"%evt.time %evt.type %evt.args"', 'container.name=ping_container']
+    sysdig_cmd = ['sudo', 'sysdig', '-p', '"%evt.time %syscall.type %container.mounts %proc.args %proc.nthreads %proc.nchilds %proc.fdopencount %proc.vmsize %evt.args"', 'container.name=ping_container']
     run = subprocess.Popen(sysdig_cmd, stdout=subprocess.PIPE)
     fp = open(f"{dest_dir}/sysdig_data/{filename}", 'w')
     print("Process ID of sysdig:", run.pid + 1)
