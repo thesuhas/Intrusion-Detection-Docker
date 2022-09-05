@@ -1,0 +1,26 @@
+FROM ubuntu:20.04
+WORKDIR /exploit
+
+# Install all dependencies
+RUN apt update
+RUN apt install bluez -y
+RUN apt install python3 -y
+RUN apt install python3-pip -y
+RUN pip3 install Cython
+RUN pip3 install pydbus
+RUN apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev gir1.2-gtk-3.0 -y
+ADD https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz /exploit/
+RUN tar -xvf intltool-0.51.0.tar.gz
+ADD https://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz /exploit/
+RUN tar -xvf libtool-2.4.6.tar.gz
+RUN pip3 install pycairo
+RUN pip3 install PyGObject
+RUN apt-get install intltool -y
+RUN apt install python-gi-dev -y
+RUN apt-get install -y libbluetooth-dev
+
+ADD https://github.com/blueman-project/blueman/releases/download/2.0.2/blueman-2.0.2.tar.gz /exploit/
+RUN tar -xvf blueman-2.0.2.tar.gz
+RUN cd blueman-2.0.2 && ./configure && make && make install
+
+CMD ["/bin/bash"]
