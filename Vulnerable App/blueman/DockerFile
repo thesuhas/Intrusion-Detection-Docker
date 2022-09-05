@@ -26,4 +26,7 @@ RUN cd blueman-2.0.2 && ./configure && make && make install
 
 ENV PYTHONPATH "${PYTHONPATH}:/usr/local/lib/python3.8/site-packages"
 
+RUN useradd uproot
+USER uproot
+
 CMD ["/bin/bash"]
