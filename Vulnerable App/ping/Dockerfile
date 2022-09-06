@@ -5,6 +5,8 @@ COPY requirements.txt /app
 # Install any needed packages specified in requirements.txt
 RUN apt-get update -y && \
     apt-get install -y python3-pip iputils-ping
+RUN apt-get install gcc -y
+RUN apt-get install python3 -y
 RUN pip3 install -r requirements.txt
 COPY app.py /app
 CMD python3 app.py
