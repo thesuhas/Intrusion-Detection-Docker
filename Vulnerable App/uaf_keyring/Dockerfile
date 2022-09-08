@@ -1,4 +1,4 @@
-FROM Ubuntu:16.04
+FROM ubuntu:14.04
 WORKDIR /exploit
 
 RUN apt update -y
