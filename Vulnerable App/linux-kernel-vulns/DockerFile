@@ -5,6 +5,7 @@ COPY kernel-4.4.0-21-generic/ /exploit/kernel-4.4.0-21-generic/
 
 RUN apt update && apt-get -y install sudo
 RUN apt install build-essential -y
+RUN apt install net-tools -y
 RUN apt install libfuse-dev -y
 
 RUN useradd -m uproot && echo "uproot:uproot" | chpasswd && adduser uproot sudo
