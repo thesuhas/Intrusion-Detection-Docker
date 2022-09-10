@@ -19,6 +19,7 @@ RUN apt-get install intltool -y
 RUN apt install python-gi-dev -y
 RUN apt-get install -y libbluetooth-dev
 RUN apt install python-is-python3
+RUN apt-get install gdb -y
 
 ADD https://github.com/blueman-project/blueman/releases/download/2.0.2/blueman-2.0.2.tar.gz /exploit/
 RUN tar -xvf blueman-2.0.2.tar.gz

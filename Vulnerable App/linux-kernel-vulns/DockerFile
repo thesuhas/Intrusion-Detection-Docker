@@ -1,0 +1,13 @@
+FROM ubuntu:16.04
+WORKDIR /exploit
+
+COPY kernel-4.4.0-21-generic/ /exploit/kernel-4.4.0-21-generic/
+
+RUN apt update
+RUN apt install build-essential -y
+RUN apt install libfuse-dev -y
+
+RUN useradd uproot
+USER uproot
+
+CMD ["/bin/bash"]
