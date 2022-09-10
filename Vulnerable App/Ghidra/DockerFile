@@ -1,0 +1,13 @@
+FROM ubuntu:18.04
+WORKDIR /exploit
+
+# Install all dependencies
+RUN apt update
+RUN apt install python3 -y
+RUN apt install python3-pip -y
+RUN pip3 install os
+RUN pip3 install inspect
+RUN pip3 install argparse
+RUN pip3 install shutil
+
+CMD ["python3 attack.py "]

